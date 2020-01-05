@@ -1,3 +1,3 @@
 # AuraDraw
-A SVG Editor
+A Cross-Platform SVG Editor,
 Coming Soon ;D
