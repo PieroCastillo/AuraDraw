@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="**\*.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <AvaloniaResource Include="**\*.xaml">
+      <SubType>Designer</SubType>
+    </AvaloniaResource>
+    <AvaloniaResource Include="**\Styles\*.xaml">
+      <SubType>Designer</SubType>
+    </AvaloniaResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Remove="Button.xaml" />
+    <AvaloniaResource Remove="Controls\NavigationMenu.xaml" />
+    <AvaloniaResource Remove="Controls\Resources\NavigationMenuItem.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\noise.png" />
+    <None Remove="Assets\noiseBlack.png" />
+    <None Remove="Assets\noiseWhite.png" />
+    <None Remove="Controls\NavigationMenu.xaml" />
+    <None Remove="Controls\Resources\NavigationMenuItem.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.9.1" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\noise.png" />
+    <EmbeddedResource Include="Assets\noiseBlack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\noiseWhite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NavigationMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Resources\NavigationMenuItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

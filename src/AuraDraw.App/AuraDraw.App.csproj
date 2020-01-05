@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="**\*.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <AvaloniaResource Include="**\*.xaml">
+      <SubType>Designer</SubType>
+    </AvaloniaResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.9.1" />
+    <PackageReference Include="Avalonia.Controls.ViewBox" Version="2.3.0" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.1" />
+    <PackageReference Include="Avalonia.ThemeManager" Version="0.9.0" />
+    <PackageReference Include="Avalonia.Xaml.Interactivity" Version="0.9.0" />
+    <PackageReference Include="JaggerJo.Avalonia.FuncUI" Version="0.2.1" />
+    <PackageReference Include="MessageBox.Avalonia" Version="0.9.0" />
+    <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
+    <PackageReference Include="SpiroNet.Editor.Avalonia" Version="0.9.0" />
+    <PackageReference Include="ThemeEditor.Controls.ColorPicker" Version="0.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aura.UI\Aura.UI.csproj" />
+    <ProjectReference Include="..\AuraDraw.Core\AuraDraw.Core.csproj" />
+  </ItemGroup>
+</Project>
