@@ -7,6 +7,9 @@
     <Compile Update="**\*.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
+    <Compile Update="**\**\*.xaml">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
     <AvaloniaResource Include="**\*.xaml">
       <SubType>Designer</SubType>
     </AvaloniaResource>
@@ -25,6 +28,5 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Aura.UI\Aura.UI.csproj" />
-    <ProjectReference Include="..\AuraDraw.Core\AuraDraw.Core.csproj" />
   </ItemGroup>
 </Project>

@@ -24,6 +24,7 @@
     <Grid>
       <TextBlock FontSize="60" Margin="50,40,0,0">AuraDraw</TextBlock>
       <TextBlock FontSize="30" Margin="300,115,0,0" Text="0.0.0.1"></TextBlock>
+      <Button Name="openbtn" Content="open"/>
     </Grid>
   </Grid>
 </Window>
