@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aura.Maths.Triangle">
+    <Position X="2.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2D\Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Square">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2D\Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Circle">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2D\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.CalculeArea">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAACAAAAAAAAIAAAAAAAAAEAgAAAA=</HashCode>
+      <FileName>CalculeArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.CalculeVolume">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAABAAAAAAAAAAgAAAAABAAAAAAAAAAAkAAAAAA=</HashCode>
+      <FileName>CalculeVolume.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Piramide" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>3D\Piramide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Cube" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3D\Cube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Solid">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAIAgAAAAAA=</HashCode>
+      <FileName>Solid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Aura.Maths.Sphere" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>3D\Sphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Cylinder" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3D\Cylinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Prism" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3D\Prism.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths._Cone" Collapsed="true">
+    <Position X="6.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3D\_Cone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Rectangle">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2D\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Voxel">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAYAE=</HashCode>
+      <FileName>Voxel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Pixel">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAYAA=</HashCode>
+      <FileName>Pixel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.VectorOperations">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VectorOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Vector">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Point">
+    <Position X="6.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aura.Maths.Poligon">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Poligon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Aura.Maths.IColoreable">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>IColoreable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

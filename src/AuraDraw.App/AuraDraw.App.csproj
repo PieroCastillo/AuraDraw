@@ -12,7 +12,7 @@
     </AvaloniaResource>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.1" />
+    <PackageReference Include="Avalonia" Version="0.9.3" />
     <PackageReference Include="Avalonia.Controls.ViewBox" Version="2.3.0" />
     <PackageReference Include="Avalonia.Desktop" Version="0.9.1" />
     <PackageReference Include="Avalonia.ThemeManager" Version="0.9.0" />
