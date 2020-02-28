@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piero\\Desktop\\Aura.Solution\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {}
+    "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piero\\Desktop\\Aura.Solution\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {
+    "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piero\\Desktop\\Aura.Solution\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
         "projectName": "Aura.UI",
-        "projectPath": "C:\\Users\\Piero\\Desktop\\Aura.Solution\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
+        "projectPath": "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
         "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piero\\Desktop\\Aura.Solution\\AuraDraw\\src\\Aura.UI\\obj\\",
+        "outputPath": "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

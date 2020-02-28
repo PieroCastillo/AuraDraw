@@ -8,10 +8,10 @@
         x:Class="AuraDraw.App.MainWindow"
         WindowStartupLocation="CenterScreen"
         CanResize="False" 
-        WindowState="Normal"
+        WindowState="Maximized"
         Title="AuraDraw.App">
   <Grid>
-     <Menu>
+     <Menu Height="20" VerticalAlignment="Top">
        <MenuItem Header="Archivo">
          <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
          <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
@@ -33,10 +33,16 @@
        <MenuItem Header="Texto">
        </MenuItem>
        <MenuItem Header="Herramientas">
+           <MenuItem Header="Configuración" Name="settings_btn"></MenuItem>
+           <MenuItem Header="Configuración" Name="settings_btn"></MenuItem>
        </MenuItem>
        <MenuItem Header="Ventana">
+          <MenuItem Header="Minimizar" Name="minimize_btn"></MenuItem>
+          <MenuItem Header="Maximizar" Name="maximize_btn"></MenuItem>
        </MenuItem>
        <MenuItem Header="Ayuda">
+          <MenuItem Header="Github" Name="github_btn"></MenuItem>
+          <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
        </MenuItem>
      </Menu>
   </Grid>
