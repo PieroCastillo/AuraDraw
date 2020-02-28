@@ -4,6 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:my="https://github.com/PieroCastillo"
         xmlns:dock="clr-namespace:Dock.Avalonia.Controls;assembly=Dock.Avalonia"
+        xmlns:views="clr-namespace:AuraDraw.App.Views"
         Width="500" Height="450" Opacity="1"
         mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="450"
         x:Class="AuraDraw.App.MainWindow"
@@ -101,6 +102,7 @@
        </MenuItem>
      </Menu>
      <dock:DockControl>
+       <views:Objects_Box/>
      </dock:DockControl>
   </Grid>
 </Window>
