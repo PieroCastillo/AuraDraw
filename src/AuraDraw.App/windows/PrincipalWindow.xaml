@@ -6,5 +6,7 @@
         x:Class="AuraDraw.App.windows.PrincipalWindow"
         Title="AuraDraw: A SVG Editor">
       <Grid>
+       <Menu>
+       </Menu>
       </Grid>
 </Window>
