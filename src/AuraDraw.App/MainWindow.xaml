@@ -49,8 +49,8 @@
               <MenuItem Header="200%" Name="200_zoom_btn"></MenuItem>
            </MenuItem>
            <Separator></Separator>
-           <MenuItem Header="Vista de Objetos" Name="grup_obj_btn"></MenuItem>
-           <MenuItem Header="Cuadro de Objetos" Name="grup_obj_btn"></MenuItem>
+           <MenuItem Header="Vista de Objetos" Name="view_objs_btn"></MenuItem>
+           <MenuItem Header="Cuadro de Objetos" Name="square_objs_btn"></MenuItem>
            <Separator></Separator>
            <MenuItem Header="Pantalla Completa" Name="fullscreen_view_btn"></MenuItem>
        </MenuItem>
@@ -88,7 +88,6 @@
            <MenuItem Header="Insertar Texto" Name="insert_text_btn"></MenuItem>
        </MenuItem>
        <MenuItem Header="Herramientas">
-           <MenuItem Header="Configuración" Name="settings_btn"></MenuItem>
            <MenuItem Header="Configuración" Name="settings_btn"></MenuItem>
        </MenuItem>
        <MenuItem Header="Ventana">
