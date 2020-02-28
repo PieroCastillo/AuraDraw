@@ -2,37 +2,34 @@ C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\Aura.UI\bin\Debug\netcoreapp3.
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Animation.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Base.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Controls.dll
-C:\Users\Piero\.nuget\packages\avalonia.controls.viewbox\2.3.1\lib\netstandard2.1\Avalonia.Controls.ViewBox.dll
+C:\Users\Piero\.nuget\packages\avalonia.controls.viewbox\2.3.0\lib\netstandard2.1\Avalonia.Controls.ViewBox.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.DesignerSupport.dll
-C:\Users\Piero\.nuget\packages\avalonia.desktop\0.9.3\lib\netstandard2.0\Avalonia.Desktop.dll
+C:\Users\Piero\.nuget\packages\avalonia.desktop\0.9.1\lib\netstandard2.0\Avalonia.Desktop.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.DesktopRuntime.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Diagnostics.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Dialogs.dll
-C:\Users\Piero\.nuget\packages\avalonia.direct2d1\0.9.3\lib\netstandard2.0\Avalonia.Direct2D1.dll
+C:\Users\Piero\.nuget\packages\avalonia.direct2d1\0.9.1\lib\netstandard2.0\Avalonia.Direct2D1.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.dll
-C:\Users\Piero\.nuget\packages\avalonia.freedesktop\0.9.3\lib\netstandard2.0\Avalonia.FreeDesktop.dll
-C:\Users\Piero\.nuget\packages\jaggerjo.avalonia.funcui\0.3.0\lib\netstandard2.0\Avalonia.FuncUI.dll
+C:\Users\Piero\.nuget\packages\avalonia.freedesktop\0.9.1\lib\netstandard2.0\Avalonia.FreeDesktop.dll
+C:\Users\Piero\.nuget\packages\jaggerjo.avalonia.funcui\0.2.1\lib\netstandard2.0\Avalonia.FuncUI.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Input.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Interactivity.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Layout.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Logging.Serilog.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Markup.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Markup.Xaml.dll
-C:\Users\Piero\.nuget\packages\avalonia.native\0.9.3\lib\netstandard2.0\Avalonia.Native.dll
+C:\Users\Piero\.nuget\packages\avalonia.native\0.9.1\lib\netstandard2.0\Avalonia.Native.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.OpenGL.dll
 C:\Users\Piero\.nuget\packages\avalonia.reactiveui\0.9.1\lib\netstandard2.0\Avalonia.ReactiveUI.dll
 C:\Users\Piero\.nuget\packages\avalonia.remote.protocol\0.9.3\lib\netstandard2.0\Avalonia.Remote.Protocol.dll
-C:\Users\Piero\.nuget\packages\avalonia.skia\0.9.3\lib\netstandard2.0\Avalonia.Skia.dll
+C:\Users\Piero\.nuget\packages\avalonia.skia\0.9.1\lib\netstandard2.0\Avalonia.Skia.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Styling.dll
-C:\Users\Piero\.nuget\packages\avalonia.thememanager\0.9.1\lib\netstandard2.1\Avalonia.ThemeManager.dll
+C:\Users\Piero\.nuget\packages\avalonia.thememanager\0.9.0\lib\netstandard2.1\Avalonia.ThemeManager.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Themes.Default.dll
 C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Visuals.dll
-C:\Users\Piero\.nuget\packages\avalonia.win32\0.9.3\lib\netstandard2.0\Avalonia.Win32.dll
-C:\Users\Piero\.nuget\packages\avalonia.x11\0.9.3\lib\netstandard2.0\Avalonia.X11.dll
-C:\Users\Piero\.nuget\packages\avalonia.xaml.interactivity\0.9.3\lib\netstandard2.1\Avalonia.Xaml.Interactivity.dll
-C:\Users\Piero\.nuget\packages\dock.avalonia\0.9.3\lib\netstandard2.1\Dock.Avalonia.dll
-C:\Users\Piero\.nuget\packages\dock.avalonia.themes.metro\0.9.3\lib\netstandard2.1\Dock.Avalonia.Themes.Metro.dll
-C:\Users\Piero\.nuget\packages\dock.model\0.9.3\lib\netstandard2.1\Dock.Model.dll
+C:\Users\Piero\.nuget\packages\avalonia.win32\0.9.1\lib\netstandard2.0\Avalonia.Win32.dll
+C:\Users\Piero\.nuget\packages\avalonia.x11\0.9.1\lib\netstandard2.0\Avalonia.X11.dll
+C:\Users\Piero\.nuget\packages\avalonia.xaml.interactivity\0.9.0\lib\netstandard2.1\Avalonia.Xaml.Interactivity.dll
 C:\Users\Piero\.nuget\packages\dynamicdata\6.13.9\lib\netstandard2.0\DynamicData.dll
 C:\Users\Piero\.nuget\packages\fsharp.core\4.6.2\lib\netstandard1.6\FSharp.Core.dll
 C:\Users\Piero\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll
@@ -52,8 +49,8 @@ C:\Users\Piero\.nuget\packages\sharpdx.direct2d1\4.0.1\lib\netcoreapp1.0\SharpDX
 C:\Users\Piero\.nuget\packages\sharpdx.direct3d11\4.0.1\lib\netcoreapp1.0\SharpDX.Direct3D11.dll
 C:\Users\Piero\.nuget\packages\sharpdx\4.0.1\lib\netcoreapp1.0\SharpDX.dll
 C:\Users\Piero\.nuget\packages\sharpdx.dxgi\4.0.1\lib\netcoreapp1.0\SharpDX.DXGI.dll
-C:\Users\Piero\.nuget\packages\sharpgen.runtime.com\1.2.0\lib\netstandard1.1\SharpGen.Runtime.COM.dll
-C:\Users\Piero\.nuget\packages\sharpgen.runtime\1.2.1\lib\netstandard2.0\SharpGen.Runtime.dll
+C:\Users\Piero\.nuget\packages\sharpgen.runtime.com\1.1.0\lib\netstandard1.1\SharpGen.Runtime.COM.dll
+C:\Users\Piero\.nuget\packages\sharpgen.runtime\1.1.0\lib\netstandard2.0\SharpGen.Runtime.dll
 C:\Users\Piero\.nuget\packages\skiasharp\1.68.0\lib\netstandard1.3\SkiaSharp.dll
 C:\Users\Piero\.nuget\packages\skiasharp.svg\1.60.0\lib\netstandard2.0\SkiaSharp.Extended.Svg.dll
 C:\Users\Piero\.nuget\packages\spironet\0.9.0\lib\netstandard2.1\SpiroNet.dll
@@ -209,6 +206,6 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XmlSerializer.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XPath.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XPath.XDocument.dll
-C:\Users\Piero\.nuget\packages\themeeditor.controls.colorpicker\0.9.1\lib\netstandard2.1\ThemeEditor.Controls.ColorPicker.dll
+C:\Users\Piero\.nuget\packages\themeeditor.controls.colorpicker\0.9.0\lib\netstandard2.1\ThemeEditor.Controls.ColorPicker.dll
 C:\Users\Piero\.nuget\packages\tmds.dbus\0.7.0\lib\netstandard2.0\Tmds.DBus.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\WindowsBase.dll

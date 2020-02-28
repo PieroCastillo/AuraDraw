@@ -97,8 +97,6 @@ C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcore
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Aura.UI.dll
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDraw.App.AssemblyInfoInputs.cache
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDraw.App.AssemblyInfo.cs
-C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Avalonia.dll
-C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Model.dll
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDraw.App.csprojAssemblyReference.cache
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\AuraDraw.App.exe
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Assets\noiseBlack.png
@@ -108,7 +106,6 @@ C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcore
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\AuraDraw.App.runtimeconfig.dev.json
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\AuraDraw.App.dll
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\AuraDraw.App.pdb
-C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Avalonia.Themes.Metro.dll
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Aura.UI.pdb
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDraw.App.csproj.CopyComplete
 C:\Users\Piero\Desktop\Aura.Solution\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDraw.App.dll
