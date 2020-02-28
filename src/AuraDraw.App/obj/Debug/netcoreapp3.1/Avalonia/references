@@ -30,6 +30,9 @@ C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netcoreapp2.0\Avalonia.Visuals
 C:\Users\Piero\.nuget\packages\avalonia.win32\0.9.1\lib\netstandard2.0\Avalonia.Win32.dll
 C:\Users\Piero\.nuget\packages\avalonia.x11\0.9.1\lib\netstandard2.0\Avalonia.X11.dll
 C:\Users\Piero\.nuget\packages\avalonia.xaml.interactivity\0.9.0\lib\netstandard2.1\Avalonia.Xaml.Interactivity.dll
+C:\Users\Piero\.nuget\packages\dock.avalonia\0.9.3\lib\netstandard2.1\Dock.Avalonia.dll
+C:\Users\Piero\.nuget\packages\dock.avalonia.themes.default\0.9.3\lib\netstandard2.1\Dock.Avalonia.Themes.Default.dll
+C:\Users\Piero\.nuget\packages\dock.model\0.9.3\lib\netstandard2.1\Dock.Model.dll
 C:\Users\Piero\.nuget\packages\dynamicdata\6.13.9\lib\netstandard2.0\DynamicData.dll
 C:\Users\Piero\.nuget\packages\fsharp.core\4.6.2\lib\netstandard1.6\FSharp.Core.dll
 C:\Users\Piero\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll

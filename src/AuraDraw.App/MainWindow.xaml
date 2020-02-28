@@ -3,13 +3,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:my="https://github.com/PieroCastillo"
+        xmlns:dock="clr-namespace:Dock.Avalonia.Controls;assembly=Dock.Avalonia"
         Width="500" Height="450" Opacity="1"
         mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="450"
         x:Class="AuraDraw.App.MainWindow"
         WindowStartupLocation="CenterScreen"
         CanResize="False" 
         WindowState="Maximized"
-        Title="AuraDraw.App">
+        Title="AuraDraw">
   <Grid>
      <Menu Height="20" VerticalAlignment="Top">
        <MenuItem Header="Archivo">
@@ -99,5 +100,7 @@
           <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
        </MenuItem>
      </Menu>
+     <dock:DockControl>
+     </dock:DockControl>
   </Grid>
 </Window>

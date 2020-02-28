@@ -222,3 +222,6 @@ C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDra
 C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDraw.App.csproj.CopyComplete
 C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDraw.App.dll
 C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDraw.App.pdb
+C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Avalonia.dll
+C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Avalonia.Themes.Default.dll
+C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Model.dll

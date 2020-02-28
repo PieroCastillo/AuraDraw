@@ -14,6 +14,8 @@
           "Avalonia.Desktop": "0.9.1",
           "Avalonia.ThemeManager": "0.9.0",
           "Avalonia.Xaml.Interactivity": "0.9.0",
+          "Dock.Avalonia": "0.9.3",
+          "Dock.Avalonia.Themes.Default": "0.9.3",
           "JaggerJo.Avalonia.FuncUI": "0.2.1",
           "MessageBox.Avalonia": "0.9.0",
           "SkiaSharp.Svg": "1.60.0",
@@ -285,6 +287,39 @@
           "lib/netstandard2.1/Avalonia.Xaml.Interactivity.dll": {
             "assemblyVersion": "0.9.0.0",
             "fileVersion": "0.9.0.0"
+          }
+        }
+      },
+      "Dock.Avalonia/0.9.3": {
+        "dependencies": {
+          "Avalonia": "0.9.3",
+          "Dock.Model": "0.9.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Dock.Avalonia.dll": {
+            "assemblyVersion": "0.9.3.0",
+            "fileVersion": "0.9.3.0"
+          }
+        }
+      },
+      "Dock.Avalonia.Themes.Default/0.9.3": {
+        "dependencies": {
+          "Avalonia": "0.9.3",
+          "Dock.Avalonia": "0.9.3",
+          "Dock.Model": "0.9.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Dock.Avalonia.Themes.Default.dll": {
+            "assemblyVersion": "0.9.3.0",
+            "fileVersion": "0.9.3.0"
+          }
+        }
+      },
+      "Dock.Model/0.9.3": {
+        "runtime": {
+          "lib/netstandard2.1/Dock.Model.dll": {
+            "assemblyVersion": "0.9.3.0",
+            "fileVersion": "0.9.3.0"
           }
         }
       },
@@ -2201,6 +2236,27 @@
       "sha512": "sha512-yiPXfmIzBX4+SWm6ghQjv0Gx6294/GIIFkwjXUphqLIzCtQPfQuz9CshO3hWA9HEEs8OqChg1hRm6RV8rOl1Jw==",
       "path": "avalonia.xaml.interactivity/0.9.0",
       "hashPath": "avalonia.xaml.interactivity.0.9.0.nupkg.sha512"
+    },
+    "Dock.Avalonia/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uz/qtEXlP2tDd8iQf86gYyn0f5lc8qqsSTp7BxzVjnzoEwWxqkwmmmXAnsViezK2Nk3B45vt8IVoOSA7AGc69A==",
+      "path": "dock.avalonia/0.9.3",
+      "hashPath": "dock.avalonia.0.9.3.nupkg.sha512"
+    },
+    "Dock.Avalonia.Themes.Default/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nJgBmuxiaUwPAAGTmaqIyvcbHpd/6YO8jLbib6QwtUA3rBAuvwntQKiu1nZxQguNeqD5aJE8HrNaMJMS2Q59vA==",
+      "path": "dock.avalonia.themes.default/0.9.3",
+      "hashPath": "dock.avalonia.themes.default.0.9.3.nupkg.sha512"
+    },
+    "Dock.Model/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x299YK+Eizni4Yq29Zzi4rI1TapSdYlGdHW1HvJjbh4U/iJ5LMORP5IdKAe068wU5RD4IvDZ6AAU/lZV6dydvg==",
+      "path": "dock.model/0.9.3",
+      "hashPath": "dock.model.0.9.3.nupkg.sha512"
     },
     "DynamicData/6.13.9": {
       "type": "package",

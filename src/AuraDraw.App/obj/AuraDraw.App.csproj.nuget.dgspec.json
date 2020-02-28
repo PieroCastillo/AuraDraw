@@ -140,6 +140,18 @@
               "target": "Package",
               "version": "[0.9.0, )"
             },
+            "Dock.Avalonia": {
+              "target": "Package",
+              "version": "[0.9.3, )"
+            },
+            "Dock.Avalonia.Themes.Default": {
+              "target": "Package",
+              "version": "[0.9.3, )"
+            },
+            "Dock.Avalonia.Themes.Metro": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "JaggerJo.Avalonia.FuncUI": {
               "target": "Package",
               "version": "[0.2.1, )"
