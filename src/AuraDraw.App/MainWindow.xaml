@@ -10,21 +10,34 @@
         CanResize="False" 
         WindowState="Normal"
         Title="AuraDraw.App">
-  <Window.Background>
-    <my:AcrylicBrush Theme="Dark" TileMode="FlipXY"></my:AcrylicBrush>
-  </Window.Background>
-  <Window.Template>
-    <ControlTemplate TargetType="Window">
-      <Border Background="{TemplateBinding Background}">
-        <ContentPresenter Content="{TemplateBinding Content}"></ContentPresenter>
-      </Border>
-    </ControlTemplate>
-  </Window.Template>
   <Grid>
-    <Grid>
-      <TextBlock FontSize="60" Margin="50,40,0,0">AuraDraw</TextBlock>
-      <TextBlock FontSize="30" Margin="300,115,0,0" Text="0.0.0.1"></TextBlock>
-      <Button Name="openbtn" Content="open"/>
-    </Grid>
+     <Menu>
+       <MenuItem Header="Archivo">
+         <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
+         <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
+         <Separator></Separator>
+         <MenuItem Header="Guardar" Name="save_file_btn"></MenuItem>
+         <MenuItem Header="Guardar como..." Name="save_as_file_btn"></MenuItem>
+         <Separator></Separator>
+         <MenuItem Header="Cerrar Archivo" Name="close_file_btn"></MenuItem>
+         <MenuItem Header="Salir" Name="exit_app_btn"></MenuItem>
+       </MenuItem>
+       <MenuItem Header="Editar">
+       </MenuItem>
+       <MenuItem Header="Ver">
+       </MenuItem>
+       <MenuItem Header="Objeto">
+       </MenuItem>
+       <MenuItem Header="Capa">
+       </MenuItem>
+       <MenuItem Header="Texto">
+       </MenuItem>
+       <MenuItem Header="Herramientas">
+       </MenuItem>
+       <MenuItem Header="Ventana">
+       </MenuItem>
+       <MenuItem Header="Ayuda">
+       </MenuItem>
+     </Menu>
   </Grid>
 </Window>
