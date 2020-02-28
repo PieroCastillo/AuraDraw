@@ -9465,7 +9465,7 @@
       "Avalonia.Xaml.Interactivity >= 0.9.0",
       "Dock.Avalonia >= 0.9.3",
       "Dock.Avalonia.Themes.Default >= 0.9.3",
-      "Dock.Avalonia.Themes.Metro",
+      "Dock.Avalonia.Themes.Metro >= 0.9.3",
       "JaggerJo.Avalonia.FuncUI >= 0.2.1",
       "MessageBox.Avalonia >= 0.9.0",
       "SkiaSharp.Svg >= 1.60.0",
@@ -9551,7 +9551,7 @@
           },
           "Dock.Avalonia.Themes.Metro": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[0.9.3, )"
           },
           "JaggerJo.Avalonia.FuncUI": {
             "target": "Package",

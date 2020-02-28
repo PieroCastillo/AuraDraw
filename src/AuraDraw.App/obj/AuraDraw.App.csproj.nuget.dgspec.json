@@ -150,7 +150,7 @@
             },
             "Dock.Avalonia.Themes.Metro": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[0.9.3, )"
             },
             "JaggerJo.Avalonia.FuncUI": {
               "target": "Package",
