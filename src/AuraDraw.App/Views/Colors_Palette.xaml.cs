@@ -5,7 +5,7 @@ using Dock.Avalonia.Controls;
 
 namespace AuraDraw.App.Views
 {
-    public class Colors_Palette : ToolControl
+    public class Colors_Palette : UserControl
     {
         public Colors_Palette()
         {
