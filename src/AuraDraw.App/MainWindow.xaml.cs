@@ -2,6 +2,7 @@
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using Avalonia.Threading;
+using Dock.Avalonia.Controls;
 using System;
 
 namespace AuraDraw.App
@@ -14,7 +15,7 @@ namespace AuraDraw.App
 #if DEBUG
             this.AttachDevTools();
 #endif
-            
+             
         }
         private void InitializeComponent()
         {

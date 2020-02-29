@@ -225,3 +225,4 @@ C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\obj\Debug\netcoreapp3.1\AuraDra
 C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Avalonia.dll
 C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Avalonia.Themes.Default.dll
 C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Model.dll
+C:\Users\Piero\Desktop\AuraDraw\src\AuraDraw.App\bin\Debug\netcoreapp3.1\Dock.Avalonia.Themes.Metro.dll

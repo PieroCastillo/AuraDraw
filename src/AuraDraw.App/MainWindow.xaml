@@ -5,13 +5,12 @@
         xmlns:my="https://github.com/PieroCastillo"
         xmlns:dock="clr-namespace:Dock.Avalonia.Controls;assembly=Dock.Avalonia"
         xmlns:views="clr-namespace:AuraDraw.App.Views"
-        Width="500" Height="450" Opacity="1"
-        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="450"
+        Width="1000" Height="800" Opacity="1"
+        mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="800"
         x:Class="AuraDraw.App.MainWindow"
         WindowStartupLocation="CenterScreen"
-        CanResize="False" 
         WindowState="Maximized"
-        Title="AuraDraw">
+        Title="AuraDraw" >
   <Grid>
      <Menu Height="20" VerticalAlignment="Top">
        <MenuItem Header="Archivo">
@@ -101,8 +100,7 @@
           <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
        </MenuItem>
      </Menu>
-     <dock:DockControl >
-       <views:Objects_Box/>
-     </dock:DockControl>
-  </Grid>
+   <dock:DockControl>
+   </dock:DockCOntrol>
+  </Grid> 
 </Window>
