@@ -100,7 +100,6 @@
           <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
        </MenuItem>
      </Menu>
-   <dock:DockControl>
-   </dock:DockCOntrol>
+      
   </Grid> 
 </Window>

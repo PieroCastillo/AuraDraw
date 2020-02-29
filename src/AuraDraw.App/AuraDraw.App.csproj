@@ -23,6 +23,7 @@
     <PackageReference Include="Dock.Avalonia" Version="0.9.3" />
     <PackageReference Include="Dock.Avalonia.Themes.Default" Version="0.9.3" />
     <PackageReference Include="Dock.Avalonia.Themes.Metro" Version="0.9.3" />
+    <PackageReference Include="Dock.Model" Version="0.9.3" />
     <PackageReference Include="JaggerJo.Avalonia.FuncUI" Version="0.2.1" />
     <PackageReference Include="MessageBox.Avalonia" Version="0.9.0" />
     <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />

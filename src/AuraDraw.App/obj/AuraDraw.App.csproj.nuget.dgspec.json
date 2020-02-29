@@ -152,6 +152,10 @@
               "target": "Package",
               "version": "[0.9.3, )"
             },
+            "Dock.Model": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "JaggerJo.Avalonia.FuncUI": {
               "target": "Package",
               "version": "[0.2.1, )"
