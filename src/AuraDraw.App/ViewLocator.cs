@@ -5,6 +5,7 @@ using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using AuraDraw.App.ViewModels;
+using Dock.Model;
 
 namespace AuraDraw.App
 {
@@ -29,7 +30,7 @@ namespace AuraDraw.App
 
         public bool Match(object data)
         {
-            return data is ViewModelBase;
+            return data is ViewModelBase || data is IDockable;
         }
     }
 }
