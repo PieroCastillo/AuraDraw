@@ -17,8 +17,4 @@ namespace AuraDraw.App.Views
             AvaloniaXamlLoader.Load(this);
         }
     }
-
-    public class Editor_VM : DocumentControl {}
-
-    public class Editor_M {}
 }
