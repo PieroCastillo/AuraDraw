@@ -144,10 +144,6 @@
               "target": "Package",
               "version": "[0.9.3, )"
             },
-            "Dock.Avalonia.Controls": {
-              "target": "Package",
-              "version": "(, )"
-            },
             "Dock.Avalonia.Themes.Default": {
               "target": "Package",
               "version": "[0.9.3, )"
@@ -157,6 +153,10 @@
               "version": "[0.9.3, )"
             },
             "Dock.Model": {
+              "target": "Package",
+              "version": "[0.9.3, )"
+            },
+            "Dock.Model.ReactiveUI": {
               "target": "Package",
               "version": "[0.9.3, )"
             },

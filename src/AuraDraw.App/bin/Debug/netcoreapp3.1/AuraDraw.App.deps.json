@@ -17,6 +17,8 @@
           "Dock.Avalonia": "0.9.3",
           "Dock.Avalonia.Themes.Default": "0.9.3",
           "Dock.Avalonia.Themes.Metro": "0.9.3",
+          "Dock.Model": "0.9.3",
+          "Dock.Model.ReactiveUI": "0.9.3",
           "JaggerJo.Avalonia.FuncUI": "0.2.1",
           "MessageBox.Avalonia": "0.9.0",
           "SkiaSharp.Svg": "1.60.0",
@@ -332,6 +334,18 @@
       "Dock.Model/0.9.3": {
         "runtime": {
           "lib/netstandard2.1/Dock.Model.dll": {
+            "assemblyVersion": "0.9.3.0",
+            "fileVersion": "0.9.3.0"
+          }
+        }
+      },
+      "Dock.Model.ReactiveUI/0.9.3": {
+        "dependencies": {
+          "Dock.Model": "0.9.3",
+          "ReactiveUI": "10.3.6"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Dock.Model.ReactiveUI.dll": {
             "assemblyVersion": "0.9.3.0",
             "fileVersion": "0.9.3.0"
           }
@@ -2278,6 +2292,13 @@
       "sha512": "sha512-x299YK+Eizni4Yq29Zzi4rI1TapSdYlGdHW1HvJjbh4U/iJ5LMORP5IdKAe068wU5RD4IvDZ6AAU/lZV6dydvg==",
       "path": "dock.model/0.9.3",
       "hashPath": "dock.model.0.9.3.nupkg.sha512"
+    },
+    "Dock.Model.ReactiveUI/0.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iGr90j5gyMJYCxg6QXLJ+M3Fyyuwa7QqiyjsjOshhLx6ZXz+sW2XA8yvzzMnRgigQNvl3UDSu3mYDATt/KRQbQ==",
+      "path": "dock.model.reactiveui/0.9.3",
+      "hashPath": "dock.model.reactiveui.0.9.3.nupkg.sha512"
     },
     "DynamicData/6.13.9": {
       "type": "package",
