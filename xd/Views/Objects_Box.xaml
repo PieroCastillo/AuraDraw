@@ -1,0 +1,17 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="AuraDraw.App.Views.Objects_Box">
+      <StackPanel>
+        <Button Name="new_square_btn">Cuadrado</Button>
+        <Button Name="new_rect_btn">Rectángulo</Button>
+        <Button Name="new_circle_btn">Circulo</Button>
+        <Button Name="new_ellipse_btn">Elipse</Button>
+        <Button Name="new_triangle_btn">Triángulo</Button>
+        <Separator></Separator>
+        <Button Name="new_line_btn">Línea</Button>
+        <Button Name="new_multiline_btn">Multilínea</Button>
+      </StackPanel>
+</UserControl>
