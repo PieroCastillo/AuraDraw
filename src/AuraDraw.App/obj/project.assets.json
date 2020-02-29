@@ -306,6 +306,32 @@
           "lib/netstandard2.1/Dock.Model.dll": {}
         }
       },
+      "Dock.Model.Avalonia/0.9.3": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.9.3",
+          "Dock.Model": "0.9.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/Dock.Model.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Dock.Model.Avalonia.dll": {}
+        }
+      },
+      "Dock.Model.ReactiveUI/0.9.3": {
+        "type": "package",
+        "dependencies": {
+          "Dock.Model": "0.9.3",
+          "reactiveui": "10.3.6"
+        },
+        "compile": {
+          "lib/netstandard2.1/Dock.Model.ReactiveUI.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Dock.Model.ReactiveUI.dll": {}
+        }
+      },
       "DynamicData/6.13.9": {
         "type": "package",
         "dependencies": {
@@ -3544,6 +3570,46 @@
         "lib/netstandard2.1/Dock.Model.dll",
         "lib/netstandard2.1/Dock.Model.pdb",
         "lib/netstandard2.1/Dock.Model.xml"
+      ]
+    },
+    "Dock.Model.Avalonia/0.9.3": {
+      "sha512": "UEQdLq8IwvjY17CUjlNxaMEDjwv2p0z3v6+P2ICh0kM6FJCv5NWJwoUMCbbVJqyryk0O37c2Y7iSvGm4FtarGg==",
+      "type": "package",
+      "path": "dock.model.avalonia/0.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dock.model.avalonia.0.9.3.nupkg.sha512",
+        "dock.model.avalonia.nuspec",
+        "lib/net461/Dock.Model.Avalonia.dll",
+        "lib/net461/Dock.Model.Avalonia.pdb",
+        "lib/net461/Dock.Model.Avalonia.xml",
+        "lib/netstandard2.0/Dock.Model.Avalonia.dll",
+        "lib/netstandard2.0/Dock.Model.Avalonia.pdb",
+        "lib/netstandard2.0/Dock.Model.Avalonia.xml",
+        "lib/netstandard2.1/Dock.Model.Avalonia.dll",
+        "lib/netstandard2.1/Dock.Model.Avalonia.pdb",
+        "lib/netstandard2.1/Dock.Model.Avalonia.xml"
+      ]
+    },
+    "Dock.Model.ReactiveUI/0.9.3": {
+      "sha512": "iGr90j5gyMJYCxg6QXLJ+M3Fyyuwa7QqiyjsjOshhLx6ZXz+sW2XA8yvzzMnRgigQNvl3UDSu3mYDATt/KRQbQ==",
+      "type": "package",
+      "path": "dock.model.reactiveui/0.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dock.model.reactiveui.0.9.3.nupkg.sha512",
+        "dock.model.reactiveui.nuspec",
+        "lib/net461/Dock.Model.ReactiveUI.dll",
+        "lib/net461/Dock.Model.ReactiveUI.pdb",
+        "lib/net461/Dock.Model.ReactiveUI.xml",
+        "lib/netstandard2.0/Dock.Model.ReactiveUI.dll",
+        "lib/netstandard2.0/Dock.Model.ReactiveUI.pdb",
+        "lib/netstandard2.0/Dock.Model.ReactiveUI.xml",
+        "lib/netstandard2.1/Dock.Model.ReactiveUI.dll",
+        "lib/netstandard2.1/Dock.Model.ReactiveUI.pdb",
+        "lib/netstandard2.1/Dock.Model.ReactiveUI.xml"
       ]
     },
     "DynamicData/6.13.9": {
@@ -9466,7 +9532,9 @@
       "Dock.Avalonia >= 0.9.3",
       "Dock.Avalonia.Themes.Default >= 0.9.3",
       "Dock.Avalonia.Themes.Metro >= 0.9.3",
-      "Dock.Model",
+      "Dock.Model >= 0.9.3",
+      "Dock.Model.Avalonia >= 0.9.3",
+      "Dock.Model.ReactiveUI",
       "JaggerJo.Avalonia.FuncUI >= 0.2.1",
       "MessageBox.Avalonia >= 0.9.0",
       "SkiaSharp.Svg >= 1.60.0",
@@ -9555,6 +9623,14 @@
             "version": "[0.9.3, )"
           },
           "Dock.Model": {
+            "target": "Package",
+            "version": "[0.9.3, )"
+          },
+          "Dock.Model.Avalonia": {
+            "target": "Package",
+            "version": "[0.9.3, )"
+          },
+          "Dock.Model.ReactiveUI": {
             "target": "Package",
             "version": "(, )"
           },

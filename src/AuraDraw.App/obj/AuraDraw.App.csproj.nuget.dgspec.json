@@ -154,7 +154,15 @@
             },
             "Dock.Model": {
               "target": "Package",
+              "version": "[0.9.3, )"
+            },
+            "Dock.Model.Controls": {
+              "target": "Package",
               "version": "(, )"
+            },
+            "Dock.Model.ReactiveUI": {
+              "target": "Package",
+              "version": "[0.9.3, )"
             },
             "JaggerJo.Avalonia.FuncUI": {
               "target": "Package",
