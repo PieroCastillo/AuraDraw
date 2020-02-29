@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using Dock.Avalonia.Controls;
 
 namespace AuraDraw.App.Views
 {
@@ -16,4 +17,6 @@ namespace AuraDraw.App.Views
             AvaloniaXamlLoader.Load(this);
         }
     }
+    public class Objects_Box_VM : ToolControl {}
+    public class Objects_Box_M {}
 }

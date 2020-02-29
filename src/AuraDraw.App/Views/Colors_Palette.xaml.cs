@@ -17,4 +17,7 @@ namespace AuraDraw.App.Views
             AvaloniaXamlLoader.Load(this);
         }
     }
+
+    public class Colors_Palette_VM : ToolControl{}
+    public class Colors_Palette_M {}
 }
