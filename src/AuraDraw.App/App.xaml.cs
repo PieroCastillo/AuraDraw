@@ -3,6 +3,8 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using AuraDraw.App.ViewModels;
 using AuraDraw.App.Views;
+using AuraDraw.App.Models;
+using Dock.Model;
 
 namespace AuraDraw.App
 {
@@ -15,12 +17,50 @@ namespace AuraDraw.App
 
         public override void OnFrameworkInitializationCompleted()
         {
-            if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+            var factory = new MainDockFactory(new DemoData());
+            var layout = factory.CreateLayout();
+            factory.InitLayout(layout);
+
+            var mainWindowViewModel = new MainWindowViewModel()
             {
-                desktop.MainWindow = new MainWindow
+                Factory = factory,
+                Layout = layout
+            };
+            
+           if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktopLifetime)
+            {
+                
+                var mainWindow = new MainWindow
                 {
-                    DataContext = new MainWindowViewModel(),
+                    DataContext = mainWindowViewModel
                 };
+
+                mainWindow.Closing += (sender, e) =>
+                {
+                    if (layout is IDock dock)
+                    {
+                        dock.Close();
+                    }
+                };
+
+                desktopLifetime.MainWindow = mainWindow;
+
+                desktopLifetime.Exit += (sennder, e) =>
+                {
+                    if (layout is IDock dock)
+                    {
+                        dock.Close();
+                    }
+                };
+            }
+            else if (ApplicationLifetime is ISingleViewApplicationLifetime singleViewLifetime)
+            {
+                var mainView = new MainView()
+                {
+                    DataContext = mainWindowViewModel
+                };
+
+                singleViewLifetime.MainView = mainView;
             }
 
             base.OnFrameworkInitializationCompleted();

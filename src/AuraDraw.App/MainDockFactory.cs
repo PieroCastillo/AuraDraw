@@ -159,7 +159,13 @@ namespace AuraDraw.App
                 [nameof(IDockWindow)] = () => _context,
                 [nameof(IDocument)] = () => _context,
                 [nameof(ITool)] = () => _context,
-
+                ["editor"] = () => new Editor_M(),
+                ["viewbox"] = () => new ViewBox_M(),
+                ["colorspalette"] = () => new ColorPalette_M(),
+                ["objectsview"] = () => new ObjectsView_M(),
+                ["objectsbox"] = () => new ObjectsBox_M(),
+                ["MainView"] = () => _context,
+                ["Main"] = () => _context,
             } ;
 
             this.HostWindowLocator = new Dictionary<string, Func<IHostWindow>>

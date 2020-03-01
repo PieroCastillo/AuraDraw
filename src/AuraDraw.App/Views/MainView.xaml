@@ -93,5 +93,8 @@
           <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
        </MenuItem>
      </Menu>
+      
+        <ContentControl Content="{Binding CurrentView}"/>
+   
      </Grid>
 </UserControl>

@@ -4,11 +4,16 @@
         xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:idc="clr-namespace:Dock.Avalonia.Controls;assembly=Dock.Avalonia"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AuraDraw.App.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="AuraDraw">
 
-    <vw:MainView/>
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <idc:DockControl Layout="{Binding Layout}"/>
 
 </Window>
