@@ -1,0 +1,12 @@
+C:\Users\Piero\Desktop\Jaya-dev\src\Jaya.Shared\bin\Debug\netcoreapp2.2\Jaya.Shared.deps.json
+C:\Users\Piero\Desktop\Jaya-dev\src\Jaya.Shared\bin\Debug\netcoreapp2.2\Jaya.Shared.dll
+C:\Users\Piero\Desktop\Jaya-dev\src\Jaya.Shared\bin\Debug\netcoreapp2.2\Jaya.Shared.pdb
+C:\Users\Piero\Desktop\Jaya-dev\src\Jaya.Shared\obj\Debug\netcoreapp2.2\Jaya.Shared.csprojAssemblyReference.cache
+C:\Users\Piero\Desktop\Jaya-dev\src\Jaya.Shared\obj\Debug\netcoreapp2.2\Jaya.Shared.dll
+C:\Users\Piero\Desktop\Jaya-dev\src\Jaya.Shared\obj\Debug\netcoreapp2.2\Jaya.Shared.pdb
+C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\bin\Debug\netcoreapp2.2\Jaya.Shared.deps.json
+C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\bin\Debug\netcoreapp2.2\Jaya.Shared.dll
+C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\bin\Debug\netcoreapp2.2\Jaya.Shared.pdb
+C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\obj\Debug\netcoreapp2.2\Jaya.Shared.csprojAssemblyReference.cache
+C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\obj\Debug\netcoreapp2.2\Jaya.Shared.dll
+C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\obj\Debug\netcoreapp2.2\Jaya.Shared.pdb

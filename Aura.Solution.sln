@@ -1,15 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8B245BC-989E-4B06-84C9-001A2C2636A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aura.Maths", "src\Aura.Maths\Aura.Maths.csproj", "{83CD3598-7529-4BEB-A60D-CB19D025CAAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aura.Maths", "src\Aura.Maths\Aura.Maths.csproj", "{83CD3598-7529-4BEB-A60D-CB19D025CAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aura.UI", "src\Aura.UI\Aura.UI.csproj", "{C72E629B-479A-4C89-8D65-B944A0EC75DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aura.UI", "src\Aura.UI\Aura.UI.csproj", "{C72E629B-479A-4C89-8D65-B944A0EC75DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuraDraw.App", "src\AuraDraw.App\AuraDraw.App.csproj", "{20BB76E3-5213-487F-AED9-CF663DD62819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuraDraw.App", "src\AuraDraw.App\AuraDraw.App.csproj", "{20BB76E3-5213-487F-AED9-CF663DD62819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{77FE194E-C376-4CEF-9437-C86587100CB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jaya.UI", "Jaya.UI", "{B11C135D-23E9-451D-8842-491B4A530191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jaya.Shared", "external\Jaya.Shared\Jaya.Shared.csproj", "{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{83CD3598-7529-4BEB-A60D-CB19D025CAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -60,10 +63,30 @@ Global
 		{20BB76E3-5213-487F-AED9-CF663DD62819}.Release|x64.Build.0 = Release|Any CPU
 		{20BB76E3-5213-487F-AED9-CF663DD62819}.Release|x86.ActiveCfg = Release|Any CPU
 		{20BB76E3-5213-487F-AED9-CF663DD62819}.Release|x86.Build.0 = Release|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Debug|x64.Build.0 = Debug|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Debug|x86.Build.0 = Debug|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Release|x64.ActiveCfg = Release|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Release|x64.Build.0 = Release|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Release|x86.ActiveCfg = Release|Any CPU
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{83CD3598-7529-4BEB-A60D-CB19D025CAAC} = {C8B245BC-989E-4B06-84C9-001A2C2636A4}
 		{C72E629B-479A-4C89-8D65-B944A0EC75DD} = {C8B245BC-989E-4B06-84C9-001A2C2636A4}
 		{20BB76E3-5213-487F-AED9-CF663DD62819} = {C8B245BC-989E-4B06-84C9-001A2C2636A4}
+		{B11C135D-23E9-451D-8842-491B4A530191} = {77FE194E-C376-4CEF-9437-C86587100CB6}
+		{4F48A439-D67B-4D7C-BFDE-83D3B53B8953} = {B11C135D-23E9-451D-8842-491B4A530191}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06AAC1F-9FFB-41EB-BBA7-737F21C7C331}
 	EndGlobalSection
 EndGlobal

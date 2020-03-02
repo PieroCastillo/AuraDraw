@@ -7,7 +7,7 @@
      <Grid>
       
         <Menu Height="20" VerticalAlignment="Top">
-       <MenuItem Header="Archivo">
+         <MenuItem Header="Archivo">
          <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
          <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
          <Separator></Separator>
@@ -16,7 +16,7 @@
          <Separator></Separator>
          <MenuItem Header="Cerrar Archivo" Name="close_file_btn"></MenuItem>
          <MenuItem Header="Salir" Name="exit_app_btn"></MenuItem>
-       </MenuItem>
+         </MenuItem>
        <MenuItem Header="Editar">
             <MenuItem Header="Copiar" Name="copy_obj_btn"></MenuItem>
             <MenuItem Header="Pegar" Name="paste_obj_btn"></MenuItem>
@@ -95,5 +95,6 @@
        </MenuItem>
        </Menu>
    
-     </Grid>
+       
+     </Grid >
 </UserControl>
