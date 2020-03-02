@@ -52,6 +52,7 @@ namespace AuraDraw.App
               Orientation = Orientation.Horizontal,
               ActiveDockable = null,
               VisibleDockables = CreateList<IDockable>(
+                  //Left Pane
                   new ProportionalDock
                     {
                         Id = "LeftPane",
@@ -61,25 +62,24 @@ namespace AuraDraw.App
                         ActiveDockable = null,
                         VisibleDockables = CreateList<IDockable>
                         (
-                            new ToolDock
-                            {
-                                Id = "LeftPaneTop",
-                                Title = "LeftPaneTop",
-                                Proportion = double.NaN,
-                                ActiveDockable = null,
-                                VisibleDockables = CreateList<IDockable>
-                                (
-                                    colorspalette
-                                )
-                            }
-                                                  
+                             new ToolDock{
+                                 Id = "colorspalettedock",
+                                 Title = "Paleta de Colores",
+                                 Proportion = double.NaN,
+                                 ActiveDockable = colorspalette,
+                                 VisibleDockables = CreateList<IDockable>(
+                                     colorspalette
+                                 )
+                             }                     
                         )
                     },
+                  //Left Splitter
                   new SplitterDock()
                     {
                         Id = "LeftSplitter",
                         Title = "LeftSplitter"
                     },
+                  //Documents Pane
                   new DocumentDock
                     {
                         Id = "DocumentsPane",
@@ -92,33 +92,49 @@ namespace AuraDraw.App
                             viewbox
                         )
                     },
+                  //Right Splitter
                   new SplitterDock()
                     {
                         Id = "RightSplitter",
                         Title = "RightSplitter"
                     },
+                  //Right Pane (Objects Boxes)
                   new ProportionalDock
                     {
                         Id = "RightPane",
                         Title = "RightPane",
                         Proportion = double.NaN,
                         Orientation = Orientation.Vertical,
-                        ActiveDockable = null,
+                        ActiveDockable = objectsbox,
                         VisibleDockables = CreateList<IDockable>
                         (
                             new ToolDock
                             {
-                                Id = "RightPaneTop",
-                                Title = "RightPaneTop",
+                                Id = "objectsboxdock",
+                                Title = "Cuadro de Objetos",
+                                Proportion = double.NaN,
+                                ActiveDockable = objectsbox,
+                                VisibleDockables = CreateList<IDockable>
+                                (
+                                    objectsbox
+                                )
+                            },
+                            new SplitterDock()
+                            {
+                                Id = "objectssplitter",
+                                Title = "RightPaneTopSplitter"
+                            },
+                            new ToolDock
+                            {
+                                Id = "objectsviewdock",
+                                Title = "Vista de Objetos",
                                 Proportion = double.NaN,
                                 ActiveDockable = objectsview,
                                 VisibleDockables = CreateList<IDockable>
                                 (
-                                    objectsbox,
                                     objectsview
                                 )
                             }
-                            
                         )
                     }
               )
@@ -129,6 +145,7 @@ namespace AuraDraw.App
               ActiveDockable = mainLayout,
               VisibleDockables = CreateList<IDockable>(mainLayout)
           };
+        #region root
           var root = CreateRootDock(); 
           root.Id = "Root";
             root.Title = "Root";
@@ -144,7 +161,8 @@ namespace AuraDraw.App
             root.Right = CreatePinDock();
             root.Right.Alignment = Alignment.Right;
           
-          return root; 
+          return root;
+          #endregion  
         }
 
         public override void InitLayout(IDockable layout){
@@ -164,6 +182,18 @@ namespace AuraDraw.App
                 ["colorspalette"] = () => new ColorPalette_M(),
                 ["objectsview"] = () => new ObjectsView_M(),
                 ["objectsbox"] = () => new ObjectsBox_M(),
+                //
+                ["LeftPane"] = () => _context,
+                ["RightPane"] = () => _context,
+                ["DocumentsPane"] = () => _context,
+                ["objectsboxdock"] = () => _context,
+                ["objectssplitter"] = () => _context,
+                ["objectsviewdock"] = () => _context,
+                ["colorspalettedock"] = () => _context,
+                ["LeftSplitter"] = () => _context,
+                ["RightSplitter"] = () => _context,
+                //
+                ["MainLayout"] = () => _context,
                 ["MainView"] = () => _context,
                 ["Main"] = () => _context,
             } ;
