@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace AuraDraw.App.Views
 {
-    public class Editor : UserControl
+    public class ObjectsView : UserControl
     {
-        public Editor()
+        public ObjectsView()
         {
             InitializeComponent();
         }

@@ -10,9 +10,6 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="AuraDraw">
 
-    <Design.DataContext>
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
     <Grid>
        <Menu Height="20" VerticalAlignment="Top">
        <MenuItem Header="Archivo">
@@ -102,7 +99,7 @@
           <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
        </MenuItem>
        </Menu>
-      <idc:DockControl Layout="{Binding Layout}"  />
+      <idc:DockControl Layout="{Binding Layout}" VerticalAlignment="Bottom" Name="dock" />
     </Grid>
 
 </Window>

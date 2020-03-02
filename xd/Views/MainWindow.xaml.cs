@@ -5,11 +5,14 @@ using Dock.Avalonia.Controls;
 
 namespace AuraDraw.App.Views
 {
-    public class Objects_View : UserControl
+    public class MainWindow : Window
     {
-        public Objects_View()
+        DockControl dock;
+        public MainWindow()
         {
             InitializeComponent();
+            dock = this.Find<DockControl>("dock");
+            dock.Height = this.Height - 20;
         }
 
         private void InitializeComponent()
@@ -17,8 +20,4 @@ namespace AuraDraw.App.Views
             AvaloniaXamlLoader.Load(this);
         }
     }
-    
-    public class Objects_View_VM : ToolControl {}
-    public class Objects_View_M {}
-
 }

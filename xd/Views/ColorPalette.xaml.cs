@@ -1,14 +1,12 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using Dock.Avalonia.Controls;
-using Dock.Model.Controls;
 
 namespace AuraDraw.App.Views
 {
-    public class Toolbox : UserControl
+    public class ColorPalette : UserControl
     {
-        public Toolbox()
+        public ColorPalette()
         {
             InitializeComponent();
         }
@@ -18,8 +16,4 @@ namespace AuraDraw.App.Views
             AvaloniaXamlLoader.Load(this);
         }
     }
-
-    public class Toolbox_VM : Tool {}
-
-    public class Toolbox_M {}
 }

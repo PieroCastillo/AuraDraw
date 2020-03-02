@@ -1,21 +1,17 @@
-﻿<dock:MetroWindow xmlns="https://github.com/avaloniaui"
+<Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:AuraDraw.App.ViewModels;assembly=AuraDraw.App"
+        xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:my="https://github.com/PieroCastillo"
-        xmlns:dock="clr-namespace:Dock.Avalonia.Controls;assembly=Dock.Avalonia"
-        xmlns:id="clr-namespace:Dock.Avalonia;assembly=Dock.Avalonia"
-        xmlns:views="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
-        Width="1000" Height="800" Opacity="1"
-        mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="800"
-        x:Class="AuraDraw.App.MainWindow"
-        WindowStartupLocation="CenterScreen"
-        WindowState="Maximized"
-        UseLayoutRounding="True" RenderOptions.BitmapInterpolationMode="HighQuality"
-        id:DockProperties.IsDragEnabled="True" id:DockProperties.IsDropEnabled="True"
-        Title="AuraDraw" >
-  <Grid>
-     <Menu Height="20" VerticalAlignment="Top">
+        xmlns:idc="clr-namespace:Dock.Avalonia.Controls;assembly=Dock.Avalonia"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AuraDraw.App.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AuraDraw">
+
+    <Grid>
+       <Menu Height="20" VerticalAlignment="Top">
        <MenuItem Header="Archivo">
          <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
          <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
@@ -102,7 +98,8 @@
           <MenuItem Header="Github" Name="github_btn"></MenuItem>
           <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
        </MenuItem>
-     </Menu>
-      
-  </Grid> 
-</dock:MetroWindow>
+       </Menu>
+      <idc:DockControl Layout="{Binding Layout}" VerticalAlignment="Bottom" Name="dock" />
+    </Grid>
+
+</Window>
