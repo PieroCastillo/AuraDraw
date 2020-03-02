@@ -21,7 +21,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -29,7 +29,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -40,29 +40,23 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.0": {
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.2, )"
+              "version": "[0.9.3, )"
             },
             "Avalonia.Controls.DataGrid": {
               "target": "Package",
-              "version": "[0.9.2, )"
+              "version": "[0.9.3, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.2, )"
+              "version": "[0.9.3, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[3.1.1, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -83,6 +77,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }

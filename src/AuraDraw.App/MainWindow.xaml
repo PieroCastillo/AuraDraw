@@ -5,6 +5,7 @@
         xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AuraDraw.App.MainWindow"
-        Title="AuraDraw.App">
+        Title="AuraDraw">
+  
         <vw:MainView/>
 </StyledWindow>
