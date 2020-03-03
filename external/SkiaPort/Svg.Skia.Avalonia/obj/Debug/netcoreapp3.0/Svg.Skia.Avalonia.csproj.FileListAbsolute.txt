@@ -1,5 +1,0 @@
-C:\Users\Piero\Desktop\AuraDraw\external\SkiaPort\Svg.Skia.Avalonia\bin\Debug\netcoreapp3.0\Svg.Skia.Avalonia.deps.json
-C:\Users\Piero\Desktop\AuraDraw\external\SkiaPort\Svg.Skia.Avalonia\bin\Debug\netcoreapp3.0\Svg.Skia.Avalonia.dll
-C:\Users\Piero\Desktop\AuraDraw\external\SkiaPort\Svg.Skia.Avalonia\obj\Debug\netcoreapp3.0\Svg.Skia.Avalonia.csprojAssemblyReference.cache
-C:\Users\Piero\Desktop\AuraDraw\external\SkiaPort\Svg.Skia.Avalonia\obj\Debug\netcoreapp3.0\Svg.Skia.Avalonia.AssemblyInfoInputs.cache
-C:\Users\Piero\Desktop\AuraDraw\external\SkiaPort\Svg.Skia.Avalonia\obj\Debug\netcoreapp3.0\Svg.Skia.Avalonia.AssemblyInfo.cs
