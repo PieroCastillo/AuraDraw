@@ -12,10 +12,27 @@
     </AvaloniaResource>
   </ItemGroup>
   <ItemGroup>
+    <AvaloniaResource Remove="Views\ColorSelector.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\ColorSelector.xaml" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.9.3" />
+    <PackageReference Include="Avalonia.AvaloniaEdit" Version="0.8.0" />
+    <PackageReference Include="Avalonia.Controls.ColorBlender" Version="0.2.0" />
     <PackageReference Include="Avalonia.Desktop" Version="0.9.3" />
+    <PackageReference Include="SkiaSharp" Version="1.68.1.1" />
+    <PackageReference Include="Svg.Skia" Version="0.1.6" />
+    <PackageReference Include="ThemeEditor.Controls.ColorPicker" Version="0.9.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ColorSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\external\Jaya.Shared\Jaya.Shared.csproj" />
+    <ProjectReference Include="..\Aura.Maths\Aura.Maths.csproj" />
   </ItemGroup>
 </Project>

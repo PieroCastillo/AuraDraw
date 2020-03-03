@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <EnableDefaultCompileItems>False</EnableDefaultCompileItems>
+    <EnableDefaultItems>False</EnableDefaultItems>
+    <NoWarn>CS1591</NoWarn>
+    <IsPackable>True</IsPackable>
+    <IsTool>True</IsTool>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>Svg.Skia.Converter</ToolCommandName>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>An SVG to encoded bitmap image converter.</Description>
+    <PackageId>Svg.Skia.Converter</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>svg;convert;converter;png;vector graphics;rendering;2d;graphics;geometry;shapes;skiasharp;skia</PackageTags>
+    <ApplicationIcon>SvgToPng.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="**\*.cs" Exclude="obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Svg.Skia.Converter.rd.xml" />
+    <Content Include="SvgToPng.ico" />
+  </ItemGroup>
+
+  <Import Project="..\..\build\Base.props" />
+  <Import Project="..\..\build\ReferenceAssemblies.props" />
+  <Import Project="..\..\build\SkiaSharp.props" />
+  <Import Project="..\..\build\SkiaSharp.Linux.props" />
+  <Import Project="..\..\build\HarfBuzzSharp.NativeAssets.Linux.props" />
+  <Import Project="..\..\build\Newtonsoft.Json.props" />
+  <Import Project="..\..\build\System.CommandLine.props" />
+
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' == 'win-x64' or '$(RuntimeIdentifier)' == 'linux-x64' or '$(RuntimeIdentifier)' == 'osx-x64'">
+    <CoreRT>True</CoreRT>
+  </PropertyGroup>
+
+  <!-- https://github.com/dotnet/corert -->
+  <ItemGroup Condition="'$(CoreRT)' == 'True'">
+    <RdXmlFile Include="Svg.Skia.Converter.rd.xml" />
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="1.0.0-alpha-*" />
+  </ItemGroup>
+
+  <!-- https://github.com/dotnet/corert/blob/master/Documentation/using-corert/optimizing-corert.md -->
+  <PropertyGroup Condition="'$(CoreRT)' == 'True'">
+    <RootAllApplicationAssemblies>False</RootAllApplicationAssemblies>
+    <IlcGenerateCompleteTypeMetadata>False</IlcGenerateCompleteTypeMetadata>
+    <IlcGenerateStackTraceData>False</IlcGenerateStackTraceData>
+  </PropertyGroup>
+
+  <!-- https://github.com/dotnet/corert/issues/5496 -->
+  <Target Name="CopyClrCompressionDll" AfterTargets="Publish" Condition="'$(CoreRT)' == 'True' and '$(RuntimeIdentifier)' == 'win-x64'">
+    <Copy SourceFiles="$(IlcPath)\framework\clrcompression.dll" DestinationFolder="$(PublishDir)" />
+  </Target>
+
+  <PropertyGroup Condition="'$(CoreRT)' != 'True'">
+    <PublishTrimmed>False</PublishTrimmed>
+    <PublishSingleFile>False</PublishSingleFile>
+    <PublishReadyToRun>False</PublishReadyToRun>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Svg.Skia\Svg.Skia.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -3,24 +3,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vw="clr-namespace:AuraDraw.App.View;assembly=AuraDraw.App"
+             xmlns:color="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AuraDraw.App.Views.MainView">
   <UserControl.Styles>
     <Style Selector="Grid > TabControl > TabItem">
       <Setter Property="FontSize" Value="12"/>
-      <Setter Property="HeaderTemplate">
-        <Setter.Value>
-          <ControlTemplate>
-            <Border>
-              
-            </Border>
-          </ControlTemplate>
-        </Setter.Value>
-      </Setter>
     </Style>
   </UserControl.Styles>
      <Grid>
-      
         <Menu Height="20" VerticalAlignment="Top">
          <MenuItem Header="Archivo">
          <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
@@ -109,13 +100,15 @@
           <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
        </MenuItem>
        </Menu>
-
-       <TabControl HorizontalAlignment="Center" Margin="0,0,0,0" Background="LightGray"
+        <TabControl HorizontalAlignment="Center" Margin="0,0,0,0" Background="LightGray"
                    TabStripPlacement="Top" Width="500" Height="200"
                    VerticalContentAlignment="Bottom" VerticalAlignment="Bottom">
          <TabItem Header="Editor SVG"></TabItem>
          <TabItem Header="Objetos"></TabItem>
-         <TabItem Header="Paleta de Colores"></TabItem>
+         <TabItem Header="Paleta de Colores">
+           <color:ColorPicker Height="30" Width="50"></color:ColorPicker>
+         </TabItem>
        </TabControl>
-     </Grid >
+       
+     </Grid>
 </UserControl>
