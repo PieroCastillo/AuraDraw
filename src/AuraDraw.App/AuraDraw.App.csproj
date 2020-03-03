@@ -15,6 +15,7 @@
     <AvaloniaResource Remove="Views\ColorSelector.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Assets\Logo.png" />
     <None Remove="Views\ColorSelector.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -27,6 +28,9 @@
     <PackageReference Include="ThemeEditor.Controls.ColorPicker" Version="0.9.1" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\ColorSelector.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

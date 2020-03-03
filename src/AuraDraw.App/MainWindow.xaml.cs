@@ -1,5 +1,6 @@
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Media.Imaging;
 using Avalonia.Markup.Xaml;
 using Jaya.Shared.Controls;
 
@@ -10,6 +11,7 @@ namespace AuraDraw.App
         public MainWindow()
         {
             InitializeComponent();
+            this.Icon = new WindowIcon(new Bitmap(@"Assets/Logo.png"));
         }
 
         private void InitializeComponent()

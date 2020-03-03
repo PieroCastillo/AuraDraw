@@ -6,6 +6,97 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AuraDraw.App.MainWindow"
         Title="AuraDraw">
+       <StyledWindow.HeaderContent>
+         <Menu Height="20" VerticalAlignment="Top">
+           <MenuItem Header="Archivo">
+             <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
+             <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Guardar" Name="save_file_btn"></MenuItem>
+             <MenuItem Header="Guardar como..." Name="save_as_file_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Cerrar Archivo" Name="close_file_btn"></MenuItem>
+             <MenuItem Header="Salir" Name="exit_app_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Editar">
+             <MenuItem Header="Copiar" Name="copy_obj_btn"></MenuItem>
+             <MenuItem Header="Pegar" Name="paste_obj_btn"></MenuItem>
+             <MenuItem Header="Duplicar" Name="duplicate_obj_btn"></MenuItem>
+             <MenuItem Header="Eliminar" Name="delete_obj_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Rehacer" Name="redo_btn"></MenuItem>
+             <MenuItem Header="Deshacer" Name="undo_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Historial Deshacer" Name="undo_historial_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Selección">
+             <MenuItem Header="Seleccionar" Name="select_btn"></MenuItem>
+             <MenuItem Header="Seleccionar todo" Name="select_all_btn"></MenuItem>
+             <MenuItem Header="Invertir selección" Name="invert_selected_btn"></MenuItem>
+             <MenuItem Header="Deseleccionar" Name="deselect_selected_btn"></MenuItem>
+             <MenuItem Header="Eliminar seleccionado" Name="delete_selected_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Ver">
+             <MenuItem Header="Zoom">
+               <MenuItem Header="10%" Name="10_zoom_btn"></MenuItem>
+               <MenuItem Header="50%" Name="50_zoom_btn"></MenuItem>
+               <MenuItem Header="100%" Name="100_zoom_btn"></MenuItem>
+               <MenuItem Header="150%" Name="150_zoom_btn"></MenuItem>
+               <MenuItem Header="200%" Name="200_zoom_btn"></MenuItem>
+             </MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Vista de Objetos" Name="view_objs_btn"></MenuItem>
+             <MenuItem Header="Cuadro de Objetos" Name="square_objs_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Pantalla Completa" Name="fullscreen_view_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Objeto">
+             <MenuItem Header="Agrupar" Name="grup_obj_btn"></MenuItem>
+             <MenuItem Header="Desagrupar" Name="ungrup_obj_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Relleno" Name="fill_obj_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Elevar" Name="move_up_obj_btn"></MenuItem>
+             <MenuItem Header="Bajar" Name="move_down_obj_btn"></MenuItem>
+             <MenuItem Header="Traer al inicio" Name="trans_start_obj_btn"></MenuItem>
+             <MenuItem Header="Traer al final" Name="trans_end_obj_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Rotar 90° hacia la derecha" Name="rote_90_right_obj_btn"></MenuItem>
+             <MenuItem Header="Rotar 90° hacia la izquierda" Name="rote_90_left_obj_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Eliminar" Name="del_obj_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Capa">
+             <MenuItem Header="Nueva Capa" Name="new_cap_btn"></MenuItem>
+             <MenuItem Header="Renombrar Capa" Name="rename_cap_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Ocultar Capa" Name="hide_cap_btn"></MenuItem>
+             <MenuItem Header="Bloquear Capa" Name="lock_cap_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Llevar hacia adelante" Name="move_up_cap_btn"></MenuItem>
+             <MenuItem Header="Llevar hacia atrás" Name="move_down_cap_btn"></MenuItem>
+             <MenuItem Header="Traer al inicio" Name="trans_top_cap_btn"></MenuItem>
+             <MenuItem Header="Traer hasta el final" Name="trans_bottom_cap_btn"></MenuItem>
+             <Separator></Separator>
+             <MenuItem Header="Eliminar Capa" Name="delete_cap_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Texto">
+             <MenuItem Header="Insertar Texto" Name="insert_text_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Herramientas">
+             <MenuItem Header="Configuración" Name="settings_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Ventana">
+             <MenuItem Header="Minimizar" Name="minimize_btn"></MenuItem>
+             <MenuItem Header="Maximizar" Name="maximize_btn"></MenuItem>
+           </MenuItem>
+           <MenuItem Header="Ayuda">
+             <MenuItem Header="Github" Name="github_btn"></MenuItem>
+             <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
+           </MenuItem>
+         </Menu>
+
+       </StyledWindow.HeaderContent>
   
         <vw:MainView/>
 </StyledWindow>
