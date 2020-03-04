@@ -5,10 +5,5 @@
              xmlns:svg="clr-namespace:Svg.Skia.Avalonia;assembly=Svg.Skia.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AuraDraw.App.Views.ViewBox">
-  <Image>
-    <Image.Source>
-      
-    </Image.Source>
-  </Image>
-  
+  UwU
 </UserControl>

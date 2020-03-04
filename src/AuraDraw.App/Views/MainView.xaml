@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:vw="clr-namespace:AuraDraw.App.View;assembly=AuraDraw.App"
+             xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
              xmlns:color="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AuraDraw.App.Views.MainView">
@@ -12,11 +12,28 @@
     </Style>
   </UserControl.Styles>
      <Grid>
+       <Grid>
+         <vw:ViewBox></vw:ViewBox>
+       </Grid>
         <TabControl HorizontalAlignment="Center" Margin="0,0,0,0" Background="LightGray"
-                   TabStripPlacement="Top" Width="500" Height="200"
-                   VerticalContentAlignment="Bottom" VerticalAlignment="Bottom">
-         <TabItem Header="Editor SVG"></TabItem>
-         <TabItem Header="Objetos"></TabItem>
+                    VerticalAlignment="Stretch"
+                   TabStripPlacement="Top" Width="500" Height="200">
+         <TabItem Header="Editor SVG">
+           <TextBox Height="150" Width="400"></TextBox>
+         </TabItem>
+         <TabItem Header="Objetos">
+           <TabItem.Styles>
+             <Style Selector="Grid > Button">
+               <Setter Property="Width" Value="50"></Setter>
+               <Setter Property="Height" Value="50"></Setter>
+             </Style>
+           </TabItem.Styles>
+           <Grid>
+             <Button Margin="0,0,120,0">Square</Button>
+             <Button Margin="0,0,0,0">Circle</Button>
+             <Button Margin="120,0,0,0">Line</Button>
+           </Grid>
+         </TabItem>
          <TabItem Header="Paleta de Colores">
            <color:ColorPicker Height="30" Width="50"></color:ColorPicker>
          </TabItem>
