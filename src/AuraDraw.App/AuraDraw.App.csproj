@@ -15,10 +15,12 @@
   </ItemGroup>
   <ItemGroup>
     <AvaloniaResource Remove="Views\ColorSelector.xaml" />
+    <AvaloniaResource Remove="Views\TreeView.xaml" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Assets\Logo.png" />
     <None Remove="Views\ColorSelector.xaml" />
+    <None Remove="Views\TreeView.xaml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.9.3" />
@@ -34,6 +36,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\ColorSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\TreeView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

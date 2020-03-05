@@ -4,43 +4,59 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
              xmlns:color="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
-             mc:Ignorable="d" Name="usercontrol"
-             x:Class="AuraDraw.App.Views.MainView">
+             mc:Ignorable="d" Name="usercontrol" d:DesignHeight="500" d:DesignWidth="1000"
+             x:Class="AuraDraw.App.Views.MainView" >
   <UserControl.Styles>
     <Style Selector="Grid > TabControl > TabItem">
       <Setter Property="FontSize" Value="12"></Setter>
     </Style>
   </UserControl.Styles>
-     <Grid>
-       <Grid>
-            <vw:ViewBox VerticalAlignment="Top" Name="ViewBox"
-                        Background="LightCyan" Width="{Binding #SubPanel.Width}"></vw:ViewBox>       
-       </Grid>
-        <TabControl Margin="0,50,0,0" Background="LightGray"
-                    Name="SubPanel" 
-                   TabStripPlacement="Top" Width="{Binding #usercontrol.Width}" Height="200">      
-           <TabItem Header="Editor SVG">
-           <ScrollViewer Width="{Binding #ViewBox.Width}">
-             <TextBox></TextBox>
-           </ScrollViewer>
-         </TabItem>
-         <TabItem Header="Objetos">
-           <TabItem.Styles>
-             <Style Selector="Grid > Button">
-               <Setter Property="Width" Value="50"></Setter>
-               <Setter Property="Height" Value="50"></Setter>
-             </Style>
-           </TabItem.Styles>
-           <Grid>
-             <Button Margin="0,0,120,0">Square</Button>
-             <Button Margin="0,0,0,0">Circle</Button>
-             <Button Margin="120,0,0,0">Line</Button>
-           </Grid>
-         </TabItem>
-         <TabItem Header="Paleta de Colores">
-           <color:ColorPicker Height="30" Width="50"></color:ColorPicker>
-         </TabItem>
-       </TabControl>
-       
-     </Grid>
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="300"></ColumnDefinition>
+      <ColumnDefinition Width="5"></ColumnDefinition>
+      <ColumnDefinition Width="*"></ColumnDefinition>
+      <ColumnDefinition Width="5"></ColumnDefinition>
+      <ColumnDefinition Width="300"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <vw:ColorSelector></vw:ColorSelector>
+    <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
+    <Grid Grid.Column="2">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"></RowDefinition>
+        <RowDefinition Height="5"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <vw:ViewBox VerticalAlignment="Top" Name="ViewBox"
+                  Background="LightCyan" ></vw:ViewBox>
+      <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" ></GridSplitter>
+      <TabControl Background="LightGray"
+                 Name="SubPanel"  Grid.Row="2"
+                 TabStripPlacement="Top"  >
+        <TabItem Header="Editor SVG">
+          <ScrollViewer Width="{Binding #ViewBox.Width}">
+            <TextBox></TextBox>
+          </ScrollViewer>
+        </TabItem>
+        <TabItem Header="Objetos">
+          <TabItem.Styles>
+            <Style Selector="Grid > Button">
+              <Setter Property="Width" Value="50"></Setter>
+              <Setter Property="Height" Value="50"></Setter>
+            </Style>
+          </TabItem.Styles>
+          <Grid>
+            <Button Margin="0,0,120,0">Square</Button>
+            <Button Margin="0,0,0,0">Circle</Button>
+            <Button Margin="120,0,0,0">Line</Button>
+          </Grid>
+        </TabItem>
+        <TabItem Header="Paleta de Colores">
+          <color:ColorPicker Height="30" Width="50"></color:ColorPicker>
+        </TabItem>
+      </TabControl>
+    </Grid>
+    <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
+    <vw:TreeView Grid.Column="4"></vw:TreeView>
+  </Grid>
 </UserControl>

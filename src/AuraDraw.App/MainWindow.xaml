@@ -4,9 +4,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="AuraDraw.App.MainWindow"
-        Name="Window"
-        Title="AuraDraw">
+        x:Class="AuraDraw.App.MainWindow" MinWidth="600" MinHeight="500"
+        Name="Window" WindowState="Maximized" CanResize="True"
+        Title="AuraDraw" BorderThickness="50">
   <StyledWindow.Styles>
     <Style Selector="StyledWindow#Normal">
       <Setter Property="BorderThickness" Value="5"></Setter>
@@ -105,5 +105,5 @@
 
   </StyledWindow.HeaderContent>
 
-  <vw:MainView Width="{Binding #Window.Width}"/>
+  <vw:MainView Width="{Binding #Window.Width}" />
 </StyledWindow>
