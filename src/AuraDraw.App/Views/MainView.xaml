@@ -4,22 +4,25 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
              xmlns:color="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             mc:Ignorable="d" Name="usercontrol"
              x:Class="AuraDraw.App.Views.MainView">
   <UserControl.Styles>
     <Style Selector="Grid > TabControl > TabItem">
-      <Setter Property="FontSize" Value="12"/>
+      <Setter Property="FontSize" Value="12"></Setter>
     </Style>
   </UserControl.Styles>
      <Grid>
        <Grid>
-         <vw:ViewBox></vw:ViewBox>
+            <vw:ViewBox VerticalAlignment="Top" Name="ViewBox"
+                        Background="LightCyan" Width="{Binding #SubPanel.Width}"></vw:ViewBox>       
        </Grid>
-        <TabControl HorizontalAlignment="Center" Margin="0,0,0,0" Background="LightGray"
-                    VerticalAlignment="Stretch"
-                   TabStripPlacement="Top" Width="500" Height="200">
-         <TabItem Header="Editor SVG">
-           <TextBox Height="150" Width="400"></TextBox>
+        <TabControl Margin="0,50,0,0" Background="LightGray"
+                    Name="SubPanel" 
+                   TabStripPlacement="Top" Width="{Binding #usercontrol.Width}" Height="200">      
+           <TabItem Header="Editor SVG">
+           <ScrollViewer Width="{Binding #ViewBox.Width}">
+             <TextBox></TextBox>
+           </ScrollViewer>
          </TabItem>
          <TabItem Header="Objetos">
            <TabItem.Styles>

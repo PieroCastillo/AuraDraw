@@ -5,7 +5,14 @@
         xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AuraDraw.App.MainWindow"
+        Name="Window"
         Title="AuraDraw">
+  <StyledWindow.Styles>
+    <Style Selector="StyledWindow#Normal">
+      <Setter Property="BorderThickness" Value="5"></Setter>
+      <Setter Property="BorderBrush" Value="LightGray"></Setter>
+    </Style>
+  </StyledWindow.Styles>
   <StyledWindow.HeaderContent>
     <Menu Height="20" VerticalAlignment="Top">
       <MenuItem Header="Archivo">
@@ -98,5 +105,5 @@
 
   </StyledWindow.HeaderContent>
 
-  <vw:MainView/>
+  <vw:MainView Width="{Binding #Window.Width}"/>
 </StyledWindow>
