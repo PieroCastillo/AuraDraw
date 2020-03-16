@@ -9,16 +9,16 @@
     ".NETStandard,Version=v2.0/": {
       "Aura.UI/1.0.0": {
         "dependencies": {
-          "Avalonia": "0.9.3",
+          "Avalonia": "0.9.4",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "Aura.UI.dll": {}
         }
       },
-      "Avalonia/0.9.3": {
+      "Avalonia/0.9.4": {
         "dependencies": {
-          "Avalonia.Remote.Protocol": "0.9.3",
+          "Avalonia.Remote.Protocol": "0.9.4",
           "JetBrains.Annotations": "10.3.0",
           "Serilog": "2.5.0",
           "Serilog.Sinks.Debug": "1.0.0",
@@ -32,80 +32,80 @@
         },
         "runtime": {
           "lib/netstandard2.0/Avalonia.Animation.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Base.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Controls.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.DesignerSupport.dll": {
             "assemblyVersion": "0.7.0.0",
             "fileVersion": "0.7.0.0"
           },
           "lib/netstandard2.0/Avalonia.Diagnostics.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Dialogs.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Input.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Interactivity.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Layout.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Logging.Serilog.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Markup.Xaml.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Markup.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.OpenGL.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Styling.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Themes.Default.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.Visuals.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           },
           "lib/netstandard2.0/Avalonia.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           }
         }
       },
-      "Avalonia.Remote.Protocol/0.9.3": {
+      "Avalonia.Remote.Protocol/0.9.4": {
         "runtime": {
           "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {
-            "assemblyVersion": "0.9.3.0",
-            "fileVersion": "0.9.3.0"
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
           }
         }
       },
@@ -593,19 +593,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Avalonia/0.9.3": {
+    "Avalonia/0.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KsZg2YFBouADKueOjVD82IJlXyJ17ZziflB2vn6bE4sFYJGJoMyTYIeYjA24zdShyqe1Sh4rS8PsVpL+yzHdLA==",
-      "path": "avalonia/0.9.3",
-      "hashPath": "avalonia.0.9.3.nupkg.sha512"
+      "sha512": "sha512-nKQCcfJnHuknau/NLZNJTa8r80OcmSF0t7bKcIb2T3dAnPntUNMKp948kQ/M/NoOgp9fQj7RENqDYx4P9g0JGg==",
+      "path": "avalonia/0.9.4",
+      "hashPath": "avalonia.0.9.4.nupkg.sha512"
     },
-    "Avalonia.Remote.Protocol/0.9.3": {
+    "Avalonia.Remote.Protocol/0.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A89kwIoPOpdMdCfOyZ2fAplxZwmdfhbLCM2CbSOkOoTEtmmoybn3H9jZUBKBO997LEBa2IQqJuNqWbivOn8zfQ==",
-      "path": "avalonia.remote.protocol/0.9.3",
-      "hashPath": "avalonia.remote.protocol.0.9.3.nupkg.sha512"
+      "sha512": "sha512-mSPwxrh541HhEndwthCZWwDXvA3XlV1zChyR9zHnkseZ4Qnim9qaR6039JMFC+P2H4UqqOdO+LGb8V3KXhYy8A==",
+      "path": "avalonia.remote.protocol/0.9.4",
+      "hashPath": "avalonia.remote.protocol.0.9.4.nupkg.sha512"
     },
     "JetBrains.Annotations/10.3.0": {
       "type": "package",

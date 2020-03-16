@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Avalonia/0.9.3": {
+      "Avalonia/0.9.4": {
         "type": "package",
         "dependencies": {
-          "Avalonia.Remote.Protocol": "0.9.3",
+          "Avalonia.Remote.Protocol": "0.9.4",
           "JetBrains.Annotations": "10.3.0",
           "Serilog": "2.5.0",
           "Serilog.Sinks.Debug": "1.0.0",
@@ -60,7 +60,7 @@
           "build/Avalonia.targets": {}
         }
       },
-      "Avalonia.Remote.Protocol/0.9.3": {
+      "Avalonia.Remote.Protocol/0.9.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {}
@@ -683,15 +683,15 @@
     }
   },
   "libraries": {
-    "Avalonia/0.9.3": {
-      "sha512": "KsZg2YFBouADKueOjVD82IJlXyJ17ZziflB2vn6bE4sFYJGJoMyTYIeYjA24zdShyqe1Sh4rS8PsVpL+yzHdLA==",
+    "Avalonia/0.9.4": {
+      "sha512": "nKQCcfJnHuknau/NLZNJTa8r80OcmSF0t7bKcIb2T3dAnPntUNMKp948kQ/M/NoOgp9fQj7RENqDYx4P9g0JGg==",
       "type": "package",
-      "path": "avalonia/0.9.3",
+      "path": "avalonia/0.9.4",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "avalonia.0.9.3.nupkg.sha512",
+        "avalonia.0.9.4.nupkg.sha512",
         "avalonia.nuspec",
         "build/Avalonia.props",
         "build/Avalonia.targets",
@@ -859,14 +859,14 @@
         "tools/netstandard2.0/Avalonia.Build.Tasks.pdb"
       ]
     },
-    "Avalonia.Remote.Protocol/0.9.3": {
-      "sha512": "A89kwIoPOpdMdCfOyZ2fAplxZwmdfhbLCM2CbSOkOoTEtmmoybn3H9jZUBKBO997LEBa2IQqJuNqWbivOn8zfQ==",
+    "Avalonia.Remote.Protocol/0.9.4": {
+      "sha512": "mSPwxrh541HhEndwthCZWwDXvA3XlV1zChyR9zHnkseZ4Qnim9qaR6039JMFC+P2H4UqqOdO+LGb8V3KXhYy8A==",
       "type": "package",
-      "path": "avalonia.remote.protocol/0.9.3",
+      "path": "avalonia.remote.protocol/0.9.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "avalonia.remote.protocol.0.9.3.nupkg.sha512",
+        "avalonia.remote.protocol.0.9.4.nupkg.sha512",
         "avalonia.remote.protocol.nuspec",
         "lib/netstandard2.0/Avalonia.Remote.Protocol.dll",
         "lib/netstandard2.0/Avalonia.Remote.Protocol.pdb",
@@ -3183,7 +3183,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Avalonia >= 0.9.3",
+      "Avalonia >= 0.9.4",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -3231,7 +3231,7 @@
         "dependencies": {
           "Avalonia": {
             "target": "Package",
-            "version": "[0.9.3, )"
+            "version": "[0.9.4, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

@@ -13,9 +13,9 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)avalonia\0.9.3\build\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\0.9.3\build\Avalonia.props')" />
+    <Import Project="$(NuGetPackageRoot)avalonia\0.9.4\build\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\0.9.4\build\Avalonia.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\Piero\.nuget\packages\avalonia\0.9.3</PkgAvalonia>
+    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\Piero\.nuget\packages\avalonia\0.9.4</PkgAvalonia>
   </PropertyGroup>
 </Project>

@@ -17,6 +17,7 @@ namespace AuraDraw.App
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
+           
         }
     }
 }

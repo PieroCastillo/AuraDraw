@@ -2,7 +2,110 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:color="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="500"
              x:Class="AuraDraw.App.Views.ColorSelector">
+  <UserControl.Styles>
+    <Style Selector="TextBox">
+      <Setter Property="AcceptsReturn" Value="false"></Setter>
+    </Style>
+  </UserControl.Styles>
+  <Grid>
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="20"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="20"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="20"></RowDefinition>
+        <RowDefinition Height="250"></RowDefinition>
+        <RowDefinition Height="20"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+        <RowDefinition Height="20"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Ellipse Grid.Column="1" Height="250" Width="250" Grid.Row="1" Name="ColorView" Fill="Gray" ></Ellipse>
+      <Grid Grid.Column="1" Grid.Row="3" >
+        <Grid.RowDefinitions>
+          <RowDefinition Height="30"></RowDefinition>
+          <RowDefinition Height="30"></RowDefinition>
+          <RowDefinition Height="30"></RowDefinition>
+          <RowDefinition Height="30"></RowDefinition>
+          <RowDefinition Height="*" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--Red Control-->
+        <Grid Grid.Row="0" >
+          <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="1"></RowDefinition>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" FontSize="15">R</TextBlock>
+          <Slider Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Width="150" Name="Red_Slider" Maximum="255"></Slider>
+          <TextBox Grid.Column="2" Grid.Row="1"
+                   HorizontalAlignment="Center" Name="Red_Enter" Width="40"
+                   Height="25"></TextBox>
+        </Grid>
+        <!--Green Control-->
+        <Grid Grid.Row="1" >
+          <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="1"></RowDefinition>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" FontSize="15">G</TextBlock>
+          <Slider Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Width="150" Name="Green_Slider" Maximum="255"></Slider>
+          <TextBox Grid.Column="2" Grid.Row="1"
+                   HorizontalAlignment="Center" Name="Green_Enter" Width="40"
+                   Height="25"></TextBox>
+        </Grid>
+        <!--Blue Control-->
+        <Grid Grid.Row="2" >
+          <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="1"></RowDefinition>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" FontSize="15">B</TextBlock>
+          <Slider Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Width="150" Name="Blue_Slider" Maximum="255"></Slider>
+          <TextBox Grid.Column="2" Grid.Row="1"
+                   HorizontalAlignment="Center" Name="Blue_Enter" Width="40"
+                   Height="25"></TextBox>
+        </Grid>
+        <!--Alpha Control-->
+        <Grid Grid.Row="3" >
+          <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="1"></RowDefinition>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" FontSize="15">A</TextBlock>
+          <Slider Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Width="150" Name="Alpha_Slider" Maximum="255"></Slider>
+          <TextBox Grid.Column="2" Grid.Row="1"
+                   HorizontalAlignment="Center" Name="Alpha_Enter" Width="40"
+                   Height="25"></TextBox>
+        </Grid>
+      </Grid>
+      <Grid Grid.Column="1" Grid.Row="4" ></Grid>
+    </Grid>
+  </Grid>
 </UserControl>

@@ -3,7 +3,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
-             xmlns:color="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
+             xmlns:dk="clr-namespace:Dock.Avalonia.Controls;assembly=Dock.Avalonia"
+             xmlns:dkc="clr-namespace:Dock.Model.Controls;assembly=Dock.Model"
              mc:Ignorable="d" Name="usercontrol" d:DesignHeight="500" d:DesignWidth="1000"
              x:Class="AuraDraw.App.Views.MainView" >
   <UserControl.Styles>
@@ -19,7 +20,7 @@
       <ColumnDefinition Width="5"></ColumnDefinition>
       <ColumnDefinition Width="300"></ColumnDefinition>
     </Grid.ColumnDefinitions>
-    <vw:ColorSelector></vw:ColorSelector>
+    <vw:ColorSelector Grid.Column="0"></vw:ColorSelector>
     <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
     <Grid Grid.Column="2">
       <Grid.RowDefinitions>
@@ -27,10 +28,18 @@
         <RowDefinition Height="5"></RowDefinition>
         <RowDefinition Height="*"></RowDefinition>
       </Grid.RowDefinitions>
-      <vw:ViewBox VerticalAlignment="Top" Name="ViewBox"
-                  Background="LightCyan" ></vw:ViewBox>
+      <TabControl>
+        <TabItem Header="Document1">
+          <vw:ViewBox VerticalAlignment="Top" Name="ViewBox"
+                    Background="LightCyan" ></vw:ViewBox>
+        </TabItem>
+        <TabItem Header="Document2">
+          <vw:ViewBox VerticalAlignment="Top" Name="ViewBox2"
+                    Background="LightCyan" ></vw:ViewBox>
+        </TabItem>
+      </TabControl>
       <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" ></GridSplitter>
-      <TabControl Background="LightGray"
+      <TabControl
                  Name="SubPanel"  Grid.Row="2"
                  TabStripPlacement="Top"  >
         <TabItem Header="Editor SVG">
@@ -52,7 +61,7 @@
           </Grid>
         </TabItem>
         <TabItem Header="Paleta de Colores">
-          <color:ColorPicker Height="30" Width="50"></color:ColorPicker>
+          
         </TabItem>
       </TabControl>
     </Grid>
