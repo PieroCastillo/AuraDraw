@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {}
+    "C:\\Users\\piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {
+    "C:\\Users\\piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
+        "projectUniqueName": "C:\\Users\\piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
         "projectName": "Aura.UI",
-        "projectPath": "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
-        "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piero\\Desktop\\AuraDraw\\src\\Aura.UI\\obj\\",
+        "projectPath": "C:\\Users\\piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
+        "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\piero\\Desktop\\AuraDraw\\src\\Aura.UI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Piero\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +59,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

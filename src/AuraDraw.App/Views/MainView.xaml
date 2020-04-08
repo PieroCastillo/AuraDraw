@@ -3,8 +3,6 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
-             xmlns:dk="clr-namespace:Dock.Avalonia.Controls;assembly=Dock.Avalonia"
-             xmlns:dkc="clr-namespace:Dock.Model.Controls;assembly=Dock.Model"
              xmlns:ui="https://github.com/PieroCastillo/AuraDraw"
              mc:Ignorable="d" Name="usercontrol" d:DesignHeight="500" d:DesignWidth="1000"
              x:Class="AuraDraw.App.Views.MainView" >
@@ -68,8 +66,6 @@
     </Grid>
     <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
     <Grid Grid.Column="4">
-      <vw:TreeView ></vw:TreeView>
     </Grid>
-    
   </Grid>
 </UserControl>

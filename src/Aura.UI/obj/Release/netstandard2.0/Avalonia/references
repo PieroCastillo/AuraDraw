@@ -1,146 +1,146 @@
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Animation.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Base.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Controls.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.DesignerSupport.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Diagnostics.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Dialogs.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Input.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Interactivity.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Layout.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Logging.Serilog.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Markup.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Markup.Xaml.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.OpenGL.dll
-C:\Users\Piero\.nuget\packages\avalonia.remote.protocol\0.9.3\lib\netstandard2.0\Avalonia.Remote.Protocol.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Styling.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Themes.Default.dll
-C:\Users\Piero\.nuget\packages\avalonia\0.9.3\lib\netstandard2.0\Avalonia.Visuals.dll
-C:\Users\Piero\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.csharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\mscorlib.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\netstandard.dll
-C:\Users\Piero\.nuget\packages\serilog\2.5.0\lib\netstandard1.3\Serilog.dll
-C:\Users\Piero\.nuget\packages\serilog.sinks.debug\1.0.0\lib\netstandard1.0\Serilog.Sinks.Debug.dll
-C:\Users\Piero\.nuget\packages\serilog.sinks.trace\2.1.0\lib\netstandard1.3\Serilog.Sinks.Trace.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.AppContext.dll
-C:\Users\Piero\.nuget\packages\system.buffers\4.4.0\ref\netstandard2.0\System.Buffers.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Concurrent.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.NonGeneric.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Specialized.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.componentmodel.annotations\4.5.0\ref\netstandard2.0\System.ComponentModel.Annotations.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Composition.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.EventBasedAsync.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Primitives.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.TypeConverter.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Console.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Core.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.Common.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Contracts.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Debug.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.FileVersionInfo.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Process.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.StackTrace.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TextWriterTraceListener.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tools.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TraceSource.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tracing.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.Primitives.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Dynamic.Runtime.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Calendars.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Extensions.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.FileSystem.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.ZipFile.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.DriveInfo.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Primitives.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Watcher.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.IsolatedStorage.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.MemoryMappedFiles.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Pipes.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.UnmanagedMemoryStream.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Expressions.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Parallel.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Queryable.dll
-C:\Users\Piero\.nuget\packages\system.memory\4.5.3\lib\netstandard2.0\System.Memory.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Http.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NameResolution.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NetworkInformation.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Ping.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Primitives.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Requests.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Security.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Sockets.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebHeaderCollection.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.Client.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Numerics.dll
-C:\Users\Piero\.nuget\packages\system.numerics.vectors\4.4.0\ref\netstandard2.0\System.Numerics.Vectors.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ObjectModel.dll
-C:\Users\Piero\.nuget\packages\system.reactive\4.1.6\lib\netstandard2.0\System.Reactive.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.reflection.emit\4.3.0\ref\netstandard1.1\System.Reflection.Emit.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.reflection.emit.ilgeneration\4.3.0\ref\netstandard1.0\System.Reflection.Emit.ILGeneration.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Extensions.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Primitives.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Reader.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.ResourceManager.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Writer.dll
-C:\Users\Piero\.nuget\packages\system.runtime.compilerservices.unsafe\4.6.0\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.CompilerServices.VisualC.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Extensions.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Handles.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Piero\.nuget\packages\system.runtime.interopservices.windowsruntime\4.3.0\ref\netstandard1.0\System.Runtime.InteropServices.WindowsRuntime.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Numerics.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Formatters.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Json.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Primitives.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Xml.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Claims.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Algorithms.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Csp.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Encoding.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Primitives.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.X509Certificates.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Principal.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ServiceModel.Web.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.Extensions.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.RegularExpressions.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Overlapped.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.dll
-C:\Users\Piero\.nuget\packages\system.threading.tasks.extensions\4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.Parallel.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Thread.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.ThreadPool.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Timer.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Transactions.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ValueTuple.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Web.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Windows.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Linq.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.ReaderWriter.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Serialization.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XDocument.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlDocument.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlSerializer.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.dll
-C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Animation.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Base.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Controls.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.DesignerSupport.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Diagnostics.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Dialogs.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Input.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Interactivity.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Layout.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Logging.Serilog.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Markup.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Markup.Xaml.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.OpenGL.dll
+C:\Users\piero\.nuget\packages\avalonia.remote.protocol\0.9.4\lib\netstandard2.0\Avalonia.Remote.Protocol.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Styling.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Themes.Default.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.4\lib\netstandard2.0\Avalonia.Visuals.dll
+C:\Users\piero\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll
+C:\Users\piero\.nuget\packages\microsoft.csharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\mscorlib.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\netstandard.dll
+C:\Users\piero\.nuget\packages\serilog\2.5.0\lib\netstandard1.3\Serilog.dll
+C:\Users\piero\.nuget\packages\serilog.sinks.debug\1.0.0\lib\netstandard1.0\Serilog.Sinks.Debug.dll
+C:\Users\piero\.nuget\packages\serilog.sinks.trace\2.1.0\lib\netstandard1.3\Serilog.Sinks.Trace.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.AppContext.dll
+C:\Users\piero\.nuget\packages\system.buffers\4.4.0\ref\netstandard2.0\System.Buffers.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Concurrent.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.NonGeneric.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Specialized.dll
+C:\Users\piero\.nuget\packages\system.componentmodel.annotations\4.5.0\ref\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Composition.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.EventBasedAsync.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Primitives.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.TypeConverter.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Console.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Core.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.Common.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Contracts.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Debug.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.FileVersionInfo.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Process.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.StackTrace.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tools.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TraceSource.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tracing.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.Primitives.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Dynamic.Runtime.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Calendars.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Extensions.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.FileSystem.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.ZipFile.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.DriveInfo.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Primitives.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Watcher.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.IsolatedStorage.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.MemoryMappedFiles.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Pipes.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.UnmanagedMemoryStream.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Expressions.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Parallel.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Queryable.dll
+C:\Users\piero\.nuget\packages\system.memory\4.5.3\lib\netstandard2.0\System.Memory.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Http.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NameResolution.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NetworkInformation.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Ping.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Primitives.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Requests.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Security.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Sockets.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebHeaderCollection.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.Client.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Numerics.dll
+C:\Users\piero\.nuget\packages\system.numerics.vectors\4.4.0\ref\netstandard2.0\System.Numerics.Vectors.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ObjectModel.dll
+C:\Users\piero\.nuget\packages\system.reactive\4.1.6\lib\netstandard2.0\System.Reactive.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.dll
+C:\Users\piero\.nuget\packages\system.reflection.emit\4.3.0\ref\netstandard1.1\System.Reflection.Emit.dll
+C:\Users\piero\.nuget\packages\system.reflection.emit.ilgeneration\4.3.0\ref\netstandard1.0\System.Reflection.Emit.ILGeneration.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Extensions.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Primitives.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Reader.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.ResourceManager.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Writer.dll
+C:\Users\piero\.nuget\packages\system.runtime.compilerservices.unsafe\4.6.0\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Extensions.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Handles.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\piero\.nuget\packages\system.runtime.interopservices.windowsruntime\4.3.0\ref\netstandard1.0\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Numerics.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Formatters.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Json.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Primitives.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Xml.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Claims.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Algorithms.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Csp.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Encoding.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Primitives.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.X509Certificates.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Principal.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ServiceModel.Web.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.Extensions.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.RegularExpressions.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Overlapped.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.dll
+C:\Users\piero\.nuget\packages\system.threading.tasks.extensions\4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.Parallel.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Thread.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.ThreadPool.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Timer.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Transactions.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ValueTuple.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Web.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Windows.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Linq.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.ReaderWriter.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Serialization.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XDocument.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlDocument.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlSerializer.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.dll
+C:\Users\piero\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll

@@ -6,3 +6,4 @@ C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Release\netstandard2.0\Aura.M
 C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Release\netstandard2.0\Aura.Maths.AssemblyInfo.cs
 C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Release\netstandard2.0\Aura.Maths.dll
 C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Release\netstandard2.0\Aura.Maths.pdb
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\obj\release\netstandard2.0\Aura.Maths.csproj.CoreCompileInputs.cache

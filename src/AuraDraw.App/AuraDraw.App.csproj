@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon>Logo.ico</ApplicationIcon>
     <Win32Resource />
   </PropertyGroup>
@@ -32,7 +32,6 @@
     <PackageReference Include="Dock.Avalonia.Themes.Metro" Version="0.9.4" />
     <PackageReference Include="Dock.Model" Version="0.9.4" />
     <PackageReference Include="Dock.Model.Avalonia" Version="0.9.4" />
-    <PackageReference Include="Svg.Skia" Version="0.1.6" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Logo.png">

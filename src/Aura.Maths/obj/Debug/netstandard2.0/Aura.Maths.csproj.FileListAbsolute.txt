@@ -1,8 +1,8 @@
-C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\bin\Debug\netstandard2.0\Aura.Maths.deps.json
-C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\bin\Debug\netstandard2.0\Aura.Maths.dll
-C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\bin\Debug\netstandard2.0\Aura.Maths.pdb
-C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.csprojAssemblyReference.cache
-C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.AssemblyInfoInputs.cache
-C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.AssemblyInfo.cs
-C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.dll
-C:\Users\Piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.pdb
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\bin\Debug\netstandard2.0\Aura.Maths.deps.json
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\bin\Debug\netstandard2.0\Aura.Maths.dll
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\bin\Debug\netstandard2.0\Aura.Maths.pdb
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.csproj.CoreCompileInputs.cache
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.AssemblyInfoInputs.cache
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.AssemblyInfo.cs
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.dll
+C:\Users\piero\Desktop\AuraDraw\src\Aura.Maths\obj\Debug\netstandard2.0\Aura.Maths.pdb

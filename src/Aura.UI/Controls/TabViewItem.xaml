@@ -1,0 +1,28 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:ad="https://github.com/PieroCastillo/AuraDraw"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" >
+  <Design.PreviewWith>
+    <Border Padding="20">
+       <ad:TabViewItem Header="Hola"></ad:TabViewItem>
+    </Border>
+  </Design.PreviewWith>
+  <Style Selector="ad|TabViewItem">
+    <Setter Property="Template">
+        <ControlTemplate>
+          <Border>
+                
+          </Border>
+        </ControlTemplate>
+    </Setter>
+    <Setter Property="HeaderTemplate">
+        <ControlTemplate>
+          <Border>
+            
+          </Border>
+        </ControlTemplate>
+    </Setter>
+  </Style>
+</Styles>
