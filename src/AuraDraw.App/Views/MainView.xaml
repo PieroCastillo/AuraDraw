@@ -66,6 +66,7 @@
     </Grid>
     <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
     <Grid Grid.Column="4">
+      <ui:TitleControl></ui:TitleControl>
     </Grid>
   </Grid>
 </UserControl>

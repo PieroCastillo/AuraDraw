@@ -1,9 +1,2 @@
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\bin\Debug\netstandard2.0\Aura.UI.deps.json
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\bin\Debug\netstandard2.0\Aura.UI.dll
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\bin\Debug\netstandard2.0\Aura.UI.pdb
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netstandard2.0\Aura.UI.csproj.CoreCompileInputs.cache
 C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netstandard2.0\Aura.UI.AssemblyInfoInputs.cache
 C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netstandard2.0\Aura.UI.AssemblyInfo.cs
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netstandard2.0\Aura.UI.dll
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netstandard2.0\Aura.UI.pdb
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netstandard2.0\Aura.UI.csprojAssemblyReference.cache

@@ -23,15 +23,16 @@
     <None Remove="Views\TreeView.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.4" />
+    <PackageReference Include="Avalonia" Version="0.9.7" />
     <PackageReference Include="Avalonia.AvaloniaEdit" Version="0.8.0" />
     <PackageReference Include="Avalonia.Controls.ColorBlender" Version="0.2.0" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.4" />
-    <PackageReference Include="Dock.Avalonia" Version="0.9.4" />
-    <PackageReference Include="Dock.Avalonia.Themes.Default" Version="0.9.4" />
-    <PackageReference Include="Dock.Avalonia.Themes.Metro" Version="0.9.4" />
-    <PackageReference Include="Dock.Model" Version="0.9.4" />
-    <PackageReference Include="Dock.Model.Avalonia" Version="0.9.4" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.7" />
+    <PackageReference Include="Citrus.Avalonia" Version="1.2.5" />
+    <PackageReference Include="Dock.Avalonia" Version="0.9.7.1" />
+    <PackageReference Include="Dock.Avalonia.Themes.Default" Version="0.9.7.1" />
+    <PackageReference Include="Dock.Avalonia.Themes.Metro" Version="0.9.7.1" />
+    <PackageReference Include="Dock.Model" Version="0.9.7.1" />
+    <PackageReference Include="Dock.Model.Avalonia" Version="0.9.7.1" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Logo.png">

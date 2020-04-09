@@ -17,13 +17,13 @@ namespace Aura.UI.Controls
             AvaloniaXamlLoader.Load(this);
         }
 
-        public object Title
+        public string Title
         {
             get { return GetValue(TitleProperty); }
             set { SetValue(TitleProperty, value); }
         }
-        public readonly StyledProperty<object> TitleProperty =
-            AvaloniaProperty.Register<TitleControl, object>(nameof(Title), "Title");
+        public readonly StyledProperty<string> TitleProperty =
+            AvaloniaProperty.Register<TitleControl, string>(nameof(Title), "Title");
 
         public IBrush TitleBrush
         {
