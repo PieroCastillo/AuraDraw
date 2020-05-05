@@ -14,32 +14,20 @@
     </AvaloniaResource>
   </ItemGroup>
   <ItemGroup>
-    <AvaloniaResource Remove="Views\ColorSelector.xaml" />
     <AvaloniaResource Remove="Views\TreeView.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Assets\Logo.png" />
-    <None Remove="Views\ColorSelector.xaml" />
-    <None Remove="Views\TreeView.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.7" />
+    <PackageReference Include="Avalonia" Version="0.9.9" />
     <PackageReference Include="Avalonia.AvaloniaEdit" Version="0.8.0" />
     <PackageReference Include="Avalonia.Controls.ColorBlender" Version="0.2.0" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.7" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.9" />
     <PackageReference Include="Citrus.Avalonia" Version="1.2.5" />
-    <PackageReference Include="Dock.Avalonia" Version="0.9.7.1" />
-    <PackageReference Include="Dock.Avalonia.Themes.Default" Version="0.9.7.1" />
-    <PackageReference Include="Dock.Avalonia.Themes.Metro" Version="0.9.7.1" />
-    <PackageReference Include="Dock.Model" Version="0.9.7.1" />
-    <PackageReference Include="Dock.Model.Avalonia" Version="0.9.7.1" />
+    <PackageReference Include="Material.Avalonia" Version="0.9.0" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\ColorSelector.xaml">
-      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\external\Jaya.Shared\Jaya.Shared.csproj" />
-    <ProjectReference Include="..\Aura.Maths\Aura.Maths.csproj" />
+    <ProjectReference Include="..\..\external\Ripple\Ripple.csproj" />
     <ProjectReference Include="..\Aura.UI\Aura.UI.csproj" />
   </ItemGroup>
 </Project>

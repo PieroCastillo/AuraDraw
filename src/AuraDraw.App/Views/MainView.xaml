@@ -3,7 +3,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
-             xmlns:ui="https://github.com/PieroCastillo/AuraDraw"
+             xmlns:th="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
+             xmlns:rp="clr-namespace:Ripple;assembly=Ripple"
              mc:Ignorable="d" Name="usercontrol" d:DesignHeight="500" d:DesignWidth="1000"
              x:Class="AuraDraw.App.Views.MainView" >
   <UserControl.Styles>
@@ -19,7 +20,10 @@
       <ColumnDefinition Width="5"></ColumnDefinition>
       <ColumnDefinition Width="300"></ColumnDefinition>
     </Grid.ColumnDefinitions>
-    <vw:ColorSelector Grid.Column="0"></vw:ColorSelector>
+    <Grid Grid.Column="0">
+      <th:ColorPicker ></th:ColorPicker>
+      
+    </Grid>
     <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
     <Grid Grid.Column="2">
       <Grid.RowDefinitions>
@@ -29,12 +33,10 @@
       </Grid.RowDefinitions>
       <TabControl>
         <TabItem Header="Document1">
-          <vw:ViewBox VerticalAlignment="Top" Name="ViewBox"
-                    Background="LightCyan" ></vw:ViewBox>
+          <vw:ViewBox VerticalAlignment="Top" Name="ViewBox"></vw:ViewBox>
         </TabItem>
         <TabItem Header="Document2">
-          <vw:ViewBox VerticalAlignment="Top" Name="ViewBox2"
-                    Background="LightCyan" ></vw:ViewBox>
+          <vw:ViewBox VerticalAlignment="Top" Name="ViewBox2"></vw:ViewBox>
         </TabItem>
       </TabControl>
       <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" ></GridSplitter>
@@ -66,7 +68,9 @@
     </Grid>
     <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
     <Grid Grid.Column="4">
-      <ui:TitleControl></ui:TitleControl>
+      <GroupBox Header="Vista de Objetos">
+        <vw:TreeView></vw:TreeView>
+      </GroupBox>
     </Grid>
   </Grid>
 </UserControl>

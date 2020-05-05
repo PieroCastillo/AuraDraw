@@ -1,2 +1,0 @@
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netstandard2.0\Aura.UI.AssemblyInfoInputs.cache
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netstandard2.0\Aura.UI.AssemblyInfo.cs

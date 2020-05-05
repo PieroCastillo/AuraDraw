@@ -14,7 +14,7 @@
     </Style>
   </StyledWindow.Styles>
   <StyledWindow.HeaderContent>
-    <Menu Height="20" VerticalAlignment="Top">
+    <Menu  VerticalAlignment="Top">
       <MenuItem Header="Archivo">
         <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
         <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
@@ -102,7 +102,7 @@
         <MenuItem Header="Acerca de AuraDraw" Name="about_of_btn"></MenuItem>
       </MenuItem>
     </Menu>
-
+   
   </StyledWindow.HeaderContent>
 
   <vw:MainView Width="{Binding #Window.Width}" />

@@ -40,19 +40,23 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.7, )"
+              "version": "[0.9.9, )"
             },
             "Avalonia.Controls.DataGrid": {
               "target": "Package",
-              "version": "[0.9.7, )"
+              "version": "[0.9.9, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.7, )"
+              "version": "[0.9.9, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

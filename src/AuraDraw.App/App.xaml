@@ -1,11 +1,16 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:rp="clr-namespace:Ripple;assembly=Ripple"
+             xmlns:th="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
              x:Class="AuraDraw.App.App">
     <Application.Styles>
-        <StyleInclude Source="avares://Avalonia.Themes.Default/DefaultTheme.xaml"/>
-        <StyleInclude Source="avares://Avalonia.Themes.Default/Accents/BaseDark.xaml"/>
-        <StyleInclude Source="avares://Dock.Avalonia.Themes.Metro/DefaultTheme.xaml"/>
+      <StyleInclude Source="avares://Avalonia.Themes.Default/DefaultTheme.xaml"/>
+      <StyleInclude Source="avares://Avalonia.Themes.Default/Accents/BaseLight.xaml"/>
       <StyleInclude Source="avares://Jaya.Shared/Styles/StyledWindowStyle.xaml"/>
+      <StyleInclude Source="avares://Jaya.Shared/Styles/GroupBoxStyle.xaml"/>
+      <StyleInclude Source="avares://Citrus.Avalonia/Palette/RustPalette.xaml"/>
+      <StyleInclude Source="avares://ThemeEditor.Controls.ColorPicker/ColorPicker.xaml"/>
+      <StyleInclude Source="avares://Ripple/RippleEffect/RippleEffect.xaml"/>
       
     </Application.Styles>
 </Application>

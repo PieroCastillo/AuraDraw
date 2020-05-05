@@ -1,27 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
+<PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
-
-  <ItemGroup>
+   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
     <AvaloniaResource Include="**\*.xaml">
       <SubType>Designer</SubType>
     </AvaloniaResource>
-    
-    <Compile Update="**\*\*.xaml.cs">
-      <DependentUpon>%(Filename)</DependentUpon>
-    </Compile>
+    <AvaloniaResource Include="**\AuraUI.xaml" />
   </ItemGroup>
-
-
-  
-  <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.7" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.7" />
-  </ItemGroup>
-
+   <ItemGroup>
+     <PackageReference Include="Avalonia" Version="0.9.9" />
+   </ItemGroup>    
 </Project>

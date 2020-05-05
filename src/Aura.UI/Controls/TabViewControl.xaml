@@ -2,13 +2,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:ad="https://github.com/PieroCastillo/AuraDraw"
              mc:Ignorable="d">
   <Design.PreviewWith>
     <Border Padding="20">
     </Border>
   </Design.PreviewWith>
-  <Style Selector="ad|TabViewControl">
+  <Style Selector="TabViewControl">
     <Setter Property="Template">
       <ControlTemplate>
         

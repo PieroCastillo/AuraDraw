@@ -40,11 +40,7 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.7, )"
-            },
-            "Avalonia.Desktop": {
-              "target": "Package",
-              "version": "[0.9.7, )"
+              "version": "[0.9.9, )"
             }
           },
           "imports": [

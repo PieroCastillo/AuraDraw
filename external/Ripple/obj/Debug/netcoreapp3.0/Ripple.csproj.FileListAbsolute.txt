@@ -1,0 +1,5 @@
+C:\Users\piero\Desktop\AuraDraw\external\Ripple\bin\Debug\netcoreapp3.0\Ripple.deps.json
+C:\Users\piero\Desktop\AuraDraw\external\Ripple\bin\Debug\netcoreapp3.0\Ripple.dll
+C:\Users\piero\Desktop\AuraDraw\external\Ripple\obj\Debug\netcoreapp3.0\Ripple.csprojAssemblyReference.cache
+C:\Users\piero\Desktop\AuraDraw\external\Ripple\obj\Debug\netcoreapp3.0\Ripple.AssemblyInfoInputs.cache
+C:\Users\piero\Desktop\AuraDraw\external\Ripple\obj\Debug\netcoreapp3.0\Ripple.AssemblyInfo.cs

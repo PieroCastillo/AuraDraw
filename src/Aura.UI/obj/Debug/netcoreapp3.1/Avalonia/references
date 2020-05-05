@@ -1,29 +1,22 @@
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Animation.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Base.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Controls.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.DesignerSupport.dll
-C:\Users\piero\.nuget\packages\avalonia.desktop\0.9.7\lib\netstandard2.0\Avalonia.Desktop.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.DesktopRuntime.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Diagnostics.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Dialogs.dll
-C:\Users\piero\.nuget\packages\avalonia.direct2d1\0.9.7\lib\netstandard2.0\Avalonia.Direct2D1.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.dll
-C:\Users\piero\.nuget\packages\avalonia.freedesktop\0.9.7\lib\netstandard2.0\Avalonia.FreeDesktop.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Input.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Interactivity.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Layout.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Logging.Serilog.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Markup.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Markup.Xaml.dll
-C:\Users\piero\.nuget\packages\avalonia.native\0.9.7\lib\netstandard2.0\Avalonia.Native.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.OpenGL.dll
-C:\Users\piero\.nuget\packages\avalonia.remote.protocol\0.9.7\lib\netstandard2.0\Avalonia.Remote.Protocol.dll
-C:\Users\piero\.nuget\packages\avalonia.skia\0.9.7\lib\netstandard2.0\Avalonia.Skia.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Styling.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Themes.Default.dll
-C:\Users\piero\.nuget\packages\avalonia\0.9.7\lib\netcoreapp2.0\Avalonia.Visuals.dll
-C:\Users\piero\.nuget\packages\avalonia.win32\0.9.7\lib\netstandard2.0\Avalonia.Win32.dll
-C:\Users\piero\.nuget\packages\avalonia.x11\0.9.7\lib\netstandard2.0\Avalonia.X11.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Animation.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Base.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Controls.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.DesignerSupport.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.DesktopRuntime.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Diagnostics.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Dialogs.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Input.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Interactivity.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Layout.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Logging.Serilog.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Markup.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Markup.Xaml.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.OpenGL.dll
+C:\Users\piero\.nuget\packages\avalonia.remote.protocol\0.9.9\lib\netstandard2.0\Avalonia.Remote.Protocol.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Styling.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Themes.Default.dll
+C:\Users\piero\.nuget\packages\avalonia\0.9.9\lib\netcoreapp2.0\Avalonia.Visuals.dll
 C:\Users\piero\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.CSharp.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.VisualBasic.Core.dll
@@ -34,13 +27,6 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\
 C:\Users\piero\.nuget\packages\serilog\2.5.0\lib\netstandard1.3\Serilog.dll
 C:\Users\piero\.nuget\packages\serilog.sinks.debug\1.0.0\lib\netstandard1.0\Serilog.Sinks.Debug.dll
 C:\Users\piero\.nuget\packages\serilog.sinks.trace\2.1.0\lib\netstandard1.3\Serilog.Sinks.Trace.dll
-C:\Users\piero\.nuget\packages\sharpdx.direct2d1\4.0.1\lib\netcoreapp1.0\SharpDX.Direct2D1.dll
-C:\Users\piero\.nuget\packages\sharpdx.direct3d11\4.0.1\lib\netcoreapp1.0\SharpDX.Direct3D11.dll
-C:\Users\piero\.nuget\packages\sharpdx\4.0.1\lib\netcoreapp1.0\SharpDX.dll
-C:\Users\piero\.nuget\packages\sharpdx.dxgi\4.0.1\lib\netcoreapp1.0\SharpDX.DXGI.dll
-C:\Users\piero\.nuget\packages\sharpgen.runtime.com\1.2.0\lib\netstandard1.1\SharpGen.Runtime.COM.dll
-C:\Users\piero\.nuget\packages\sharpgen.runtime\1.2.1\lib\netstandard2.0\SharpGen.Runtime.dll
-C:\Users\piero\.nuget\packages\skiasharp\1.68.0\lib\netstandard1.3\SkiaSharp.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.AppContext.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Buffers.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Collections.Concurrent.dll
@@ -71,7 +57,6 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.TraceSource.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.Tracing.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.dll
-C:\Users\piero\.nuget\packages\system.drawing.common\4.5.0\ref\netstandard2.0\System.Drawing.Common.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Drawing.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Drawing.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Dynamic.Runtime.dll
@@ -153,7 +138,6 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Cryptography.X509Certificates.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Principal.dll
-C:\Users\piero\.nuget\packages\system.security.principal.windows\4.5.0\ref\netstandard2.0\System.Security.Principal.Windows.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.SecureString.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ServiceModel.Web.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ServiceProcess.dll
@@ -188,5 +172,4 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XmlSerializer.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XPath.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XPath.XDocument.dll
-C:\Users\piero\.nuget\packages\tmds.dbus\0.7.0\lib\netstandard2.0\Tmds.DBus.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\WindowsBase.dll
