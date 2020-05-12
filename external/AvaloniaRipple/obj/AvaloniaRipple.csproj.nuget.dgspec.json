@@ -45,11 +45,11 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.9, )"
+              "version": "[0.9.10, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.9, )"
+              "version": "[0.9.10, )"
             },
             "NETStandard.Library": {
               "target": "Package",
@@ -111,11 +111,11 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.9, )"
+              "version": "[0.9.10, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.9, )"
+              "version": "[0.9.10, )"
             },
             "NETStandard.Library": {
               "target": "Package",

@@ -15,6 +15,9 @@
   </StyledWindow.Styles>
   <StyledWindow.HeaderContent>
     <Menu  VerticalAlignment="Top">
+      <!--<Menu.Styles>
+        #00ff84
+      </Menu.Styles> -->
       <MenuItem Header="Archivo">
         <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
         <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
@@ -105,5 +108,5 @@
    
   </StyledWindow.HeaderContent>
 
-  <vw:MainView Width="{Binding #Window.Width}" />
+  <vw:MainView Width="{Binding #Window.Width}" WindowParent="{Binding #Window}"/>
 </StyledWindow>

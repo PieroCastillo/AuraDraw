@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Avalonia/0.9.9": {
+      "Avalonia/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia.Remote.Protocol": "0.9.9",
+          "Avalonia.Remote.Protocol": "0.9.10",
           "JetBrains.Annotations": "10.3.0",
           "Serilog": "2.5.0",
           "Serilog.Sinks.Debug": "1.0.0",
@@ -62,7 +62,7 @@
           "build/Avalonia.targets": {}
         }
       },
-      "Avalonia.Remote.Protocol/0.9.9": {
+      "Avalonia.Remote.Protocol/0.9.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {}
@@ -644,15 +644,15 @@
     }
   },
   "libraries": {
-    "Avalonia/0.9.9": {
-      "sha512": "ZakhImZypL3c/GDuWggRtdu5Wc0SSWPSMc4y7rBIEoRFrV/DK5w3HHarkRX8Nc7VaH3kXKheWG1sKrjv1nbNkA==",
+    "Avalonia/0.9.10": {
+      "sha512": "QL4+5ukdHrxxGQ4V1L2fFuzle2l5sTHw21KZoMrRlocISEpKOU3pwo4FEoEo9tGQIsAus56qjISZ752pZklymg==",
       "type": "package",
-      "path": "avalonia/0.9.9",
+      "path": "avalonia/0.9.10",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "avalonia.0.9.9.nupkg.sha512",
+        "avalonia.0.9.10.nupkg.sha512",
         "avalonia.nuspec",
         "build/Avalonia.props",
         "build/Avalonia.targets",
@@ -820,14 +820,14 @@
         "tools/netstandard2.0/Avalonia.Build.Tasks.pdb"
       ]
     },
-    "Avalonia.Remote.Protocol/0.9.9": {
-      "sha512": "t7Lo5bqn3NBY3EhqBSqMMDG4OB+Mt9iJl6OaAjAceKfgeSDrVz3mwUbo7WSQwxGOBMsV50VpJkkweJH0sIsWUw==",
+    "Avalonia.Remote.Protocol/0.9.10": {
+      "sha512": "lnQ1tmad9GyF/33QD62bwLQA3TdSOZGXgj2in9ZzSAtmxBAf+XYJNbmK09CMRR1pbRF2q+MWUOrnzUyA3uuVGg==",
       "type": "package",
-      "path": "avalonia.remote.protocol/0.9.9",
+      "path": "avalonia.remote.protocol/0.9.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "avalonia.remote.protocol.0.9.9.nupkg.sha512",
+        "avalonia.remote.protocol.0.9.10.nupkg.sha512",
         "avalonia.remote.protocol.nuspec",
         "lib/netstandard2.0/Avalonia.Remote.Protocol.dll",
         "lib/netstandard2.0/Avalonia.Remote.Protocol.pdb",
@@ -2960,7 +2960,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Avalonia >= 0.9.9"
+      "Avalonia >= 0.9.10"
     ]
   },
   "packageFolders": {
@@ -3002,7 +3002,7 @@
         "dependencies": {
           "Avalonia": {
             "target": "Package",
-            "version": "[0.9.9, )"
+            "version": "[0.9.10, )"
           }
         },
         "imports": [

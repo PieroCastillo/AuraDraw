@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DLFcSj5nVySjQcVohb30mT+fnN9XRERGazBgkK28FypphjauIyW+SOf35RaqGyh8vwtXAEP0jH76GG+zh3QCJg==",
+  "dgSpecHash": "rAVWSb4WDsYSDgjsqAAfFElrPB4Nr5VT4R1qxq8wpW3uABbl1HNKN8HoXDQGkifrfaLaexq92WLQCAezeyRtrA==",
   "success": true,
   "projectFilePath": "C:\\Users\\piero\\Desktop\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\piero\\.nuget\\packages\\avalonia\\0.9.9\\avalonia.0.9.9.nupkg.sha512",
-    "C:\\Users\\piero\\.nuget\\packages\\avalonia.remote.protocol\\0.9.9\\avalonia.remote.protocol.0.9.9.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\avalonia\\0.9.10\\avalonia.0.9.10.nupkg.sha512",
+    "C:\\Users\\piero\\.nuget\\packages\\avalonia.remote.protocol\\0.9.10\\avalonia.remote.protocol.0.9.10.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\jetbrains.annotations\\10.3.0\\jetbrains.annotations.10.3.0.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\piero\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

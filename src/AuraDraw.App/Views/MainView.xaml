@@ -3,16 +3,16 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
-             xmlns:th="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
+             xmlns:cp="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
              xmlns:rp="clr-namespace:Ripple;assembly=Ripple"
-             mc:Ignorable="d" Name="usercontrol" d:DesignHeight="500" d:DesignWidth="1000"
+             mc:Ignorable="d" Name="usercontrol" d:DesignHeight="800" d:DesignWidth="600"
              x:Class="AuraDraw.App.Views.MainView" >
   <UserControl.Styles>
     <Style Selector="Grid > TabControl > TabItem">
       <Setter Property="FontSize" Value="12"></Setter>
     </Style>
   </UserControl.Styles>
-  <Grid>
+  <Grid MinHeight="300">
     <Grid.ColumnDefinitions>
       <ColumnDefinition Width="300"></ColumnDefinition>
       <ColumnDefinition Width="5"></ColumnDefinition>
@@ -21,11 +21,10 @@
       <ColumnDefinition Width="300"></ColumnDefinition>
     </Grid.ColumnDefinitions>
     <Grid Grid.Column="0">
-      <th:ColorPicker ></th:ColorPicker>
-      
+      <cp:ColorPicker ></cp:ColorPicker>
     </Grid>
     <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
-    <Grid Grid.Column="2">
+    <Grid Grid.Column="2" Name="grid_c">
       <Grid.RowDefinitions>
         <RowDefinition Height="*"></RowDefinition>
         <RowDefinition Height="5"></RowDefinition>
@@ -33,7 +32,7 @@
       </Grid.RowDefinitions>
       <TabControl>
         <TabItem Header="Document1">
-          <vw:ViewBox VerticalAlignment="Top" Name="ViewBox"></vw:ViewBox>
+            <Rectangle Name="rect" Width="20" Height="30" Fill="Gray"></Rectangle>
         </TabItem>
         <TabItem Header="Document2">
           <vw:ViewBox VerticalAlignment="Top" Name="ViewBox2"></vw:ViewBox>
@@ -68,9 +67,12 @@
     </Grid>
     <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
     <Grid Grid.Column="4">
-      <GroupBox Header="Vista de Objetos">
-        <vw:TreeView></vw:TreeView>
-      </GroupBox>
+      <TitleBar VerticalAlignment="Top" Button1Active="False" Button2Active="False"
+                Title="Vista de Objetos" Padding="5" HorizontalAlignment="Stretch" Margin="0">
+        <TitleBar.BoxContent>
+          <vw:TreeView></vw:TreeView>
+        </TitleBar.BoxContent>
+      </TitleBar>
     </Grid>
   </Grid>
 </UserControl>

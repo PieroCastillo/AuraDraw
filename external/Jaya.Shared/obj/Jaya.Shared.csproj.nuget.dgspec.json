@@ -40,15 +40,15 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.9, )"
+              "version": "[0.9.10, )"
             },
             "Avalonia.Controls.DataGrid": {
               "target": "Package",
-              "version": "[0.9.9, )"
+              "version": "[0.9.10, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.9, )"
+              "version": "[0.9.10, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",

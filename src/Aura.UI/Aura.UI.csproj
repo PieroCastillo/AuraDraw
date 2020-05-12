@@ -13,6 +13,17 @@
     <AvaloniaResource Include="**\AuraUI.xaml" />
   </ItemGroup>
    <ItemGroup>
-     <PackageReference Include="Avalonia" Version="0.9.9" />
+     <AvaloniaResource Remove="Controls\TitleBar.xaml" />
+   </ItemGroup>
+   <ItemGroup>
+     <None Remove="Controls\TitleBar.xaml" />
+   </ItemGroup>
+   <ItemGroup>
+     <PackageReference Include="Avalonia" Version="0.9.10" />
+   </ItemGroup>
+   <ItemGroup>
+     <EmbeddedResource Include="Controls\TitleBar.xaml">
+       <Generator>MSBuild:Compile</Generator>
+     </EmbeddedResource>
    </ItemGroup>    
 </Project>
