@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AuraDraw.App.Functions
 {
-    public class Item : ICollection<Item>, IList<Item>
+    public abstract class Item : ICollection<Item>, IList<Item>
     {
         public string Header;
         public List<Item> Items;

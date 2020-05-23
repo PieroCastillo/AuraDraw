@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon>Logo.ico</ApplicationIcon>
     <Win32Resource />
+    <Version>0.0.0.1</Version>
+    <Authors>Piero Castillo</Authors>
+    <Company>Piero Castillo</Company>
+    <Product>AuraDraw</Product>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
@@ -14,10 +18,13 @@
     </AvaloniaResource>
   </ItemGroup>
   <ItemGroup>
+    <AvaloniaResource Remove="PresentWindow.xaml" />
     <AvaloniaResource Remove="UIExtensions\ShapeContextMenu.xaml" />
     <AvaloniaResource Remove="Views\TreeView.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Assets\auradraw_main_win.png" />
+    <None Remove="PresentWindow.xaml" />
     <None Remove="UIExtensions\ShapeContextMenu.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -48,5 +55,13 @@
     <EmbeddedResource Include="UIExtensions\ShapeContextMenu.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PresentWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\auradraw_main_win.png" />
   </ItemGroup>
 </Project>

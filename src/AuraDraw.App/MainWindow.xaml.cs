@@ -12,12 +12,15 @@ namespace AuraDraw.App
         {
             InitializeComponent();
             this.Icon = new WindowIcon(new Bitmap(@"Assets/Logo.png"));
+            
         }
+
 
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
-           
         }
+
+
     }
 }
