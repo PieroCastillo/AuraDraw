@@ -1,9 +1,0 @@
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\bin\Debug\netcoreapp3.1\Aura.UI.deps.json
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\bin\Debug\netcoreapp3.1\Aura.UI.dll
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\bin\Debug\netcoreapp3.1\Aura.UI.pdb
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netcoreapp3.1\Aura.UI.csprojAssemblyReference.cache
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netcoreapp3.1\Aura.UI.AssemblyInfoInputs.cache
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netcoreapp3.1\Aura.UI.AssemblyInfo.cs
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netcoreapp3.1\Aura.UI.dll
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netcoreapp3.1\Aura.UI.pdb
-C:\Users\piero\Desktop\AuraDraw\src\Aura.UI\obj\Debug\netcoreapp3.1\Aura.UI.csproj.CoreCompileInputs.cache
