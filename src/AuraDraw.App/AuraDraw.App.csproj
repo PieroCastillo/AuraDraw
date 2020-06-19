@@ -18,20 +18,10 @@
     </AvaloniaResource>
   </ItemGroup>
   <ItemGroup>
-    <AvaloniaResource Remove="PresentWindow.xaml" />
-    <AvaloniaResource Remove="UIExtensions\ShapeContextMenu.xaml" />
-    <AvaloniaResource Remove="Views\TreeView.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Assets\auradraw_main_win.png" />
-    <None Remove="PresentWindow.xaml" />
-    <None Remove="UIExtensions\ShapeContextMenu.xaml" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.9.10" />
     <PackageReference Include="Avalonia.AvaloniaEdit" Version="0.8.0" />
     <PackageReference Include="Avalonia.Desktop" Version="0.9.10" />
-    <PackageReference Include="Citrus.Avalonia" Version="1.2.5" />
+    <PackageReference Include="Citrus.Avalonia" Version="1.2.6" />
     <PackageReference Include="Material.Avalonia" Version="0.9.0" />
     <PackageReference Include="NETStandard.Library" Version="2.0.3" />
     <PackageReference Include="ThemeEditor.Controls.ColorPicker" Version="0.9.4" />
@@ -40,6 +30,9 @@
     <EmbeddedResource Include="Assets\Logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="RecentWindowD.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\TreeView.xaml">
@@ -47,6 +40,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Aura.CommonCore\Aura.CommonCore.csproj" />
     <ProjectReference Include="..\..\external\Jaya.Shared\Jaya.Shared.csproj" />
     <ProjectReference Include="..\..\external\Ripple\Ripple.csproj" />
     <ProjectReference Include="..\Aura.UI\Aura.UI.csproj" />

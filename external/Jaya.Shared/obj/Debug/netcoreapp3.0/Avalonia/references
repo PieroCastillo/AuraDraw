@@ -27,12 +27,12 @@ C:\Users\piero\.nuget\packages\avalonia.win32\0.9.10\lib\netstandard2.0\Avalonia
 C:\Users\piero\.nuget\packages\avalonia.x11\0.9.10\lib\netstandard2.0\Avalonia.X11.dll
 C:\Users\piero\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\Microsoft.CSharp.dll
-C:\Users\piero\.nuget\packages\microsoft.extensions.caching.abstractions\3.1.3\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\piero\.nuget\packages\microsoft.extensions.caching.memory\3.1.3\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\piero\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\3.1.3\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\piero\.nuget\packages\microsoft.extensions.logging.abstractions\3.1.3\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\piero\.nuget\packages\microsoft.extensions.options\3.1.3\lib\netstandard2.0\Microsoft.Extensions.Options.dll
-C:\Users\piero\.nuget\packages\microsoft.extensions.primitives\3.1.3\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll
+C:\Users\piero\.nuget\packages\microsoft.extensions.caching.abstractions\3.1.4\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\piero\.nuget\packages\microsoft.extensions.caching.memory\3.1.4\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\piero\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\3.1.4\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\piero\.nuget\packages\microsoft.extensions.logging.abstractions\3.1.4\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\piero\.nuget\packages\microsoft.extensions.options\3.1.4\lib\netstandard2.0\Microsoft.Extensions.Options.dll
+C:\Users\piero\.nuget\packages\microsoft.extensions.primitives\3.1.4\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\Microsoft.VisualBasic.Core.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\Microsoft.VisualBasic.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\Microsoft.Win32.Primitives.dll
@@ -62,11 +62,11 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\System.ComponentModel.EventBasedAsync.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\System.ComponentModel.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\System.ComponentModel.TypeConverter.dll
-C:\Users\piero\.nuget\packages\system.composition.attributedmodel\1.4.0\lib\netstandard2.0\System.Composition.AttributedModel.dll
-C:\Users\piero\.nuget\packages\system.composition.convention\1.4.0\lib\netstandard2.0\System.Composition.Convention.dll
-C:\Users\piero\.nuget\packages\system.composition.hosting\1.4.0\lib\netstandard2.0\System.Composition.Hosting.dll
-C:\Users\piero\.nuget\packages\system.composition.runtime\1.4.0\lib\netstandard2.0\System.Composition.Runtime.dll
-C:\Users\piero\.nuget\packages\system.composition.typedparts\1.4.0\lib\netstandard2.0\System.Composition.TypedParts.dll
+C:\Users\piero\.nuget\packages\system.composition.attributedmodel\1.4.1\lib\netstandard2.0\System.Composition.AttributedModel.dll
+C:\Users\piero\.nuget\packages\system.composition.convention\1.4.1\lib\netstandard2.0\System.Composition.Convention.dll
+C:\Users\piero\.nuget\packages\system.composition.hosting\1.4.1\lib\netstandard2.0\System.Composition.Hosting.dll
+C:\Users\piero\.nuget\packages\system.composition.runtime\1.4.1\lib\netstandard2.0\System.Composition.Runtime.dll
+C:\Users\piero\.nuget\packages\system.composition.typedparts\1.4.1\lib\netstandard2.0\System.Composition.TypedParts.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\System.Configuration.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\System.Console.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0\ref\netcoreapp3.0\System.Core.dll

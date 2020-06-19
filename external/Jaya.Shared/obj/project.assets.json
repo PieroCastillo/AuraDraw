@@ -377,10 +377,10 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.3": {
+      "Microsoft.Extensions.Caching.Abstractions/3.1.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.3"
+          "Microsoft.Extensions.Primitives": "3.1.4"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -389,13 +389,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/3.1.3": {
+      "Microsoft.Extensions.Caching.Memory/3.1.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.3",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.3",
-          "Microsoft.Extensions.Options": "3.1.3"
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Options": "3.1.4"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -404,7 +404,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.3": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -413,7 +413,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.3": {
+      "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -422,11 +422,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Options/3.1.3": {
+      "Microsoft.Extensions.Options/3.1.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
-          "Microsoft.Extensions.Primitives": "3.1.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Primitives": "3.1.4",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
@@ -436,7 +436,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.3": {
+      "Microsoft.Extensions.Primitives/3.1.4": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.2",
@@ -994,17 +994,17 @@
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
         }
       },
-      "System.Composition/1.4.0": {
+      "System.Composition/1.4.1": {
         "type": "package",
         "dependencies": {
-          "System.Composition.AttributedModel": "1.4.0",
-          "System.Composition.Convention": "1.4.0",
-          "System.Composition.Hosting": "1.4.0",
-          "System.Composition.Runtime": "1.4.0",
-          "System.Composition.TypedParts": "1.4.0"
+          "System.Composition.AttributedModel": "1.4.1",
+          "System.Composition.Convention": "1.4.1",
+          "System.Composition.Hosting": "1.4.1",
+          "System.Composition.Runtime": "1.4.1",
+          "System.Composition.TypedParts": "1.4.1"
         }
       },
-      "System.Composition.AttributedModel/1.4.0": {
+      "System.Composition.AttributedModel/1.4.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/System.Composition.AttributedModel.dll": {}
@@ -1013,10 +1013,10 @@
           "lib/netstandard2.0/System.Composition.AttributedModel.dll": {}
         }
       },
-      "System.Composition.Convention/1.4.0": {
+      "System.Composition.Convention/1.4.1": {
         "type": "package",
         "dependencies": {
-          "System.Composition.AttributedModel": "1.4.0"
+          "System.Composition.AttributedModel": "1.4.1"
         },
         "compile": {
           "lib/netstandard2.0/System.Composition.Convention.dll": {}
@@ -1025,10 +1025,10 @@
           "lib/netstandard2.0/System.Composition.Convention.dll": {}
         }
       },
-      "System.Composition.Hosting/1.4.0": {
+      "System.Composition.Hosting/1.4.1": {
         "type": "package",
         "dependencies": {
-          "System.Composition.Runtime": "1.4.0"
+          "System.Composition.Runtime": "1.4.1"
         },
         "compile": {
           "lib/netstandard2.0/System.Composition.Hosting.dll": {}
@@ -1037,7 +1037,7 @@
           "lib/netstandard2.0/System.Composition.Hosting.dll": {}
         }
       },
-      "System.Composition.Runtime/1.4.0": {
+      "System.Composition.Runtime/1.4.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/System.Composition.Runtime.dll": {}
@@ -1046,12 +1046,12 @@
           "lib/netstandard2.0/System.Composition.Runtime.dll": {}
         }
       },
-      "System.Composition.TypedParts/1.4.0": {
+      "System.Composition.TypedParts/1.4.1": {
         "type": "package",
         "dependencies": {
-          "System.Composition.AttributedModel": "1.4.0",
-          "System.Composition.Hosting": "1.4.0",
-          "System.Composition.Runtime": "1.4.0"
+          "System.Composition.AttributedModel": "1.4.1",
+          "System.Composition.Hosting": "1.4.1",
+          "System.Composition.Runtime": "1.4.1"
         },
         "compile": {
           "lib/netstandard2.0/System.Composition.TypedParts.dll": {}
@@ -3126,10 +3126,10 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.3": {
-      "sha512": "jWyuPd4HqWT0rEjoCnG/7OB/KcYbIBa0z7TS6eWytTwrbjT2/pnp+LUYUZAqc9ppSZFf2u2gFYQ7RFS3UU+vEw==",
+    "Microsoft.Extensions.Caching.Abstractions/3.1.4": {
+      "sha512": "gwJ44A/NSXC6GTqyBpIJU/nP0bRuKEL6WXMWV5bANWZUj/5nRs8CzdMpylK2K8Wc6cr87uvlNl7O5seU2WaclA==",
       "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/3.1.3",
+      "path": "microsoft.extensions.caching.abstractions/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3138,14 +3138,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.3.1.3.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.3.1.4.nupkg.sha512",
         "microsoft.extensions.caching.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/3.1.3": {
-      "sha512": "Ie7mWAuyd6BxnUYswc84Bf8iMHknNcP2ZV0me/8ZCsaIwcNb+NUHJOZwwaaAz6HJM6+K0PLilPePTCVkqY8XGw==",
+    "Microsoft.Extensions.Caching.Memory/3.1.4": {
+      "sha512": "VCLUu+xIJd+EPOHU3+owvQv9dZqU66iNlNdImGAGvLcuOzZorWuF/riGbaLcVJQsBhTF7/lG9j1VX2LuBq4Lbw==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/3.1.3",
+      "path": "microsoft.extensions.caching.memory/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3154,42 +3154,42 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.3.1.3.nupkg.sha512",
+        "microsoft.extensions.caching.memory.3.1.4.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.3": {
-      "sha512": "woeS5XeBChU76EmtFCwGHKgBfsYIn76u3myDq4zNY2ZrcwzBMNEViK2FRgXDgF11PBNbGdKCXsWFFZDtqPW0nQ==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
+      "sha512": "AceHamXNKDMDwIoZqEoApLp8s3935wSC3VXrPaRWa0wWOaEcYdDlo1nWQ1zLiezoDmpJzV7FqDm53E0Ty/hEMg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.3",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.3": {
-      "sha512": "j6r0E+OVinD4s13CIZASYJLLLApStb1yh5Vig7moB2FE1UsMRj4TYJ/xioDjreVA0dyOFpbWny1/n2iSJMbmNg==",
+    "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+      "sha512": "JNPxhw2XwhjfGFyIkA5eBfzUDPNpa6Q50HJ2F6lCAMoSa1GquAktTrl4PhEyTYFNmu09B0E90WhYsUb3kmSkOA==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/3.1.3",
+      "path": "microsoft.extensions.logging.abstractions/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Options/3.1.3": {
-      "sha512": "RyOSOg/kHW3AXojWGSdOs3BXJJnE9Sc6RVvP4LhnY5oaC2Da4k8CWfIw7I+QThxV8HTCPjzmON9c+QO+JZggNg==",
+    "Microsoft.Extensions.Options/3.1.4": {
+      "sha512": "ntWmD8i6UmAo0nn5MiCXIVl3+75aybVHgP/NxL9B16zwsbGkSfs+66BullsGEDNvrimgIFVDO+iB/h0yWfATWg==",
       "type": "package",
-      "path": "microsoft.extensions.options/3.1.3",
+      "path": "microsoft.extensions.options/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3198,14 +3198,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.3.1.3.nupkg.sha512",
+        "microsoft.extensions.options.3.1.4.nupkg.sha512",
         "microsoft.extensions.options.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.3": {
-      "sha512": "5gK6qeq9CBCHBfB3Tim3jCJTLafT9FXFBAZZq39rC8adz8mxcjVAuQSw3jGgHqoRk0jwtXKFhXJUVur8vfeuFg==",
+    "Microsoft.Extensions.Primitives/3.1.4": {
+      "sha512": "tLR9n5ltwA56nr1t5M6q5IBfGLXtMS+XgumtqVENmtPQOWUD+m0Kgo1U6GWr06Y875WUN3sOGnmqkvW4an7fYA==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.3",
+      "path": "microsoft.extensions.primitives/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3214,7 +3214,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+        "microsoft.extensions.primitives.3.1.4.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
     },
@@ -4316,111 +4316,127 @@
         "version.txt"
       ]
     },
-    "System.Composition/1.4.0": {
-      "sha512": "aU1FPtKDcPHCwKi+XZf3lizUCUDWa3CawtE/KtqTG7kmpDdX8YsRYQ/gd1mIXxqcJtcnM5zsiLUPv5YXRFYUTw==",
+    "System.Composition/1.4.1": {
+      "sha512": "TuMf5uNo2BB4SU+zrD/TT+WV4tbK17V87R12k9auICzncH+HfHV1NMgAs6YT8fAOHon5tU58KvDzRtOroaISUA==",
       "type": "package",
-      "path": "system.composition/1.4.0",
+      "path": "system.composition/1.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "system.composition.1.4.0.nupkg.sha512",
+        "system.composition.1.4.1.nupkg.sha512",
         "system.composition.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Composition.AttributedModel/1.4.0": {
-      "sha512": "nJpwGXzcKLPKHx1mvXbwtxU6o2tpzR529/pBe5NerXq75R5XcZHu6yMRUHcuroRor3+YlJi6l/l0klQfTYRzlQ==",
+    "System.Composition.AttributedModel/1.4.1": {
+      "sha512": "8JdxLNS8jg7FARCkW/fhBY27WHvWiN+DRz2JgvUTvBrNrSwj3VjwjGGUecslUAsMdDwNiA9MM82TG4dFmK6kuA==",
       "type": "package",
-      "path": "system.composition.attributedmodel/1.4.0",
+      "path": "system.composition.attributedmodel/1.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.AttributedModel.dll",
+        "lib/net461/System.Composition.AttributedModel.xml",
         "lib/netstandard1.0/System.Composition.AttributedModel.dll",
         "lib/netstandard2.0/System.Composition.AttributedModel.dll",
         "lib/netstandard2.0/System.Composition.AttributedModel.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Composition.AttributedModel.dll",
-        "system.composition.attributedmodel.1.4.0.nupkg.sha512",
+        "system.composition.attributedmodel.1.4.1.nupkg.sha512",
         "system.composition.attributedmodel.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Composition.Convention/1.4.0": {
-      "sha512": "jEi0SwIWi4SilLi0i83U5kMM8A2aUIe8t8VmXvcoVHPKo0h0UeizLyIcQ6AgeJNVTmZ7uoRp5trWJDjtBeXsNA==",
+    "System.Composition.Convention/1.4.1": {
+      "sha512": "9zKQRyl1l4Zq6TwCp6oybYNbGLFmMSaN+ESYwAZZLBfcvGsa6gM3865jfxHe+hEMYl5iNAR1AlgOXhUUsBz4nQ==",
       "type": "package",
-      "path": "system.composition.convention/1.4.0",
+      "path": "system.composition.convention/1.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.Convention.dll",
+        "lib/net461/System.Composition.Convention.xml",
         "lib/netstandard1.0/System.Composition.Convention.dll",
         "lib/netstandard2.0/System.Composition.Convention.dll",
         "lib/netstandard2.0/System.Composition.Convention.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Composition.Convention.dll",
-        "system.composition.convention.1.4.0.nupkg.sha512",
+        "system.composition.convention.1.4.1.nupkg.sha512",
         "system.composition.convention.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Composition.Hosting/1.4.0": {
-      "sha512": "Ek5lYb00NCMzBecuV/zI4734PrrdoruiMbbR7S3joTOCSrLGND2Xt3aCp8Jg1ZvgA0SFH1Aov2/ZobLazwdd6g==",
+    "System.Composition.Hosting/1.4.1": {
+      "sha512": "vMI4g1Z1Fstv1+JlnsDDDiU3bMxVHIIQbaNp8GzY+i3c+ebf7t36cd8f1Ym+hHBOJWt/abdZl2p2O/ST6xDJ6A==",
       "type": "package",
-      "path": "system.composition.hosting/1.4.0",
+      "path": "system.composition.hosting/1.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.Hosting.dll",
+        "lib/net461/System.Composition.Hosting.xml",
         "lib/netstandard1.0/System.Composition.Hosting.dll",
         "lib/netstandard2.0/System.Composition.Hosting.dll",
         "lib/netstandard2.0/System.Composition.Hosting.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Composition.Hosting.dll",
-        "system.composition.hosting.1.4.0.nupkg.sha512",
+        "system.composition.hosting.1.4.1.nupkg.sha512",
         "system.composition.hosting.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Composition.Runtime/1.4.0": {
-      "sha512": "2+RKi0a4qg7cO0w/6YS1B17MWhfSpDDUZ94ibQWhb9XM/L6MD9tcS1VgejpyPobVxsrlvh7rVtfkPPOetaKhRA==",
+    "System.Composition.Runtime/1.4.1": {
+      "sha512": "VKct+QcEekzNtwAbNL22E+2OUPT59PNaaod/5VuJFX5IOFYYe6rsnPVT1QvgHQZsQob6V07AA4ZyavnbQUU5zw==",
       "type": "package",
-      "path": "system.composition.runtime/1.4.0",
+      "path": "system.composition.runtime/1.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.Runtime.dll",
+        "lib/net461/System.Composition.Runtime.xml",
         "lib/netstandard1.0/System.Composition.Runtime.dll",
         "lib/netstandard2.0/System.Composition.Runtime.dll",
         "lib/netstandard2.0/System.Composition.Runtime.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Composition.Runtime.dll",
-        "system.composition.runtime.1.4.0.nupkg.sha512",
+        "system.composition.runtime.1.4.1.nupkg.sha512",
         "system.composition.runtime.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Composition.TypedParts/1.4.0": {
-      "sha512": "azJdjOUf50JMUH+iactt0629uJg/ahoerGDnFDeBeQ1BrV6+4cpA5tiQIIZMSTpkj3fHlmdlJQBoRsJIqtNguw==",
+    "System.Composition.TypedParts/1.4.1": {
+      "sha512": "t218eu/hT+IFV7wp5DXaPDv9gSfGnEbGaQdeuAV8MYQzrrqfZHD0mhLkBlFt9qeVVXgf7EmpfhwuZnoExNib1g==",
       "type": "package",
-      "path": "system.composition.typedparts/1.4.0",
+      "path": "system.composition.typedparts/1.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.TypedParts.dll",
+        "lib/net461/System.Composition.TypedParts.xml",
         "lib/netstandard1.0/System.Composition.TypedParts.dll",
         "lib/netstandard2.0/System.Composition.TypedParts.dll",
         "lib/netstandard2.0/System.Composition.TypedParts.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Composition.TypedParts.dll",
-        "system.composition.typedparts.1.4.0.nupkg.sha512",
+        "system.composition.typedparts.1.4.1.nupkg.sha512",
         "system.composition.typedparts.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -8440,10 +8456,10 @@
       "Avalonia >= 0.9.10",
       "Avalonia.Controls.DataGrid >= 0.9.10",
       "Avalonia.Desktop >= 0.9.10",
-      "Microsoft.Extensions.Caching.Memory >= 3.1.3",
+      "Microsoft.Extensions.Caching.Memory >= 3.1.4",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
-      "System.Composition >= 1.4.0"
+      "System.Composition >= 1.4.1"
     ]
   },
   "packageFolders": {
@@ -8497,7 +8513,7 @@
           },
           "Microsoft.Extensions.Caching.Memory": {
             "target": "Package",
-            "version": "[3.1.3, )"
+            "version": "[3.1.4, )"
           },
           "NETStandard.Library": {
             "target": "Package",
@@ -8509,7 +8525,7 @@
           },
           "System.Composition": {
             "target": "Package",
-            "version": "[1.4.0, )"
+            "version": "[1.4.1, )"
           }
         },
         "imports": [

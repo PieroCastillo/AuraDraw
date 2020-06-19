@@ -12,8 +12,4 @@ namespace AuraDraw.App.Functions.LayoutComponents
     {
         
     }
-    public class Layouts : AvaloniaList<Layout>
-    {
-
-    }
 }

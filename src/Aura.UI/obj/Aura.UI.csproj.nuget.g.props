@@ -16,6 +16,7 @@
     <Import Project="$(NuGetPackageRoot)avalonia\0.9.10\build\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\0.9.10\build\Avalonia.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\piero\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\piero\.nuget\packages\avalonia\0.9.10</PkgAvalonia>
   </PropertyGroup>
 </Project>

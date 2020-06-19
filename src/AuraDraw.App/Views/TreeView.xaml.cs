@@ -40,7 +40,7 @@ namespace AuraDraw.App.Views
             AvaloniaProperty.Register<TreeView, IBrush>(nameof(TitleBrush), Brushes.LightGreen);
         #endregion
         
-        public void NewCollectionOfItems(Document document)
+     /*   public void NewCollectionOfItems(Document document)
         {
             AvaloniaList<TreeViewItem> Items = new AvaloniaList<TreeViewItem>(); //new temporal list to add
             AvaloniaList<TreeViewItem> Items1 = new AvaloniaList<TreeViewItem>();
@@ -65,6 +65,6 @@ namespace AuraDraw.App.Views
                 Items.Add(tview); //add a new treeviewitems created the last sentences to the temporal list
             }
             treeView.Items = Items; //add the temporal list to the TreeViewItemList
-        }
+        } */
     }
 }
