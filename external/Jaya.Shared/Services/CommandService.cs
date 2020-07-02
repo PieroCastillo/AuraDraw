@@ -5,7 +5,7 @@ namespace Jaya.Shared.Services
 {
     [Export(nameof(CommandService), typeof(IService))]
     [Shared]
-    public sealed class CommandService: IService
+    public sealed class CommandService : IService
     {
         public CommandService()
         {

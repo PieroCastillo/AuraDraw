@@ -1,0 +1,70 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="400" Height="410"
+        x:Class="AuraDraw.App.Windows.NewDocumentWindow"
+		Title="Nuevo Documento" CanResize="False" >
+	<Grid>
+		<Grid.Styles>
+			<Style Selector="TextBlock">
+				<Setter Property="Opacity" Value="100"></Setter>
+			</Style>
+			<Style Selector="TextBox.namebox /template/ TextBlock">
+				<Setter Property="FontSize" Value="20"></Setter>
+			</Style>
+		    <Style Selector="TextBlock.normaltext">
+				<Setter Property="Opacity" Value="1"></Setter>
+			</Style>
+		</Grid.Styles>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="20"></ColumnDefinition>
+		    <ColumnDefinition Width="*"></ColumnDefinition>
+		    <ColumnDefinition Width="20"></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+		<StackPanel Grid.Column="1">
+	    <Grid Height="10"></Grid>
+		<TextBlock>Detalles</TextBlock>
+		<TextBox Name="textbox_name" Classes="namebox"
+				 Watermark="Nombre" Height="50" FontSize="20"></TextBox> 
+		<Grid Height="10"></Grid>
+	    <TextBlock>Unidad de Medida</TextBlock>
+	    <Grid Height="5"></Grid>
+	    <ComboBox Name="combobox_list">
+				<ComboBoxItem>Pulgadas</ComboBoxItem>
+				<ComboBoxItem>Centímetros</ComboBoxItem>
+				<ComboBoxItem>Píxeles</ComboBoxItem>
+		</ComboBox>
+		<StackPanel>
+			<Grid Height="10"></Grid>
+			
+		    <Grid>
+				 <TextBox Height="40" Width="80" HorizontalAlignment="Left" 
+						  Name="TxtH" Watermark="Altura"></TextBox>
+		         <TextBox Height="40" Width="80" HorizontalAlignment="Center"  
+						  Name="TxtW" Watermark="Anchura"></TextBox>
+			</Grid>
+		</StackPanel>
+	    <Grid Height="10"></Grid>
+	    <TextBlock>Orientación</TextBlock>
+		<Grid Height="10"></Grid>
+	    <WrapPanel>
+		    <StackPanel>
+				<TextBlock Classes="normaltext">Horizontal</TextBlock>
+				<Grid Height="20"></Grid>
+			    <TextBlock Classes="normaltext">Vertical</TextBlock>
+			</StackPanel>
+			<Grid Width="20"></Grid>
+		    <StackPanel>
+	            <RadioButton GroupName="Orientation"
+							 Name="orientation1"></RadioButton>
+				<Grid Height="20"></Grid>
+		        <RadioButton GroupName="Orientation" IsChecked="true"
+							 Name="orientation2"></RadioButton>
+			</StackPanel>
+	    </WrapPanel>
+		<Grid Height="20"></Grid>
+		<Button Name="AgreeButton">Aceptar</Button>
+	</StackPanel>
+	</Grid>
+</Window>

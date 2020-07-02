@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Aura.CommonCore;
+﻿using Aura.CommonCore;
 
 namespace AuraDraw.App
 {
@@ -13,7 +10,7 @@ namespace AuraDraw.App
             return "0.0.0.1";
         }
 
-        public string GetName() 
+        public string GetName()
         {
             return "AuraDraw";
         }

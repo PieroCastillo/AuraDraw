@@ -1,7 +1,6 @@
 ﻿using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using Avalonia.Media;
 
 namespace Aura.UI.Controls
 {
@@ -40,7 +39,7 @@ namespace Aura.UI.Controls
         }
         public static readonly StyledProperty<string> TitleProperty =
             AvaloniaProperty.Register<TitleBar, string>(nameof(Title), "TitleDefault");
-   
+
         public object Button1Content
         {
             get { return GetValue(Button1ContentProperty); }
@@ -65,12 +64,12 @@ namespace Aura.UI.Controls
             AvaloniaProperty.Register<TitleBar, object>(nameof(BoxContent), new TextBlock() { Text = "Test" });
 
         public bool Button1Active
-        { 
-            get { return GetValue(Button1ActiveProperty); } 
+        {
+            get { return GetValue(Button1ActiveProperty); }
             set { SetValue(Button1ActiveProperty, value); }
         }
         public static readonly StyledProperty<bool> Button1ActiveProperty =
-            AvaloniaProperty.Register<TitleBar, bool>(nameof(Button1Active),true);
+            AvaloniaProperty.Register<TitleBar, bool>(nameof(Button1Active), true);
 
         public bool Button2Active
         {
@@ -78,8 +77,8 @@ namespace Aura.UI.Controls
             set { SetValue(Button2ActiveProperty, value); }
         }
         public static readonly StyledProperty<bool> Button2ActiveProperty =
-            AvaloniaProperty.Register<TitleBar, bool>(nameof(Button2Active),true);
-#endregion
+            AvaloniaProperty.Register<TitleBar, bool>(nameof(Button2Active), true);
+        #endregion
 
         public virtual void OnClickInButton1() { }
         public virtual void OnClickInButton2() { }

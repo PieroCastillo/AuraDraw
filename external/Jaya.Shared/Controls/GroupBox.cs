@@ -5,7 +5,7 @@ using System;
 
 namespace Jaya.Shared.Controls
 {
-    public class GroupBox: ContentControl, IStyleable
+    public class GroupBox : ContentControl, IStyleable
     {
         public static readonly StyledProperty<string> HeaderProperty;
 

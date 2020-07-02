@@ -5,7 +5,7 @@ using System;
 
 namespace Jaya.Shared.Controls
 {
-    public class RibbonGroup: ItemsControl, IStyleable
+    public class RibbonGroup : ItemsControl, IStyleable
     {
         public static readonly DirectProperty<RibbonGroup, string> HeaderProperty;
         string _header;

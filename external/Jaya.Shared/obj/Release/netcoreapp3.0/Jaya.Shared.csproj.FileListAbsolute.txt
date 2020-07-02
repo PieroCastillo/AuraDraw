@@ -1,6 +1,0 @@
-C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\bin\Release\netcoreapp3.0\Jaya.Shared.deps.json
-C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\bin\Release\netcoreapp3.0\Jaya.Shared.dll
-C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\bin\Release\netcoreapp3.0\Jaya.Shared.pdb
-C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\obj\Release\netcoreapp3.0\Jaya.Shared.csprojAssemblyReference.cache
-C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\obj\Release\netcoreapp3.0\Jaya.Shared.dll
-C:\Users\Piero\Desktop\AuraDraw\external\Jaya.Shared\obj\Release\netcoreapp3.0\Jaya.Shared.pdb

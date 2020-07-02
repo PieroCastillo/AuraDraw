@@ -1,6 +1,4 @@
 ﻿<Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <StyleInclude Source="/Controls/TabViewControl.xaml"></StyleInclude>
-  <StyleInclude Source="/Controls/TabViewItem.xaml"></StyleInclude>
-  <StyleInclude Source="/Controls/TitleControl.xaml"></StyleInclude>
+	<StyleInclude Source="/TabControlStyles.xaml"/>
 </Styles>

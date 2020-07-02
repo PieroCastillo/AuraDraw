@@ -61,7 +61,7 @@ namespace Jaya.Shared
                 if (assembly.FullName.StartsWith("Jaya.", StringComparison.InvariantCultureIgnoreCase))
                     assemblies.Add(assembly);
             }
-            
+
             foreach (var fileName in Directory.GetFiles(Environment.CurrentDirectory, "Jaya.Provider.*.dll", SearchOption.TopDirectoryOnly))
             {
                 var assembly = Assembly.LoadFrom(fileName);
@@ -87,7 +87,7 @@ namespace Jaya.Shared
                 _providersCache.Clear();
                 _isProviderCacheInitialized = false;
             }
-                
+
             UnregisterServices();
         }
 

@@ -19,7 +19,7 @@ namespace Jaya.Shared.Base
             _variables.Clear();
         }
 
-        protected T Get<T>([CallerMemberName]string propertyName = null)
+        protected T Get<T>([CallerMemberName] string propertyName = null)
         {
             if (string.IsNullOrEmpty(propertyName))
                 return default;
@@ -30,7 +30,7 @@ namespace Jaya.Shared.Base
             return default;
         }
 
-        protected bool Set<T>(T value, [CallerMemberName]string propertyName = null, bool raiseNotification = true)
+        protected bool Set<T>(T value, [CallerMemberName] string propertyName = null, bool raiseNotification = true)
         {
             if (string.IsNullOrEmpty(propertyName))
                 return false;
@@ -51,7 +51,7 @@ namespace Jaya.Shared.Base
             return true;
         }
 
-        protected bool Set<T>(ref T backingField, T value, [CallerMemberName]string propertyName = null, bool raiseNotification = true)
+        protected bool Set<T>(ref T backingField, T value, [CallerMemberName] string propertyName = null, bool raiseNotification = true)
         {
             if (string.IsNullOrEmpty(propertyName))
                 return false;
@@ -68,7 +68,7 @@ namespace Jaya.Shared.Base
             return true;
         }
 
-        public void RaisePropertyChanged([CallerMemberName]string propertyName = null)
+        public void RaisePropertyChanged([CallerMemberName] string propertyName = null)
         {
             var handler = PropertyChanged;
             if (handler == null)

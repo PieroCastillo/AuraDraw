@@ -36,7 +36,7 @@ namespace Jaya.Shared.Models
                 var children = new List<FileSystemObjectModel>();
                 if (Directories != null)
                     children.AddRange(Directories);
-                if(Files != null)
+                if (Files != null)
                     children.AddRange(Files);
 
                 return children;

@@ -1,9 +1,0 @@
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\obj\Debug\netstandard2.1\Aura.CommonCore.csprojAssemblyReference.cache
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\obj\Debug\netstandard2.1\Aura.CommonCore.AssemblyInfoInputs.cache
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\obj\Debug\netstandard2.1\Aura.CommonCore.AssemblyInfo.cs
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\obj\Debug\netstandard2.1\Aura.CommonCore.csproj.CoreCompileInputs.cache
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\bin\Debug\netstandard2.1\Aura.CommonCore.deps.json
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\bin\Debug\netstandard2.1\Aura.CommonCore.dll
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\bin\Debug\netstandard2.1\Aura.CommonCore.pdb
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\obj\Debug\netstandard2.1\Aura.CommonCore.dll
-C:\Users\piero\Desktop\AuraDraw\Aura.CommonCore\obj\Debug\netstandard2.1\Aura.CommonCore.pdb

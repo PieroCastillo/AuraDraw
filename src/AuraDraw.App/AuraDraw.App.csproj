@@ -16,22 +16,22 @@
     <AvaloniaResource Include="**\*.xaml">
       <SubType>Designer</SubType>
     </AvaloniaResource>
+    <Compile Update="**\*.axaml.cs">
+		  <DependentUpon>%(Filename)</DependentUpon>
+	</Compile>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.10" />
     <PackageReference Include="Avalonia.AvaloniaEdit" Version="0.8.0" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.10" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.11" />
     <PackageReference Include="Citrus.Avalonia" Version="1.2.6" />
     <PackageReference Include="Material.Avalonia" Version="0.9.0" />
+    <PackageReference Include="Microsoft.Toolkit.Parsers" Version="6.1.0" />
     <PackageReference Include="NETStandard.Library" Version="2.0.3" />
     <PackageReference Include="ThemeEditor.Controls.ColorPicker" Version="0.9.4" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RecentWindowD.xaml">
-      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -40,18 +40,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Aura.CommonCore\Aura.CommonCore.csproj" />
+    <ProjectReference Include="..\Aura.CommonCore\Aura.CommonCore.csproj" />
     <ProjectReference Include="..\..\external\Jaya.Shared\Jaya.Shared.csproj" />
     <ProjectReference Include="..\..\external\Ripple\Ripple.csproj" />
     <ProjectReference Include="..\Aura.UI\Aura.UI.csproj" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="UIExtensions\ShapeContextMenu.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="PresentWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

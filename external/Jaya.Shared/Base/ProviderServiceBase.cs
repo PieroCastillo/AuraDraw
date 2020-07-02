@@ -21,7 +21,7 @@ namespace Jaya.Shared.Base
 
         protected ProviderServiceBase()
         {
-            
+
         }
 
         #region properties

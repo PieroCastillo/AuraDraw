@@ -5,7 +5,7 @@
              xmlns:vw="clr-namespace:AuraDraw.App.Views;assembly=AuraDraw.App"
              xmlns:cp="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
              xmlns:rp="clr-namespace:Ripple;assembly=Ripple"
-             mc:Ignorable="d" Name="usercontrol" d:DesignHeight="800" d:DesignWidth="600"
+             mc:Ignorable="d" Name="usercontrol" 
              x:Class="AuraDraw.App.Views.MainView" >
   <UserControl.Styles>
     <Style Selector="Grid > TabControl > TabItem">
@@ -21,50 +21,28 @@
       <ColumnDefinition Width="300"></ColumnDefinition>
     </Grid.ColumnDefinitions>
     <Grid Grid.Column="0">
-      <cp:ColorPicker ></cp:ColorPicker>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="250"></RowDefinition>
+			<RowDefinition Height="*"></RowDefinition>
+		</Grid.RowDefinitions>
+        <cp:ColorPicker Grid.Row="0"></cp:ColorPicker>
+		<Expander Grid.Row="1">
+			<Grid>
+				<TextBlock>test1</TextBlock>
+				<TextBlock>test2</TextBlock>
+			</Grid>
+		</Expander>
     </Grid>
     <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
     <Grid Grid.Column="2" Name="grid_c">
       <Grid.RowDefinitions>
         <RowDefinition Height="*"></RowDefinition>
-        <RowDefinition Height="5"></RowDefinition>
-        <RowDefinition Height="*"></RowDefinition>
       </Grid.RowDefinitions>
-      <TabControl>
-        <TabItem Header="Document1">
-            <Rectangle Name="rect" Width="20" Height="30" Fill="Gray"></Rectangle>
-        </TabItem>
-        <TabItem Header="Document2">
-          <vw:ViewBox VerticalAlignment="Top" Name="ViewBox2"></vw:ViewBox>
-        </TabItem>
+      <TabControl Name="MainTabControl">
+		  <AuraTabItem Header="Documento 1"></AuraTabItem>
+		  <AuraTabItem Header="Documento 2"></AuraTabItem>
       </TabControl>
-      <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" ></GridSplitter>
-      <TabControl
-                 Name="SubPanel"  Grid.Row="2"
-                 TabStripPlacement="Top"  >
-        <TabItem Header="Editor SVG">
-          <ScrollViewer Width="{Binding #ViewBox.Width}">
-            <TextBox></TextBox>
-          </ScrollViewer>
-        </TabItem>
-        <TabItem Header="Objetos">
-          <TabItem.Styles>
-            <Style Selector="Grid > Button">
-              <Setter Property="Width" Value="50"></Setter>
-              <Setter Property="Height" Value="50"></Setter>
-            </Style>
-          </TabItem.Styles>
-          <Grid>
-            <Button Margin="0,0,120,0">Square</Button>
-            <Button Margin="0,0,0,0">Circle</Button>
-            <Button Margin="120,0,0,0">Line</Button>
-          </Grid>
-        </TabItem>
-        <TabItem Header="Paleta de Colores">
-          
-        </TabItem>
-      </TabControl>
-    </Grid>
+       </Grid>
     <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
     <Grid Grid.Column="4">
       <TitleBar VerticalAlignment="Top" Button1Active="False" Button2Active="False"

@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Avalonia.Controls;
+﻿
+
 using Avalonia;
-using Avalonia.Styling;
+using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
 namespace Aura.UI.Controls

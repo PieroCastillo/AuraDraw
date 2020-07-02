@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 namespace Jaya.Shared.Models
 {
     [JsonObject(MemberSerialization.OptIn)]
-    public abstract class AccountModelBase: ModelBase
+    public abstract class AccountModelBase : ModelBase
     {
         public AccountModelBase(string id, string name)
         {

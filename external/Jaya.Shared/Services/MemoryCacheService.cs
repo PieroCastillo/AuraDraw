@@ -5,7 +5,7 @@ namespace Jaya.Shared.Services
 {
     [Export(nameof(MemoryCacheService), typeof(IService))]
     [Shared]
-    public sealed class MemoryCacheService: IService
+    public sealed class MemoryCacheService : IService
     {
         MemoryCache _cache;
 

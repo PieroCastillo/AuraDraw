@@ -1,19 +1,19 @@
 using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Controls.Shapes;
 using Avalonia.Markup.Xaml;
-using AuraDraw.App.Functions;
-using AuraDraw.App.UIExtensions;
 
 namespace AuraDraw.App.Views
 {
     public class MainView : UserControl
     {
         Grid grid_c;
+        TabControl maintabcontrol;
         public MainView()
         {
             InitializeComponent();
             grid_c = this.Find<Grid>("grid_c");
+            maintabcontrol = this.Find<TabControl>("MainTabControl");
+            AppData.SetMainWorkSpace(maintabcontrol);
         }
 
 
@@ -30,5 +30,7 @@ namespace AuraDraw.App.Views
         }
         public static readonly StyledProperty<Window> WindowParentProperty =
             AvaloniaProperty.Register<MainView, Window>(nameof(WindowParent));
+
+        
     }
 }

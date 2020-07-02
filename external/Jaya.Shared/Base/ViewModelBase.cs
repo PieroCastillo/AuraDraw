@@ -14,7 +14,7 @@ namespace Jaya.Shared.Base
 
         protected ViewModelBase()
         {
-            
+
         }
 
         #region properties

@@ -1,0 +1,34 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:rp="clr-namespace:Ripple;assembly=Ripple"
+             xmlns:th="clr-namespace:ThemeEditor.Controls.ColorPicker;assembly=ThemeEditor.Controls.ColorPicker"
+             x:Class="AuraDraw.App.App">
+    <Application.Styles>
+      <StyleInclude Source="avares://Avalonia.Themes.Default/DefaultTheme.xaml"/>
+      <StyleInclude Source="avares://Avalonia.Themes.Default/Accents/BaseLight.xaml"/>
+      <StyleInclude Source="avares://Jaya.Shared/Styles/StyledWindowStyle.xaml"/>
+      <StyleInclude Source="avares://Jaya.Shared/Styles/GroupBoxStyle.xaml"/>
+      <StyleInclude Source="avares://Citrus.Avalonia/Rust.xaml"/>
+      <StyleInclude Source="avares://Ripple/RippleEffect/RippleEffect.xaml"/>
+      <StyleInclude Source="avares://ThemeEditor.Controls.ColorPicker/ColorPicker.xaml"/>
+      <StyleInclude Source="avares://Aura.UI/AuraUI.xaml"/>
+	  <Style Selector="TabItem">
+		  <Setter Property="Height" Value="40"></Setter>
+	  </Style>
+	</Application.Styles>
+  <Application.Resources>
+    <Color x:Key="ThemeAccentColorN1">#02cc5a</Color>
+    <Color x:Key="ThemeAccentColorN2">#00ed67</Color>
+    
+    <Color x:Key="ThemeAccentColor">#1f1f1f</Color>
+    <Color x:Key="ThemeAccentColor2">#1f1f1f</Color>
+    <Color x:Key="ThemeAccentColor3">#1f1f1f</Color>
+    <Color x:Key="ThemeAccentColor4">#00ed67</Color>
+    <Color x:Key="HighlightColor">#02cc5a</Color>
+    <SolidColorBrush x:Key="HighlightBrush" Color="{DynamicResource HighlightColor}"/>
+    <SolidColorBrush x:Key="ThemeAccentBrush" Color="{DynamicResource ThemeAccentColor}"/>
+    <SolidColorBrush x:Key="ThemeAccentBrush2" Color="{DynamicResource ThemeAccentColor2}"/>
+    <SolidColorBrush x:Key="ThemeAccentBrush3" Color="{DynamicResource ThemeAccentColor3}"/>
+    <SolidColorBrush x:Key="ThemeAccentBrush4" Color="{DynamicResource ThemeAccentColor4}"/>
+  </Application.Resources>
+</Application>
