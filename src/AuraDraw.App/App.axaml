@@ -6,6 +6,7 @@
     <Application.Styles>
       <StyleInclude Source="avares://Avalonia.Themes.Default/DefaultTheme.xaml"/>
       <StyleInclude Source="avares://Avalonia.Themes.Default/Accents/BaseLight.xaml"/>
+	   
       <StyleInclude Source="avares://Jaya.Shared/Styles/StyledWindowStyle.xaml"/>
       <StyleInclude Source="avares://Jaya.Shared/Styles/GroupBoxStyle.xaml"/>
       <StyleInclude Source="avares://Citrus.Avalonia/Rust.xaml"/>
@@ -15,6 +16,9 @@
 	  <Style Selector="TabItem">
 		  <Setter Property="Height" Value="40"></Setter>
 	  </Style>
+		<Style Selector="Button /template/ ContentPresenter">
+			<Setter Property="BorderThickness" Value="0"></Setter>
+		</Style>
 	</Application.Styles>
   <Application.Resources>
     <Color x:Key="ThemeAccentColorN1">#02cc5a</Color>

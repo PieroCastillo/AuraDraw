@@ -1,6 +1,8 @@
 ﻿using Aura.CommonCore.CommonWindows;
 using Avalonia;
+using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using Avalonia.Media.Imaging;
 using System;
 
 namespace AuraDraw.App
@@ -18,6 +20,8 @@ namespace AuraDraw.App
             this.Button1Text = "Nuevo Documento";
             this.Button2Text = "Abrir Documento";
             this.Button3Text = "Continuar sin ningún Documento";
+
+            this.Icon = new WindowIcon(new Bitmap(@"Assets/Logo.png"));
         }
 
         private void InitializeComponent()

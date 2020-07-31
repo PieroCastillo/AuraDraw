@@ -1,8 +1,12 @@
+using Aura.UI.Controls;
+using Aura.UI.UIExtensions;
+using AuraDraw.App.Views;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media.Imaging;
 using Jaya.Shared.Controls;
+using Avalonia.Input;
 
 namespace AuraDraw.App
 {
@@ -12,6 +16,7 @@ namespace AuraDraw.App
         MenuItem NewDocument;
         MenuItem OpenDocument; //= this.Find<MenuItem>("open_file_btn" 
         MenuItem SaveDocument; //= this.Find<MenuItem>("save_file_btn" 
+        MenuItem OpenHomePage; // "open_home_page_btn"
         MenuItem SaveDocumentAs; //= this.Find<MenuItem>("save_as_file_btn" 
         MenuItem CloseFile; //= this.Find<MenuItem>("close_file_btn""Salir" 
         MenuItem CloseApp; //= this.Find<MenuItem>("exit_app_btn"
@@ -71,6 +76,7 @@ namespace AuraDraw.App
             #region Initialize MenuItems
             NewDocument = this.Find<MenuItem>("new_file_btn"); 
         OpenDocument = this.Find<MenuItem>("open_file_btn");
+            OpenHomePage = this.Find<MenuItem>("open_home_page_btn");
         SaveDocument = this.Find<MenuItem>("save_file_btn"); 
         SaveDocumentAs = this.Find<MenuItem>("save_as_file_btn"); 
         CloseFile = this.Find<MenuItem>("close_file_btn");
@@ -124,7 +130,19 @@ namespace AuraDraw.App
 
             #region OnClickMenuItems
             NewDocument.Click += NewDocument_Click;
+            OpenHomePage.Click += OpenHomePage_Click;
             #endregion
+        }
+
+        private void OpenHomePage_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            var t = new AuraTabItem()
+            {
+                Content = new HomePage(),
+                Header = "Página de Inicio"
+            };
+            AppData.MainWorkSpace.AddTab(t,true);
+            t.Focus();
         }
 
         private void NewDocument_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)

@@ -35,7 +35,7 @@ namespace UI.Tests
 
         private void Addbtn_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            tabc.AddTab(new AuraTabItem() { Header = "WOW!" });
+            tabc.AddTab(new AuraTabItem() { Header = "WOW!" , Content = new ColorPickerButton() { Height = 20 , Width = 20 } },true);
         } 
 
         private void InitializeComponent()

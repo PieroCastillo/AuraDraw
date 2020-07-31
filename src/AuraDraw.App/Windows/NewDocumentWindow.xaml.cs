@@ -1,4 +1,5 @@
-﻿using Aura.UI.Controls;
+﻿using Aura.Maths;
+using Aura.UI.Controls;
 using Aura.UI.UIExtensions;
 using AuraDraw.App.Functions;
 using AuraDraw.App.Views;
@@ -57,18 +58,20 @@ namespace AuraDraw.App.Windows
             
             if(combo_.SelectedItem.ToString() == "Pulgadas")
             {
-                NewDoc.Unit = UnitOfMeasurement.Inches;
+                NewDoc.Unit = UnitsOfMeasurement.Inches;
             }else if(combo_.SelectedItem.ToString() == "Centímetros")
             {
-                NewDoc.Unit = UnitOfMeasurement.Centimeters;
+                NewDoc.Unit = UnitsOfMeasurement.Centimeters;
             }
             else  if(combo_.SelectedItem.ToString() == "Píxeles")
             {
-                NewDoc.Unit = UnitOfMeasurement.Pixels;
+                NewDoc.Unit = UnitsOfMeasurement.Pixels;
             }
             NewDoc.NameOfDocument = textboxNameDoc.Text;
-            NewDoc.DocumentHeight = Int32.Parse(H_txt.Text);
+            // NewDoc.SetDocumentHeigthAndWidth(Int32.Parse(H_txt.Text),Int32.Parse(W_txt.Text));
             NewDoc.DocumentWidth = Int32.Parse(W_txt.Text);
+            NewDoc.DocumentHeight = Int32.Parse(H_txt.Text);
+
             NewDoc.Background = Brushes.White;
             switch (orientation1_.IsChecked)
             {
@@ -86,7 +89,7 @@ namespace AuraDraw.App.Windows
                 Header = NewDoc.NameOfDocument,
                 Content = NewDocVw,
                 IsSelected = true
-            }); ;
+            },true); ;
             
             return NewDoc;
         }

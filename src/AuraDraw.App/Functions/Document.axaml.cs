@@ -9,6 +9,8 @@ using Aura.UI.UIExtensions;
 using System.Linq.Expressions;
 using Avalonia.Controls;
 using Avalonia.Layout;
+using Aura.Maths;
+using Aura.Maths.Converters;
 
 [assembly: XmlnsDefinition("https://github.com/avaloniaui", "AuraDraw.App.Functions")]
 
@@ -22,13 +24,15 @@ namespace AuraDraw.App.Functions
         {
             AvaloniaXamlLoader.Load(this);
         }
-        public UnitOfMeasurement Unit
+
+        #region Properties
+        public UnitsOfMeasurement Unit
         {
             get { return GetValue(UnitProperty); }
             set { SetValue(UnitProperty, value); }
         }
-        public readonly static StyledProperty<UnitOfMeasurement> UnitProperty =
-            AvaloniaProperty.Register<Document, UnitOfMeasurement>(nameof(Unit),UnitOfMeasurement.Pixels);
+        public readonly static StyledProperty<UnitsOfMeasurement> UnitProperty =
+            AvaloniaProperty.Register<Document, UnitsOfMeasurement>(nameof(Unit),UnitsOfMeasurement.Pixels);
 
         public string NameOfDocument
         {
@@ -59,9 +63,11 @@ namespace AuraDraw.App.Functions
             get { return GetValue(DocumentWidthProperty); }
             set { SetValue(DocumentWidthProperty, value); }
         }
+
         public readonly static StyledProperty<int> DocumentWidthProperty =
             AvaloniaProperty.Register<Document, int>(nameof(DocumentWidth));
 
+        #endregion
         public void SwitchOrientation(Orientation orientation)
         {
             switch (orientation)
@@ -86,6 +92,25 @@ namespace AuraDraw.App.Functions
             this.panel = this.GetControl<Panel>(e, "panel_");
         }
 
+        public void SetDocumentHeigthAndWidth(int Height_, int Width_)
+        {
+            var w_ = Width_;
+            var h_ = Height_;
+            switch (this.Unit)
+            {
+                case UnitsOfMeasurement.Centimeters:
+                    UnitsConverter.CentimetersToPixels(w_);
+                    UnitsConverter.CentimetersToPixels(h_);
+                    break;
+                case UnitsOfMeasurement.Inches:
+                    UnitsConverter.InchesToPixels(w_);
+                    UnitsConverter.InchesToPixels(h_);
+                    break;
+                default: break;
+            }
+            this.DocumentWidth = w_;
+            this.DocumentHeight = h_;
+        }
     }
 
     public enum Orientation

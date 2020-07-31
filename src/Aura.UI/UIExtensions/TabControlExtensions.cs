@@ -59,12 +59,18 @@ namespace Aura.UI.UIExtensions
         /// <param name="tabControl">The TabControl Parent</param>
         /// <param name="TabItemToAdd">The TabItem to Add</param>
         /// <returns>If the method has been done correctly,return bool if it has been done correctly or false if it has been done incorrectly</returns>
-        public static bool AddTab(this TabControl tabControl, TabItem TabItemToAdd)
+        public static bool AddTab(this TabControl tabControl, TabItem TabItemToAdd,bool Focus)
         {
             try
             {
                 //Thanks to Grooky, this is possible
                 ((IList)tabControl.Items).Add(TabItemToAdd);
+                switch (Focus)
+                {
+                    case true:
+                        TabItemToAdd.IsSelected = true;
+                        break;
+                }
                 return true;
             }
             catch (SystemException e)

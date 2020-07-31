@@ -31,9 +31,9 @@
 	    <TextBlock>Unidad de Medida</TextBlock>
 	    <Grid Height="5"></Grid>
 	    <ComboBox Name="combobox_list">
-				<ComboBoxItem>Pulgadas</ComboBoxItem>
-				<ComboBoxItem>Centímetros</ComboBoxItem>
-				<ComboBoxItem>Píxeles</ComboBoxItem>
+				<ComboBoxItem >Pulgadas</ComboBoxItem>
+				<ComboBoxItem >Centímetros</ComboBoxItem>
+				<ComboBoxItem >Píxeles</ComboBoxItem>
 		</ComboBox>
 		<StackPanel>
 			<Grid Height="10"></Grid>

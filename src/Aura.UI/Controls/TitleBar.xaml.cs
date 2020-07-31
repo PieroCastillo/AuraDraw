@@ -1,18 +1,27 @@
 ﻿using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Controls.Primitives;
 using Avalonia.Markup.Xaml;
+using Aura.UI.UIExtensions;
 
 namespace Aura.UI.Controls
 {
-    public class TitleBar : UserControl
+    public class TitleBar : HeaderedContentControl
     {
         Button B1;
         Button B2;
         public TitleBar()
         {
             this.InitializeComponent();
-            B1 = this.Find<Button>("B1");
-            B2 = this.Find<Button>("B2");
+            
+        }
+
+        protected override void OnTemplateApplied(TemplateAppliedEventArgs e)
+        {
+            base.OnTemplateApplied(e);
+
+            B1 = this.GetControl<Button>(e, "B1");
+            B2 = this.GetControl<Button>(e, "B2");
             B1.Click += B1_Click;
             B2.Click += B2_Click;
         }
@@ -32,13 +41,7 @@ namespace Aura.UI.Controls
             AvaloniaXamlLoader.Load(this);
         }
 
-        public string Title
-        {
-            get { return GetValue(TitleProperty); }
-            set { SetValue(TitleProperty, value); }
-        }
-        public static readonly StyledProperty<string> TitleProperty =
-            AvaloniaProperty.Register<TitleBar, string>(nameof(Title), "TitleDefault");
+      
 
         public object Button1Content
         {
@@ -55,13 +58,7 @@ namespace Aura.UI.Controls
         public static readonly StyledProperty<object> Button2ContentProperty =
             AvaloniaProperty.Register<TitleBar, object>(nameof(Button2Content), "2");
 
-        public object BoxContent
-        {
-            get { return GetValue(BoxContentProperty); }
-            set { SetValue(BoxContentProperty, value); }
-        }
-        public static readonly StyledProperty<object> BoxContentProperty =
-            AvaloniaProperty.Register<TitleBar, object>(nameof(BoxContent), new TextBlock() { Text = "Test" });
+       
 
         public bool Button1Active
         {

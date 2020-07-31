@@ -21,6 +21,7 @@
       <MenuItem Header="Archivo">
         <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
         <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
+		<MenuItem Header="Abrir Página de Inicio" Name="open_home_page_btn"></MenuItem>
         <Separator></Separator>
         <MenuItem Header="Guardar" Name="save_file_btn"></MenuItem>
         <MenuItem Header="Guardar como..." Name="save_as_file_btn"></MenuItem>

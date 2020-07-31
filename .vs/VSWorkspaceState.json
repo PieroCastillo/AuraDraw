@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\design",
+    "\\src",
+    "\\src\\Aura.UI",
+    "\\src\\Aura.UI\\Resources"
   ],
   "SelectedNode": "\\AuraDraw.sln",
   "PreviewInSolutionExplorer": false

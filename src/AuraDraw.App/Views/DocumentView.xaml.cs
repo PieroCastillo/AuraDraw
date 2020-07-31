@@ -34,5 +34,11 @@ namespace AuraDraw.App.Views
         }
         public readonly static StyledProperty<Document> DocumentInUseProperty =
             AvaloniaProperty.Register<DocumentView, Document>(nameof(DocumentInUse),null);
+
+        public static Control SelectedObject
+        {
+            get;
+            set;
+        }
     }
 }

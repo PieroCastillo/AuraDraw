@@ -6,8 +6,10 @@
         x:Class="UI.Tests.MainWindow" Height="500" Width="600"
         Title="UI.Tests">
   <Grid>
-    <TabControl Name="tabview">
-      
+    <TabControl Name="tabview" >
+		<AuraTabItem Header="TestingPicker">
+			<GradientBrushPicker></GradientBrushPicker>
+		</AuraTabItem>
     </TabControl>
     <Button VerticalAlignment="Top"
             HorizontalAlignment="Right" Name="btn">AddTab</Button>

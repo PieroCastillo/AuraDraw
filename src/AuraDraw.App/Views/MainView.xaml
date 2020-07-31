@@ -25,7 +25,7 @@
 			<RowDefinition Height="250"></RowDefinition>
 			<RowDefinition Height="*"></RowDefinition>
 		</Grid.RowDefinitions>
-        <cp:ColorPicker Grid.Row="0"></cp:ColorPicker>
+        <cp:ColorPicker Name="colorpicker_" Grid.Row="0"></cp:ColorPicker>
 		<Expander Grid.Row="1">
 			<Grid>
 				<TextBlock>test1</TextBlock>
@@ -39,18 +39,20 @@
         <RowDefinition Height="*"></RowDefinition>
       </Grid.RowDefinitions>
       <TabControl Name="MainTabControl">
-		  <AuraTabItem Header="Documento 1"></AuraTabItem>
-		  <AuraTabItem Header="Documento 2"></AuraTabItem>
+		  
       </TabControl>
        </Grid>
     <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
-    <Grid Grid.Column="4">
+    <StackPanel Grid.Column="4">
       <TitleBar VerticalAlignment="Top" Button1Active="False" Button2Active="False"
-                Title="Vista de Objetos" Padding="5" HorizontalAlignment="Stretch" Margin="0">
-        <TitleBar.BoxContent>
-          <vw:TreeView></vw:TreeView>
-        </TitleBar.BoxContent>
+                Header="Vista de Objetos" Padding="5" HorizontalAlignment="Stretch" Margin="0">
+ 
+			<vw:TreeView></vw:TreeView>
+ 
       </TitleBar>
-    </Grid>
+		<TitleBar Header="Propiedades" Button1Active="false" Button2Active="False">
+			<vw:PropertiesView Name="propertiesVW_"></vw:PropertiesView>
+		</TitleBar>
+    </StackPanel>
   </Grid>
 </UserControl>

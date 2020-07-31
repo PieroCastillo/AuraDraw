@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aura.Maths", "src\Aura.Math
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aura.CommonCore", "src\Aura.CommonCore\Aura.CommonCore.csproj", "{1B8FD495-C5C6-408D-9C30-E181D1773CD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aura.Utilities", "src\Aura.Utilities\Aura.Utilities.csproj", "{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,18 @@ Global
 		{1B8FD495-C5C6-408D-9C30-E181D1773CD9}.Release|x64.Build.0 = Release|Any CPU
 		{1B8FD495-C5C6-408D-9C30-E181D1773CD9}.Release|x86.ActiveCfg = Release|Any CPU
 		{1B8FD495-C5C6-408D-9C30-E181D1773CD9}.Release|x86.Build.0 = Release|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Debug|x64.Build.0 = Debug|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Debug|x86.Build.0 = Debug|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Release|x64.ActiveCfg = Release|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Release|x64.Build.0 = Release|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Release|x86.ActiveCfg = Release|Any CPU
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +168,7 @@ Global
 		{4FCAA338-9187-40D3-80C2-6762EE6E57CA} = {B38DFFCA-7CAA-4966-97DF-73BF358F0103}
 		{0EDBD2D1-AA7A-4709-8115-37B77D26FE70} = {B38DFFCA-7CAA-4966-97DF-73BF358F0103}
 		{1B8FD495-C5C6-408D-9C30-E181D1773CD9} = {B38DFFCA-7CAA-4966-97DF-73BF358F0103}
+		{B3BB4484-BE81-4A9A-9DE2-98DA89FC1611} = {B38DFFCA-7CAA-4966-97DF-73BF358F0103}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A425DF47-C925-4B19-BB65-A1723D8FC96F}
