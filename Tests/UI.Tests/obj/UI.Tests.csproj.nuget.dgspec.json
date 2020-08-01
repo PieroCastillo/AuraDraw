@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\Tests\\UI.Tests\\UI.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.CommonCore\\Aura.CommonCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.CommonCore\\Aura.CommonCore.csproj",
+        "projectName": "Aura.CommonCore",
+        "projectPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.CommonCore\\Aura.CommonCore.csproj",
+        "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.CommonCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {
+                "projectPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.9.12, )"
+            },
+            "SharpZipLib": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
+        "projectName": "Aura.UI",
+        "projectPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj",
+        "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.9.12, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.9.12, )"
+            },
+            "ThemeEditor.Controls.ColorPicker": {
+              "target": "Package",
+              "version": "[0.9.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\Tests\\UI.Tests\\UI.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\Tests\\UI.Tests\\UI.Tests.csproj",
+        "projectName": "UI.Tests",
+        "projectPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\Tests\\UI.Tests\\UI.Tests.csproj",
+        "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\Tests\\UI.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.CommonCore\\Aura.CommonCore.csproj": {
+                "projectPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.CommonCore\\Aura.CommonCore.csproj"
+              },
+              "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj": {
+                "projectPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\src\\Aura.UI\\Aura.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.9.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
