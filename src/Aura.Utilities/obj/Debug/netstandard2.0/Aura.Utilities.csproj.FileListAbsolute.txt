@@ -1,0 +1,9 @@
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\bin\Debug\netstandard2.0\Aura.Utilities.deps.json
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\bin\Debug\netstandard2.0\Aura.Utilities.dll
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\bin\Debug\netstandard2.0\Aura.Utilities.pdb
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\obj\Debug\netstandard2.0\Aura.Utilities.csprojAssemblyReference.cache
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\obj\Debug\netstandard2.0\Aura.Utilities.AssemblyInfoInputs.cache
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\obj\Debug\netstandard2.0\Aura.Utilities.AssemblyInfo.cs
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\obj\Debug\netstandard2.0\Aura.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\obj\Debug\netstandard2.0\Aura.Utilities.dll
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.Utilities\obj\Debug\netstandard2.0\Aura.Utilities.pdb

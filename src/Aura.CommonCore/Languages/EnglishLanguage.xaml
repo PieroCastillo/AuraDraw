@@ -1,0 +1,63 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+	   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	   xmlns:sys="clr-namespace:System;assembly=netstandard">
+	<Style>
+		<Style.Resources>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="new_">New</sys:String>
+			<sys:String x:Key="open_">Open</sys:String>
+			<sys:String x:Key="open_home_page">Open HomePage</sys:String>
+			<sys:String x:Key="save">What would you like to do?</sys:String>
+			<sys:String x:Key="save_as">What would you like to do?</sys:String>
+			<sys:String x:Key="close_file">What would you like to do?</sys:String>
+			<sys:String x:Key="exit_">What would you like to do?</sys:String>
+			<sys:String x:Key="edit_">What would you like to do?</sys:String>
+			<sys:String x:Key="copy_">What would you like to do?</sys:String>
+			<sys:String x:Key="paste_">What would you like to do?</sys:String>
+			<sys:String x:Key="duplicate">What would you like to do?</sys:String>
+			<sys:String x:Key="delete_">What would you like to do?</sys:String>
+			<sys:String x:Key="redo_">What would you like to do?</sys:String>
+			<sys:String x:Key="undo_">What would you like to do?</sys:String>
+			<sys:String x:Key="undo_history_">What would you like to do?</sys:String>
+			<sys:String x:Key="selection_">What would you like to do?</sys:String>
+			<sys:String x:Key="select_">What would you like to do?</sys:String>
+			<sys:String x:Key="select_all">What would you like to do?</sys:String>
+			<sys:String x:Key="invert_selection">What would you like to do?</sys:String>
+			<sys:String x:Key="unselect_">What would you like to do?</sys:String>
+			<sys:String x:Key="delete_selection">What would you like to do?</sys:String>
+			<sys:String x:Key="w">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
+			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>v
+		</Style.Resources>
+	</Style>
+</Styles>
