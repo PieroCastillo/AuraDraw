@@ -7,6 +7,7 @@ using Avalonia.Markup.Xaml;
 using Avalonia.Media.Imaging;
 using Jaya.Shared.Controls;
 using Avalonia.Input;
+using Aura.CommonCore.IO;
 
 namespace AuraDraw.App
 {
@@ -131,7 +132,14 @@ namespace AuraDraw.App
             #region OnClickMenuItems
             NewDocument.Click += NewDocument_Click;
             OpenHomePage.Click += OpenHomePage_Click;
+
+            SaveDocumentAs.Click += SaveDocumentAs_Click;
             #endregion
+        }
+
+        private void SaveDocumentAs_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            AppData.CurrentDocument.VisualToPDF();
         }
 
         private void OpenHomePage_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)

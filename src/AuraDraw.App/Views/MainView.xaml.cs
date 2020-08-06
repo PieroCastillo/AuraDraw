@@ -7,6 +7,7 @@ using ThemeEditor.Controls.ColorPicker;
 using Avalonia.Controls.Primitives;
 using Aura.UI.UIExtensions;
 using Aura.UI.Controls;
+using Avalonia.Controls.Notifications;
 
 namespace AuraDraw.App.Views
 {
@@ -31,6 +32,7 @@ namespace AuraDraw.App.Views
                 Content = new HomePage(),
                 Header = "Página de Inicio"
             },true);
+            
         }
 
         private async void ColorPicker__PropertyChanged(object sender, AvaloniaPropertyChangedEventArgs e)

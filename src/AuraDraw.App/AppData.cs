@@ -11,6 +11,7 @@ using Avalonia.Media;
 using System.Threading.Tasks;
 using System.Threading;
 using Avalonia.Controls.Primitives;
+using AuraDraw.App.Functions;
 
 namespace AuraDraw.App
 {
@@ -26,6 +27,8 @@ namespace AuraDraw.App
             get; 
             set; 
         }
+
+        public static Document CurrentDocument { get; set; }
 
         public static TemplatedControl SelectedObject { get; protected set; }
 

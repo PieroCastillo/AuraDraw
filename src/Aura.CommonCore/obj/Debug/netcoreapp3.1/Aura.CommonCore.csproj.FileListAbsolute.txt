@@ -9,3 +9,6 @@ C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.CommonCore\obj\Debug\netcoreapp
 C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.CommonCore\obj\Debug\netcoreapp3.1\Aura.CommonCore.csproj.CoreCompileInputs.cache
 C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.CommonCore\obj\Debug\netcoreapp3.1\Aura.CommonCore.dll
 C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.CommonCore\obj\Debug\netcoreapp3.1\Aura.CommonCore.pdb
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.CommonCore\bin\Debug\netcoreapp3.1\AvaloniaUI.PrintToPDF.dll
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.CommonCore\bin\Debug\netcoreapp3.1\AvaloniaUI.PrintToPDF.pdb
+C:\Users\piero\Desktop\AuraDev\AuraDraw\src\Aura.CommonCore\obj\Debug\netcoreapp3.1\Aura.CommonCore.csproj.CopyComplete

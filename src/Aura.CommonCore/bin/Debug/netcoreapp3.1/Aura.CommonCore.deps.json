@@ -9,6 +9,7 @@
       "Aura.CommonCore/1.0.0": {
         "dependencies": {
           "Avalonia.Desktop": "0.9.12",
+          "AvaloniaUI.PrintToPDF": "0.2.0",
           "SharpZipLib": "1.2.0"
         },
         "runtime": {
@@ -1836,6 +1837,16 @@
             "fileVersion": "0.7.0.0"
           }
         }
+      },
+      "AvaloniaUI.PrintToPDF/0.2.0": {
+        "dependencies": {
+          "Avalonia": "0.9.12",
+          "Avalonia.Skia": "0.9.12",
+          "SkiaSharp": "1.68.0"
+        },
+        "runtime": {
+          "AvaloniaUI.PrintToPDF.dll": {}
+        }
       }
     }
   },
@@ -2929,6 +2940,11 @@
       "sha512": "sha512-tOidFxmHHALdPfwHP4iBZ3ojq5JXfUsuwO4QakZ5WnbYXLQI8xFWWwlhwGozHFl5PGkfd9W+PEzM+LISOFr9Bw==",
       "path": "tmds.dbus/0.7.0",
       "hashPath": "tmds.dbus.0.7.0.nupkg.sha512"
+    },
+    "AvaloniaUI.PrintToPDF/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

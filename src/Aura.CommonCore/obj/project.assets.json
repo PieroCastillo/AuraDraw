@@ -2761,6 +2761,21 @@
         "runtime": {
           "lib/netstandard2.0/Tmds.DBus.dll": {}
         }
+      },
+      "AvaloniaUI.PrintToPDF/0.2.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Avalonia": "0.9.12",
+          "Avalonia.Skia": "0.9.12",
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "bin/placeholder/AvaloniaUI.PrintToPDF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AvaloniaUI.PrintToPDF.dll": {}
+        }
       }
     }
   },
@@ -8721,11 +8736,17 @@
         "tmds.dbus.0.7.0.nupkg.sha512",
         "tmds.dbus.nuspec"
       ]
+    },
+    "AvaloniaUI.PrintToPDF/0.2.0": {
+      "type": "project",
+      "path": "../../external/AvaloniaUI.PrintToPDF/src/AvaloniaUI.PrintToPDF.csproj",
+      "msbuildProject": "../../external/AvaloniaUI.PrintToPDF/src/AvaloniaUI.PrintToPDF.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Avalonia.Desktop >= 0.9.12",
+      "AvaloniaUI.PrintToPDF >= 0.2.0",
       "SharpZipLib >= 1.2.0"
     ]
   },
@@ -8755,7 +8776,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\external\\AvaloniaUI.PrintToPDF\\src\\AvaloniaUI.PrintToPDF.csproj": {
+              "projectPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\external\\AvaloniaUI.PrintToPDF\\src\\AvaloniaUI.PrintToPDF.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -8791,7 +8816,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

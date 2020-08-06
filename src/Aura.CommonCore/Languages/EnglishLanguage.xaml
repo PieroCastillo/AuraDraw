@@ -26,38 +26,7 @@
 			<sys:String x:Key="unselect_">What would you like to do?</sys:String>
 			<sys:String x:Key="delete_selection">What would you like to do?</sys:String>
 			<sys:String x:Key="w">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>
-			<sys:String x:Key="what_u_like_to_do">What would you like to do?</sys:String>v
+		
 		</Style.Resources>
 	</Style>
 </Styles>

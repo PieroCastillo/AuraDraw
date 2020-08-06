@@ -82,7 +82,7 @@ namespace AuraDraw.App.Windows
                     NewDoc.SwitchOrientation(Orientation.Horizontal);
                     break;
             }
-            
+            NewDoc.Content = new Button() { Content = "xd", FontSize = 30 };
             NewDocVw.AddDocument(NewDoc);
             WorkSpace.AddTab(new AuraTabItem()
             {

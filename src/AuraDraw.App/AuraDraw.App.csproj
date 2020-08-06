@@ -3,11 +3,15 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon>Logo.ico</ApplicationIcon>
-    <Win32Resource />
     <Version>0.0.0.1</Version>
     <Authors>Piero Castillo</Authors>
     <Company>Piero Castillo</Company>
     <Product>AuraDraw</Product>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
