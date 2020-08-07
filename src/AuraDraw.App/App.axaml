@@ -9,7 +9,7 @@
 	   
       <StyleInclude Source="avares://Jaya.Shared/Styles/StyledWindowStyle.xaml"/>
       <StyleInclude Source="avares://Jaya.Shared/Styles/GroupBoxStyle.xaml"/>
-      <StyleInclude Source="avares://Citrus.Avalonia/Rust.xaml"/>
+     <!-- <StyleInclude Source="avares://Citrus.Avalonia/Rust.xaml"/> -->
       <StyleInclude Source="avares://Ripple/RippleEffect/RippleEffect.xaml"/>
       <StyleInclude Source="avares://ThemeEditor.Controls.ColorPicker/ColorPicker.xaml"/>
       <StyleInclude Source="avares://Aura.UI/AuraUI.xaml"/>

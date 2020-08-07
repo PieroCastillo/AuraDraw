@@ -12,9 +12,9 @@ namespace Aura.CommonCore.IO
 {
     public static class PDF
     {
-        public static void VisualToPDF(this IVisual Visual)
+        public static void VisualToPDF(this IVisual Visual, string Title)
         {
-           Save("Save as PDF", "currentDoc.pdf", filename =>
+           Save("Save as PDF", Title, filename =>
             {
                 var output = Visual;
                 Print.ToFile(filename, output);

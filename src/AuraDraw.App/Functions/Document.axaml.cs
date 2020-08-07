@@ -11,6 +11,8 @@ using Avalonia.Controls;
 using Avalonia.Layout;
 using Aura.Maths;
 using Aura.Maths.Converters;
+using Aura.CommonCore.IO;
+using Avalonia.VisualTree;
 
 [assembly: XmlnsDefinition("https://github.com/avaloniaui", "AuraDraw.App.Functions")]
 
@@ -23,6 +25,10 @@ namespace AuraDraw.App.Functions
         public Document()
         {
             AvaloniaXamlLoader.Load(this);
+            if(this.IsEffectivelyVisible == true)
+            {
+                AppData.CurrentDocument = this;
+            }
         }
 
         #region Properties
@@ -90,6 +96,11 @@ namespace AuraDraw.App.Functions
             base.OnTemplateApplied(e);
 
             this.panel = this.GetControl<Panel>(e, "panel_");
+        }
+
+        public void SaveAsPDF()
+        {
+            (this.Content as IVisual).VisualToPDF(this.NameOfDocument);
         }
 
         public void SetDocumentHeigthAndWidth(int Height_, int Width_)

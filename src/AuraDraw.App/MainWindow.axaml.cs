@@ -139,7 +139,10 @@ namespace AuraDraw.App
 
         private void SaveDocumentAs_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            AppData.CurrentDocument.VisualToPDF();
+            if(AppData.CurrentDocument != null)
+            {
+                AppData.CurrentDocument.SaveAsPDF();
+            }
         }
 
         private void OpenHomePage_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)

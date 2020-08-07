@@ -71,7 +71,7 @@ namespace AuraDraw.App.Windows
             // NewDoc.SetDocumentHeigthAndWidth(Int32.Parse(H_txt.Text),Int32.Parse(W_txt.Text));
             NewDoc.DocumentWidth = Int32.Parse(W_txt.Text);
             NewDoc.DocumentHeight = Int32.Parse(H_txt.Text);
-
+           
             NewDoc.Background = Brushes.White;
             switch (orientation1_.IsChecked)
             {

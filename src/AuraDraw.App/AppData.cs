@@ -12,16 +12,32 @@ using System.Threading.Tasks;
 using System.Threading;
 using Avalonia.Controls.Primitives;
 using AuraDraw.App.Functions;
+using AuraDraw.App.Views;
 
 namespace AuraDraw.App
 {
     public class AppData 
     {
+
+        public AppData()
+        {
+            
+        }
         
         public static void SetMainWorkSpace(TabControl tabControl)
         {
             AppData.MainWorkSpace = tabControl;
+            tabControl.SelectionChanged += TabControl_SelectionChanged;    
         }
+
+        private static void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if((MainWorkSpace.SelectedItem as AuraTabItem).Content != null & ((MainWorkSpace.SelectedItem as AuraTabItem).Content as DocumentView) != null)
+            {
+                AppData.CurrentDocument = ((MainWorkSpace.SelectedItem as AuraTabItem).Content as DocumentView).DocumentInUse;
+            }
+        }
+
         public static TabControl MainWorkSpace 
         {
             get; 
