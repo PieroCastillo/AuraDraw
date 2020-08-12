@@ -46,9 +46,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Aura.UI\src\Aura.UI\Aura.UI.csproj" />
     <ProjectReference Include="..\..\..\AuraHX\src\Aura.Maths\Aura.Maths.csproj" />
+    <ProjectReference Include="..\..\external\Jaya\src\Jaya.Shared\Jaya.Shared.csproj" />
     <ProjectReference Include="..\Aura.CommonCore\Aura.CommonCore.csproj" />
-    <ProjectReference Include="..\..\external\Jaya.Shared\Jaya.Shared.csproj" />
-    <ProjectReference Include="..\..\external\Ripple\Ripple.csproj" />
     <ProjectReference Include="..\Aura.Utilities\Aura.Utilities.csproj" />
   </ItemGroup>
   <ItemGroup>
