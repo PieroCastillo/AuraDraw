@@ -2,7 +2,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" Width="400" Height="410"
+        mc:Ignorable="d" Width="400"
         x:Class="AuraDraw.App.Windows.NewDocumentWindow"
 		Title="Nuevo Documento" CanResize="False" >
 	<Grid>
@@ -22,8 +22,12 @@
 		    <ColumnDefinition Width="*"></ColumnDefinition>
 		    <ColumnDefinition Width="20"></ColumnDefinition>
 		</Grid.ColumnDefinitions>
-		<StackPanel Grid.Column="1">
-	    <Grid Height="10"></Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="10"></RowDefinition>
+			<RowDefinition Height="*"></RowDefinition>
+			<RowDefinition Height="10"></RowDefinition>
+		</Grid.RowDefinitions>
+		<StackPanel Grid.Column="1" Grid.Row="1">
 		<TextBlock>Detalles</TextBlock>
 		<TextBox Name="textbox_name" Classes="namebox"
 				 Watermark="Nombre" Height="50" FontSize="20"></TextBox> 
@@ -32,7 +36,7 @@
 	    <Grid Height="5"></Grid>
 	    <ComboBox Name="combobox_list">
 				<ComboBoxItem >Pulgadas</ComboBoxItem>
-				<ComboBoxItem >Centímetros</ComboBoxItem>
+				<ComboBoxItem IsSelected="True">Centímetros</ComboBoxItem>
 				<ComboBoxItem >Píxeles</ComboBoxItem>
 		</ComboBox>
 		<StackPanel>

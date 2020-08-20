@@ -46,11 +46,10 @@
     <StackPanel Grid.Column="4">
       <TitleBar VerticalAlignment="Top" Button1Active="False" Button2Active="False"
                 Header="Vista de Objetos" Padding="5" HorizontalAlignment="Stretch" Margin="0">
- 
 			<vw:TreeView></vw:TreeView>
- 
+
       </TitleBar>
-		<TitleBar Header="Propiedades" Button1Active="false" Button2Active="False">
+		<TitleBar Header="Propiedades" Button1Active="false" Button2Active="False" Margin="0">
 			<vw:PropertiesView Name="propertiesVW_"></vw:PropertiesView>
 		</TitleBar>
     </StackPanel>

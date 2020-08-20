@@ -14,3 +14,6 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+
+*.suo
+.dtbcache.v2

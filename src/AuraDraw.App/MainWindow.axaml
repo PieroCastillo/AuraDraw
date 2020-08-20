@@ -10,15 +10,11 @@
   <StyledWindow.Styles>
     <Style Selector="StyledWindow#Normal">
       <Setter Property="BorderThickness" Value="5"></Setter>
-      <Setter Property="BorderBrush" Value="LightGray"></Setter>
     </Style>
   </StyledWindow.Styles>
   <StyledWindow.HeaderContent>
     <Menu  VerticalAlignment="Top">
-      <!--<Menu.Styles>
-        #00ff84
-      </Menu.Styles> -->
-      <MenuItem Header="Archivo">
+		<MenuItem Header="Archivo">
         <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
         <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>
 		<MenuItem Header="Abrir Página de Inicio" Name="open_home_page_btn"></MenuItem>
