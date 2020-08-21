@@ -13,7 +13,7 @@
     </Style>
   </StyledWindow.Styles>
   <StyledWindow.HeaderContent>
-    <Menu  VerticalAlignment="Top">
+    <Menu VerticalAlignment="Top">
 		<MenuItem Header="Archivo">
         <MenuItem Header="Nuevo" Name="new_file_btn"></MenuItem>
         <MenuItem Header="Abrir" Name="open_file_btn"></MenuItem>

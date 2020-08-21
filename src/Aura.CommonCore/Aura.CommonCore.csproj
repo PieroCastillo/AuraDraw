@@ -5,12 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <AvaloniaResource Include="Languages\EnglishLanguage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </AvaloniaResource>
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Include="CommonWindows\RecentElementsWindowxaml.xaml">
     </EmbeddedResource>
   </ItemGroup>
