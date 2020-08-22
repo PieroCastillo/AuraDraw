@@ -40,14 +40,14 @@
           <Setter Property="Background" Value="Gray"></Setter>
         </Style>
         <Style Selector="Button > TextBlock">
-          <Setter Property="FontSize" Value="30"></Setter>
+          <Setter Property="FontSize" Value="24"></Setter>
         </Style>
       </Grid.Styles>
       <Grid.RowDefinitions>
         <RowDefinition Height="*"></RowDefinition>
-        <RowDefinition Height="1"></RowDefinition>
+        <RowDefinition Height="10"></RowDefinition>
         <RowDefinition Height="*"></RowDefinition>
-        <RowDefinition Height="1"></RowDefinition>
+        <RowDefinition Height="10"></RowDefinition>
         <RowDefinition Height="*"></RowDefinition>
       </Grid.RowDefinitions>
       <Button Name="NewProjectsButton"  Grid.Row="0"

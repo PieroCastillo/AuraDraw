@@ -11,7 +11,7 @@ using Aura.CommonCore.IO;
 
 namespace AuraDraw.App
 {
-    public class MainWindow : StyledWindow
+    public class MainWindow : Window
     {
         #region MenuItems
         MenuItem NewDocument;
