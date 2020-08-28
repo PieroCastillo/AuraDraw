@@ -39,6 +39,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.0-preview4, )"
+            },
             "Avalonia.Desktop": {
               "target": "Package",
               "version": "[0.9.12, )"

@@ -25,6 +25,7 @@
 	</Compile>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.10.0-preview4" />
     <PackageReference Include="Avalonia.AvaloniaEdit" Version="0.8.0" />
     <PackageReference Include="Avalonia.Desktop" Version="0.9.12" />
     <PackageReference Include="Citrus.Avalonia" Version="1.2.6" />
