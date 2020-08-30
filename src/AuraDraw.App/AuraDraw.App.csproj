@@ -27,7 +27,7 @@
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.10.0-preview4" />
     <PackageReference Include="Avalonia.AvaloniaEdit" Version="0.8.0" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.12" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.0-preview4" />
     <PackageReference Include="Citrus.Avalonia" Version="1.2.6" />
     <PackageReference Include="Material.Avalonia" Version="0.9.0" />
     <PackageReference Include="Microsoft.Toolkit.Parsers" Version="6.1.0" />
@@ -47,7 +47,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Aura.UI\src\Aura.UI\Aura.UI.csproj" />
     <ProjectReference Include="..\..\..\AuraHX\src\Aura.Maths\Aura.Maths.csproj" />
-    <ProjectReference Include="..\..\external\Jaya\src\Jaya.Shared\Jaya.Shared.csproj" />
     <ProjectReference Include="..\Aura.CommonCore\Aura.CommonCore.csproj" />
     <ProjectReference Include="..\Aura.Utilities\Aura.Utilities.csproj" />
   </ItemGroup>

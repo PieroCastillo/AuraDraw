@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\port"
+    "\\src",
+    "\\src\\AuraDraw.App"
   ],
+  "SelectedNode": "\\AuraDraw.sln",
   "PreviewInSolutionExplorer": false
 }

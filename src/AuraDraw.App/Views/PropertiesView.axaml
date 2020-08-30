@@ -22,7 +22,7 @@
 			<TextBlock Grid.Column="0" VerticalAlignment="Center">Relleno</TextBlock>
 			<Button Grid.Column="1" Name="fill_value" ></Button>
 		</Grid>
-		<GroupBox Header="Borde">
+		<TitleBox Header="Borde">
 			<Grid>
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="*"></ColumnDefinition>
@@ -39,6 +39,6 @@
 				<TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center">Brocha</TextBlock>
 				<Button Grid.Column="2" Grid.Row="2" Name="color_border_value" ></Button>
 			</Grid>
-		</GroupBox>
+		</TitleBox>
 	</StackPanel>
 </UserControl>

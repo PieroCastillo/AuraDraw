@@ -4,7 +4,8 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.reactive\4.4.1\buildTransitive\netcoreapp3.0\System.Reactive.targets" Condition="Exists('$(NuGetPackageRoot)system.reactive\4.4.1\buildTransitive\netcoreapp3.0\System.Reactive.targets')" />
     <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
-    <Import Project="$(NuGetPackageRoot)avalonia\0.9.12\build\Avalonia.targets" Condition="Exists('$(NuGetPackageRoot)avalonia\0.9.12\build\Avalonia.targets')" />
+    <Import Project="$(NuGetPackageRoot)avalonia\0.10.0-preview4\build\Avalonia.targets" Condition="Exists('$(NuGetPackageRoot)avalonia\0.10.0-preview4\build\Avalonia.targets')" />
   </ImportGroup>
 </Project>

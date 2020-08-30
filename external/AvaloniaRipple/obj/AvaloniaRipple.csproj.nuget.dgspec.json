@@ -46,11 +46,11 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview4, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview4, )"
             },
             "NETStandard.Library": {
               "target": "Package",
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -111,9 +111,13 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.0-preview4, )"
+            },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview4, )"
             },
             "NETStandard.Library": {
               "target": "Package",
@@ -135,7 +139,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

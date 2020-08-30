@@ -5,7 +5,6 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media.Imaging;
-using Jaya.Shared.Controls;
 using Avalonia.Input;
 using Aura.CommonCore.IO;
 

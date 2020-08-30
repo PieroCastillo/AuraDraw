@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\external\\AvaloniaUI.PrintToPDF\\src\\obj\\",
         "projectStyle": "PackageReference",
+        "crossTargeting": true,
         "configFilePaths": [
           "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,15 +42,15 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview4, )"
             },
             "Avalonia.Skia": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview4, )"
             },
             "SkiaSharp": {
               "target": "Package",
-              "version": "[1.68.0, )"
+              "version": "[2.80.2-preview.33, )"
             }
           },
           "imports": [
@@ -67,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -85,7 +86,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -93,7 +94,7 @@
           "https://nuget.pkg.github.com/PieroCastillo/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netstandard2.1": {
             "projectReferences": {
               "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\external\\AvaloniaUI.PrintToPDF\\src\\AvaloniaUI.PrintToPDF.csproj": {
                 "projectPath": "C:\\Users\\piero\\Desktop\\AuraDev\\AuraDraw\\external\\AvaloniaUI.PrintToPDF\\src\\AvaloniaUI.PrintToPDF.csproj"
@@ -108,7 +109,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netstandard2.1": {
           "dependencies": {
             "Avalonia": {
               "target": "Package",
@@ -116,11 +117,15 @@
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview4, )"
             },
-            "SharpZipLib": {
+            "Avalonia.Diagnostics": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[0.10.0-preview4, )"
+            },
+            "Avalonia.Markup.Xaml.Loader": {
+              "target": "Package",
+              "version": "[0.10.0-preview4, )"
             }
           },
           "imports": [
@@ -134,11 +139,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

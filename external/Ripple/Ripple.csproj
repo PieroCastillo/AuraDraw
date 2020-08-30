@@ -16,7 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.12" />
+    <PackageReference Include="Avalonia" Version="0.10.0-preview4" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.0-preview4" />
     <PackageReference Include="NETStandard.Library" Version="2.0.3" />
   </ItemGroup>
 
