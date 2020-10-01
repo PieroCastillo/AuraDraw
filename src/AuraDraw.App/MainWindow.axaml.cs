@@ -149,7 +149,7 @@ namespace AuraDraw.App
             var t = new AuraTabItem()
             {
                 Content = new HomePage(),
-                Header = "Página de Inicio"
+                Header = "Pï¿½gina de Inicio"
             };
             AppData.MainWorkSpace.AddTab(t,true);
             t.Focus();

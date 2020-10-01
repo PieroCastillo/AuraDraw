@@ -1,4 +1,0 @@
-C:\Users\piero\Desktop\AuraDev\AuraDraw\external\AvaloniaRipple\obj\Debug\netcoreapp3.0\AvaloniaRipple.csprojAssemblyReference.cache
-C:\Users\piero\Desktop\AuraDev\AuraDraw\external\AvaloniaRipple\obj\Debug\netcoreapp3.0\AvaloniaRipple.AssemblyInfoInputs.cache
-C:\Users\piero\Desktop\AuraDev\AuraDraw\external\AvaloniaRipple\obj\Debug\netcoreapp3.0\AvaloniaRipple.AssemblyInfo.cs
-C:\Users\piero\Desktop\AuraDev\AuraDraw\external\AvaloniaRipple\obj\Debug\netcoreapp3.0\AvaloniaRipple.csproj.CoreCompileInputs.cache
