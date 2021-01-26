@@ -17,7 +17,8 @@ namespace AuraDraw
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
-                .LogToDebug()
+                .LogToTrace()
+                .With(new Win32PlatformOptions { AllowEglInitialization = true })
                 .UseReactiveUI();
     }
 }
