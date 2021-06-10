@@ -1,14 +1,16 @@
-﻿using Avalonia;
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
 namespace AuraDraw.Views
 {
-    public class HomeView : UserControl
+    public partial class EditorView : UserControl
     {
-        public HomeView()
+        private Canvas canvas;
+
+        public EditorView()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
 
         private void InitializeComponent()

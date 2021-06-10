@@ -11,19 +11,13 @@
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-	<Grid>
-		<!--Background-->
-		<!--<Border Background="{DynamicResource SystemControlBackgroundAltMediumHighBrush}"
-				Opacity="0.6"/>-->
-		<!--TopBackground-->
-		<!--<Border Background="{DynamicResource SystemControlBackgroundAltMediumHighBrush}"
-				Opacity="0.5" Height="45" VerticalAlignment="Top"/>-->
-		<Grid>
-			<Border Name="b_" 
-					Width="{Binding #tabvw_.WidthRemainingSpace}" 
-					Height="100"
-					Background="Yellow" Opacity="1" VerticalAlignment="Top"/>
-			<AuraTabView Name="tabvw_" Padding="0" />
-		</Grid>
-	</Grid>
+  <Grid>
+    <Grid>
+      <AuraTabView Name="tabvw_" Padding="0">
+        <AuraTabView.FallBackContent>
+          
+        </AuraTabView.FallBackContent>
+      </AuraTabView>
+    </Grid>
+  </Grid>
 </Window>

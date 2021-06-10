@@ -1,5 +1,4 @@
-﻿using AuraDraw.Managers;
-using AuraDraw.Views;
+﻿using AuraDraw.Views;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;

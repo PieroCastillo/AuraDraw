@@ -1,6 +1,5 @@
 ﻿using Aura.UI.Controls;
 using Aura.UI.UIExtensions;
-using AuraDraw.Managers;
 using AuraDraw.ViewModels;
 using Avalonia;
 using Avalonia.Controls;
@@ -28,17 +27,6 @@ namespace AuraDraw.Views
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
-            Border b = this.Find<Border>("b_");
-            b.PointerPressed += (sender, e) =>
-            {
-                this.BeginMoveDrag(e);
-            };
-
-            MainWindowViewModel.title_ = "AuraDraw";
-
-            tab_m = this.Find<AuraTabView>("tabvw_");
-            tab_m.AddTab(TabManager.CreateHomeView(), true);
-
         }
       
     }
